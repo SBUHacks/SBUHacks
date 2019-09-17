@@ -839,7 +839,7 @@ article.schedule {
   background: url("../assets/Page5.svg") no-repeat;
   background-position: bottom;
   background-size: cover;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* Remove current tab background */
   /* Remove bootstrap styling */
 }
@@ -1530,4 +1530,16 @@ article.faq {
 .whitebg{
   background-color: white;
   border-radius: 10px;
+}
+
+.scheduleCol{
+  text-align: left;
+  margin-left:auto;
+margin-right:auto;
+display:block;
+font-size: 2em;
+}
+
+#scheduleHolder{
+  margin-top: 5em;
 }
