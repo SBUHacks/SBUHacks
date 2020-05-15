@@ -40,8 +40,61 @@
       <div class="content">
         <h1>SBUHacks Fall 2020</h1>
         <h2>Coming Soon!</h2>
+            <p style="color: #007ed5;">Connect with us on <a href="https://www.facebook.com/SBUHacks/">Facebook</a> or on <a href="https://www.instagram.com/sbuhacks/">Instagram</a>!</p>
+            <p style="color: #007ed5;">Have questions? Please contact us at <a href="mailto:sbuhacks@stonybrook.edu"><span class="__cf_email__"
+            data-cfemail="dbb3beb7b7b49bb9b2aff5b8bab6ab">sbuhacks@stonybrook.edu</span></a>!</p>
       </div>
     </article>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+
+    <article id="contact" class="footer">
+      <object id="svg1" data="./assets/Page7.svg" type="image/svg+xml"></object>
+    </article>
+
+
+    <script type="text/javascript">
+    
+    /**
+      * inViewport jQuery plugin by Roko C.B.
+      * http://stackoverflow.com/a/26831113/383904
+      * Returns a callback function with an argument holding
+      * the current amount of px an element is visible in viewport
+      * (The min returned value is 0 (element outside of viewport)
+      */
+    (function($, win) {
+      $.fn.inViewport = function(cb) {
+        return this.each(function(i, el) {
+          function visPx() {
+            var elH = $(el).outerHeight(),
+              H = $(win).height(),
+              r = el.getBoundingClientRect(),
+              t = r.top,
+              b = r.bottom;
+            return cb.call(el, Math.max(0, t > 0 ? Math.min(elH, H - t) : (b < H ? b : H)));
+          }
+          visPx();
+          $(win).on("resize scroll", visPx);
+        });
+      };
+    }(jQuery, window));
+    </script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
