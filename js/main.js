@@ -5,21 +5,33 @@ window.onload = function (){
 
     var fb = c.getElementById("XMLID_420_");
     fb.setAttribute("onclick", "window.open('http://www.facebook.com/SBUHacks', '_blank');");
+	fb.setAttribute("style", "cursor: pointer;");
+	fb.setAttribute("aria-label", "Facebook");
 
     var insta = c.getElementById("XMLID_444_");
-    insta.setAttribute("onclick", "window.open('https://www.instagram.com/sbuhacks/', '_blank');");
+	insta.setAttribute("onclick", "window.open('https://www.instagram.com/sbuhacks/', '_blank');");
+	insta.setAttribute("style", "cursor: pointer;");
+	insta.setAttribute("aria-label", "Instagram");
 
     var twitter = c.getElementById("XMLID_425_");
-    twitter.setAttribute("onclick", "window.open('https://twitter.com/SBUHacks', '_blank');");
+	twitter.setAttribute("onclick", "window.open('https://twitter.com/SBUHacks', '_blank');");
+	twitter.setAttribute("style", "cursor: pointer;");
+	twitter.setAttribute("aria-label", "Twitter");
 
     var twitter2 = c.getElementById("XMLID_421_");
-    twitter2.setAttribute("onclick", "window.open('https://twitter.com/SBUHacks', '_blank');");
+	twitter2.setAttribute("onclick", "window.open('https://twitter.com/SBUHacks', '_blank');");
+	twitter2.setAttribute("style", "cursor: pointer;");
+	twitter2.setAttribute("aria-label", "Twitter");
 
     var twitter3 = c.getElementById("XMLID_422_");
-    twitter3.setAttribute("onclick", "window.open('https://twitter.com/SBUHacks', '_blank');");
+	twitter3.setAttribute("onclick", "window.open('https://twitter.com/SBUHacks', '_blank');");
+	twitter3.setAttribute("style", "cursor: pointer;");
+	twitter3.setAttribute("aria-label", "Twitter");
 
     var reddit = c.getElementById("XMLID_443_");
-    reddit.setAttribute("onclick", "window.open('https://www.reddit.com/user/SBUHacks', '_blank');");
+	reddit.setAttribute("onclick", "window.open('https://www.reddit.com/user/SBUHacks', '_blank');");
+	reddit.setAttribute("style", "cursor: pointer;");
+	reddit.setAttribute("aria-label", "Reddit");
 
     // Lazy Loading Youtube
 
