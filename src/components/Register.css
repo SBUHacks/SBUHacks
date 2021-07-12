@@ -1,0 +1,49 @@
+.register-container {
+    background-image: url('../images/backgrounds/Register_Bg.png');
+}
+
+.register-sub {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.register-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.register-card {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-card img {
+    width: 100%;
+}
+
+@media screen and (max-width: 976px) {
+    .register-container {
+        background-position: 20%;
+    }
+    .register-card {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .register-container {
+        background-position: 20%;
+    }
+    .register-card {
+        width: 100%;
+    }
+    .register-card img {
+        display: none;
+    }
+}
