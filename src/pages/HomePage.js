@@ -17,8 +17,6 @@ export default function Home () {
             <Why />
             <Register />
             <FAQ />
-            <Schedule />
-            <Sponsors />
             <Contact />
         </>
     );
