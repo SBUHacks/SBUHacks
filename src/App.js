@@ -1,18 +1,28 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Home from './pages/HomePage'
-
+import Navbar from './components/js/Navbar';
+import Landing from './components/js/Landing';
+import About from './components/js/About';
+import Why from './components/js/Why';
+import Register from './components/js/Register';
+import FAQ from './components/js/FAQ';
+import Schedule from './components/js/Schedule';
+import Sponsors from './components/js/Sponsors';
+import Contact from './components/js/Contact';
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
-      <Switch>
-        <Route path='/' exact component={Home} />
-      </Switch>
-    </Router>
+      <Landing />
+      <About />
+      <Why />
+      <Register />
+      <FAQ />
+      <Schedule />
+      <Sponsors />
+      <Contact />
+    </>
   );
 }
 

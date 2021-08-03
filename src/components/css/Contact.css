@@ -4,7 +4,10 @@
     left: 0;
 }
 
-.contact-container img {
+.bg-lg,
+.bg-md,
+.bg-sm,
+.social-icon {
     width: 100%;
     position: relative;
     top: 0;
