@@ -6,8 +6,8 @@ import About from './components/js/About';
 import Why from './components/js/Why';
 import Register from './components/js/Register';
 import FAQ from './components/js/FAQ';
-import Schedule from './components/js/Schedule';
-import Sponsors from './components/js/Sponsors';
+// import Schedule from './components/js/Schedule';
+// import Sponsors from './components/js/Sponsors';
 import Contact from './components/js/Contact';
 
 function App() {
@@ -19,8 +19,10 @@ function App() {
       <Why />
       <Register />
       <FAQ />
+      {/*
       <Schedule />
       <Sponsors />
+      */}
       <Contact />
     </>
   );
