@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './why.css';
 
-function WhyCard({ card, index }) {
+function WhyCard({ card, title }) {
   return (
-    <div className="card" key={index}>
+    <div className="card" key={title}>
       <div className="card-icon">
         <div className="card-circle" style={{ background: card.color }}>
           {card.icon}
@@ -63,7 +63,7 @@ function Why() {
       <h1 className="section-title">Why SBUHacks?</h1>
       <div className="cards-container">
         {cards.map(card => (
-          <WhyCard card={card} key={card.title} />
+          <WhyCard card={card} title={card.title} key={card.title} />
         ))}
       </div>
     </section>
@@ -71,8 +71,13 @@ function Why() {
 }
 
 WhyCard.propTypes = {
-  card: PropTypes.isRequired,
-  index: PropTypes.isRequired,
+  card: PropTypes.shape({
+    color: PropTypes.string,
+    icon: PropTypes.shape({}),
+    title: PropTypes.string,
+    text: PropTypes.string,
+  }).isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default Why;

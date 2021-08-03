@@ -47,8 +47,8 @@ function About() {
 }
 
 AboutModal.propTypes = {
-  showModal: PropTypes.isRequired,
-  setShowModal: PropTypes.isRequired,
+  showModal: PropTypes.bool.isRequired,
+  setShowModal: PropTypes.func.isRequired,
 };
 
 export default About;
