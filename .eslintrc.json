@@ -35,11 +35,7 @@
       "import/default": 2,
       "import/export": 2,
       "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
-      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-      "no-console": "off",
-      "no-param-reassign": 0,
-      "no-empty-function": "off"
+      "react-hooks/exhaustive-deps": "warn"
     },
     "settings": {
       "import/resolver": {

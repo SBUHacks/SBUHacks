@@ -17,6 +17,7 @@ const faqFactory = (question, answer1, link, answer2) => {
     get open() {
       return properties.open;
     },
+    // eslint-disable-next-line no-empty-function
     set open(bool) { },
   };
 

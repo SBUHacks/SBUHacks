@@ -1,5 +1,5 @@
 .landing-container {
-    background-image: url('../../images/backgrounds/Splash_Bg.png');
+    background-image: url('../../assets/backgrounds/Splash_Bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@
 }
 
 .planet:nth-child(1) {
-    background-image: url('../../images/icons/About_Icon.png');
+    background-image: url('../../assets/icons/About_Icon.png');
     width: 190px;
     height: 200px;
     padding-right: 50px;
@@ -65,7 +65,7 @@
 }
   
 .planet:nth-child(2) {
-    background-image: url('../../images/icons/FAQ_Icon.png');
+    background-image: url('../../assets/icons/FAQ_Icon.png');
     width: 90px;
     height: 90px;
     top: 20%;
@@ -73,7 +73,7 @@
 }
   
 .planet:nth-child(3) {
-    background-image: url('../../images/icons/Schedule_Icon.png');
+    background-image: url('../../assets/icons/Schedule_Icon.png');
     width: 140px;
     height: 140px;
     top: 34%;
@@ -81,7 +81,7 @@
 }
   
 .planet:nth-child(4) {
-    background-image: url('../../images/icons/Sponsors_Icon.png');
+    background-image: url('../../assets/icons/Sponsors_Icon.png');
     width: 120px;
     height: 120px;
     top: 55%;
@@ -89,7 +89,7 @@
 }
   
 .planet:nth-child(5) {
-    background-image: url('../../images/icons/Contact_Icon.png');
+    background-image: url('../../assets/icons/Contact_Icon.png');
     width: 140px;
     height: 140px;
     color: #3e3e3e;
@@ -98,7 +98,7 @@
 }
   
 .planet:nth-child(6) {
-    background-image: url('../../images/icons/Asteroid_Icon.png');
+    background-image: url('../../assets/icons/Asteroid_Icon.png');
     width: 80px;
     height: 80px;
     top: 46%;
@@ -116,7 +116,7 @@
 }
   
 .register-button {
-    background-image: url('../../images/icons/Asteroid_Icon.png');
+    background-image: url('../../assets/icons/Asteroid_Icon.png');
     position: absolute;
     width: 140px;
     height: 100px;

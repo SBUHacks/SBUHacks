@@ -1,11 +1,11 @@
 import React from 'react';
-import ContactBgSm from '../../images/backgrounds/Contact_Bg_Sm.png';
-import ContactBgMd from '../../images/backgrounds/Contact_Bg_Md.png';
-import ContactBgLg from '../../images/backgrounds/Contact_Bg_Lg.png';
-import RedditIcon from '../../images/icons/Reddit_Icon.png';
-import TwitterIcon from '../../images/icons/Twitter_Icon.png';
-import InstagramIcon from '../../images/icons/Instagram_Icon.png';
-import FacebookIcon from '../../images/icons/Facebook_Icon.png';
+import ContactBgSm from '../../assets/backgrounds/Contact_Bg_Sm.png';
+import ContactBgMd from '../../assets/backgrounds/Contact_Bg_Md.png';
+import ContactBgLg from '../../assets/backgrounds/Contact_Bg_Lg.png';
+import RedditIcon from '../../assets/icons/Reddit_Icon.png';
+import TwitterIcon from '../../assets/icons/Twitter_Icon.png';
+import InstagramIcon from '../../assets/icons/Instagram_Icon.png';
+import FacebookIcon from '../../assets/icons/Facebook_Icon.png';
 import './contact.css';
 
 function Contact() {

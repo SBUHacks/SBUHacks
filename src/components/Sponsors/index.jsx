@@ -1,6 +1,6 @@
 import React from 'react';
 import './sponsors.css';
-import SoftheonIcon from '../../images/sponsors/Softheon_Icon.svg';
+import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.svg';
 
 function Sponsors() {
   return (
