@@ -27,6 +27,12 @@
     width: 100%;
 }
 
+.form-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
 @media screen and (max-width: 976px) {
     .register-container {
         background-position: 20%;

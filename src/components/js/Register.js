@@ -11,15 +11,15 @@ function Register() {
       <p className="register-sub">Sign up to participate, volunteer, or become a mentor</p>
       <div className="register-wrapper">
         <div className="register-card">
-          <button className="general-button" type="button">Mentor</button>
+          <button className="general-button" type="button"><a href="https://forms.gle/5mX9rQ6VyLRr5xrVA" className="form-link">Mentor</a></button>
           <img src={MentorIcon} alt="mentor-register-icon" />
         </div>
         <div className="register-card">
-          <button className="general-button" type="button">Volunteer</button>
+          <button className="general-button" type="button"><a href="https://forms.gle/mRikt1kchHeVUZPA9" className="form-link">Volunteer</a></button>
           <img src={VolunteerIcon} alt="volunteer-register-icon" />
         </div>
         <div className="register-card">
-          <button className="general-button" type="button">Hack</button>
+          <button className="general-button" type="button"><a href="https://form.typeform.com/to/lVVb3k9h" className="form-link">Hack</a></button>
           <img src={HackIcon} alt="hack-register-icon" />
         </div>
       </div>
