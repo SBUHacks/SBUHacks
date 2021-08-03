@@ -10,11 +10,11 @@
     margin-top: 30px;
 }
 
-.sponsors-container span {
+.sponsors-sub {
     font-size: 28px;
 }
 
-.golden-sponsor img {
+.golden-logo {
     width: 60%;
     margin: 10px 0;;
 }
@@ -25,28 +25,28 @@
     justify-content: space-around;
 }
 
-.sponsors img {
+.sponsor-logo {
     width: 30%;
     margin-top: 20px;
 }
 
 @media screen and (max-width: 796px) {
-    .golden-sponsor img {
+    .golden-logo {
         width: 70%;
     }
-    .sponsors img {
+    .sponsor-logo {
         width: 40%;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .sponsors-container span {
+    .sponsors-sub {
         font-size: 20px;
     }
-    .golden-sponsor img {
+    .golden-logo{
         width: 100%;
     }
-    .sponsors img {
+    .sponsor-logo {
         width: 45%;
     }
 }

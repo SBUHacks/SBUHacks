@@ -40,7 +40,8 @@
     width: 50%;
 }
 
-.events-wrapper p {
+.active-event,
+.expired-event {
     font-size: 20px;
     text-align: start;
     padding: 4px 5px;

@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.register-card img {
+.register-img {
     width: 100%;
 }
 
@@ -31,6 +31,9 @@
   text-decoration: none;
   cursor: pointer;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 976px) {
@@ -49,7 +52,7 @@
     .register-card {
         width: 100%;
     }
-    .register-card img {
+    .register-img {
         display: none;
     }
 }

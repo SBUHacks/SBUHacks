@@ -19,14 +19,15 @@
     flex-direction: column;
 }
   
-.slogan-wrapper h1 {
+#sbuhacks-title {
     font-size: 5rem;
     color: #ffffff;
     margin: 0;
     font-family: 'Audiowide', cursive;
 }
   
-.slogan-wrapper p {
+.landing-sub,
+.date {
     margin: 2.5px 0;
     font-size: 1.6rem;
     color: #000000;
@@ -92,7 +93,6 @@
     background-image: url('../../assets/icons/Contact_Icon.png');
     width: 140px;
     height: 140px;
-    color: #3e3e3e;
     top: 70%;
     left: 5%;
 }
@@ -109,6 +109,15 @@
 .planet-title {
     background-color: rgba(0, 0, 0, 0.001);
     color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-title {
+    background-color: rgba(0, 0, 0, 0.001);
+    color: #3e3e3e;
     border: none;
     font-weight: 600;
     font-size: 20px;
@@ -146,10 +155,11 @@
 }
   
 @media screen and (max-width: 500px) {
-    .slogan-wrapper h1 {
+    #sbuhacks-title {
       font-size: 12vw;
     }
-    .slogan-wrapper p {
+    .landing-sub,
+    .date {
       font-size: 4vw;
     }
     .date {
@@ -161,10 +171,11 @@
     .slogan-wrapper {
       padding: 0 0 70px 10px;
     }
-    .slogan-wrapper h1 {
+    #sbuhacks-title {
       font-size: 15vw;
     }
-    .slogan-wrapper p {
+    .landing-sub,
+    .date {
       font-size: 5vw;
     }
     .date {

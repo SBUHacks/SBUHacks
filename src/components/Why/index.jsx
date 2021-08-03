@@ -59,14 +59,14 @@ function Why() {
   ];
 
   return (
-    <section className="why-container">
-      <h1 className="section-title">Why SBUHacks?</h1>
+    <div className="section-container why-container general-style">
+      <h1 className="section-title general-style">Why SBUHacks?</h1>
       <div className="cards-container">
         {cards.map(card => (
           <WhyCard card={card} title={card.title} key={card.title} />
         ))}
       </div>
-    </section>
+    </div>
   );
 }
 

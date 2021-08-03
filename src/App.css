@@ -1,17 +1,18 @@
-* {
+.general-style {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-section {
+.section-container {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     color: #ffffff;
     text-align: center;
     padding: 0 10%;
+    vertical-align: top;
 }
 
 .section-title {
@@ -35,7 +36,7 @@ section {
 }
 
 @media screen and (max-width: 976px) {
-    section {
+    .section-container {
         padding: 0 5%;
     }
 }

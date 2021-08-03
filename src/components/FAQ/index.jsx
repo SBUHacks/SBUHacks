@@ -114,10 +114,10 @@ function FAQ() {
   }
 
   return (
-    <section className="faq-container" id="faq">
-      <h1 className="section-title">FAQ</h1>
-      <div className="faq-wrapper">
-        <div className="faq-column">
+    <div className="section-container faq-container general-style" id="faq">
+      <h1 className="section-title general-style">FAQ</h1>
+      <div className="faq-wrapper general-style">
+        <div className="faq-column general-style">
           {faqs.slice(0, faqs.length / 2).map((faq, index) => (
             <Accordian
               faq={faq}
@@ -127,7 +127,7 @@ function FAQ() {
             />
           ))}
         </div>
-        <div className="faq-column">
+        <div className="faq-column general-style">
           {faqs.slice(faqs.length / 2).map((faq, index) => (
             <Accordian
               faq={faq}
@@ -138,11 +138,11 @@ function FAQ() {
           ))}
         </div>
       </div>
-      <h2 className="faq-more">More Questions?</h2>
+      <h2 className="faq-more general-style">More Questions?</h2>
       <Link to="contact" smooth duration={300} spy exact="true" offset={-10}>
-        <button className="general-button" type="button">Contact Us</button>
+        <button className="general-button general-style" type="button">Contact Us</button>
       </Link>
-    </section>
+    </div>
   );
 }
 

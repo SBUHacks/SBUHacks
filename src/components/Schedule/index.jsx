@@ -25,7 +25,7 @@ function ScheduleEvent({ expiration, name }) {
   });
 
   return (
-    <p className={expired ? 'expired-event' : 'active-event'}>
+    <p className={expired ? 'expired-event general-style' : 'active-event general-style'}>
       {name}
     </p>
   );
@@ -33,27 +33,27 @@ function ScheduleEvent({ expiration, name }) {
 
 function Schedule() {
   return (
-    <section className="schedule-container" id="schedule">
-      <h1 className="section-title">Schedule</h1>
-      <div className="schedule-disclaimer">
+    <div className="section-container schedule-container general-style" id="schedule">
+      <h1 className="section-title general-style">Schedule</h1>
+      <div className="schedule-disclaimer general-style">
         <i className="fas fa-exclamation-triangle disclaimer-icon" />
         All times listed below are in EDT (Eastern Daylight Time)
       </div>
       <div className="schedule-wrapper">
         <div className="events-wrapper">
-          <span className="schedule-sub">FRIDAY</span>
+          <span className="schedule-sub general-style">FRIDAY</span>
           {firstEvents.map(event => (
             <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
           ))}
         </div>
         <div className="events-wrapper">
-          <span className="schedule-sub">SATURDAY</span>
+          <span className="schedule-sub general-style">SATURDAY</span>
           {secondEvents.map(event => (
             <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

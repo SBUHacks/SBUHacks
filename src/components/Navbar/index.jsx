@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <>
       <nav className={showNav ? 'navbar nav-active' : 'navbar'}>
-        <div className="navbar-container">
+        <div className="navbar-container general-style">
           <Link to="landing" smooth duration={300} spy exact="true" offset={0} className="navbar-logo" onClick={closeMenu}>
             SBUHacks
           </Link>

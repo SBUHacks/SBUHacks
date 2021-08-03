@@ -128,4 +128,14 @@
         color: #000000;
         font-size: 2rem;
     }
+    .nav-link:hover {
+      border-bottom: none;
+      transition: all 0.2s ease-in;
   }
+  }
+
+@media screen and (max-width: 567px) {
+    .nav-menu {
+        width: 100%;
+    }
+}
