@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import '../css/About.css';
+import './about.css';
 
 function AboutModal({ showModal, setShowModal }) {
   return (

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { firstEvents, secondEvents } from './Data';
-import '../css/Schedule.css';
+import './schedule.css';
 
 function ScheduleEvent({ expiration, name }) {
   const [expired, setExpired] = useState(false);

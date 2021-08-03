@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import Accordian from './Accordian';
-import '../css/FAQ.css';
+import './faq.css';
 
 // Creates a factory function to generate the FAQs
 const faqFactory = (question, answer1, link, answer2) => {

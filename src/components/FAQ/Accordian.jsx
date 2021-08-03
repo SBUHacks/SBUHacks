@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../css/FAQ.css';
+import './faq.css';
 
 function Accordian(props) {
   const { faq, index, toggleFAQ } = props;

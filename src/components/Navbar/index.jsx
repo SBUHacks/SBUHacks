@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import '../css/Navbar.css';
+import './navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);

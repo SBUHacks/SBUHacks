@@ -2,7 +2,7 @@ import React from 'react';
 import HackIcon from '../../images/icons/Hack_Icon.png';
 import VolunteerIcon from '../../images/icons/Volunteer_Icon.png';
 import MentorIcon from '../../images/icons/Mentor_Icon.png';
-import '../css/Register.css';
+import './register.css';
 
 function Register() {
   return (

@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/js/Navbar';
-import Landing from './components/js/Landing';
-import About from './components/js/About';
-import Why from './components/js/Why';
-import Register from './components/js/Register';
-import FAQ from './components/js/FAQ';
-// import Schedule from './components/js/Schedule';
-// import Sponsors from './components/js/Sponsors';
-import Contact from './components/js/Contact';
+import Navbar from './components/Navbar';
+import Landing from './components/Landing';
+import About from './components/About';
+import Why from './components/Why';
+import Register from './components/Register';
+import FAQ from './components/FAQ';
+// import Schedule from './components/Schedule';
+// import Sponsors from './components/Sponsors';
+import Contact from './components/Contact';
 
 function App() {
   return (

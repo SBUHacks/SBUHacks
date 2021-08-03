@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Sponsors.css';
+import './sponsors.css';
 import SoftheonIcon from '../../images/sponsors/Softheon_Icon.svg';
 
 function Sponsors() {

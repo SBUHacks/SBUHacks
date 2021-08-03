@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../css/Why.css';
+import './why.css';
 
 function WhyCard({ card, index }) {
   return (

@@ -6,7 +6,7 @@ import RedditIcon from '../../images/icons/Reddit_Icon.png';
 import TwitterIcon from '../../images/icons/Twitter_Icon.png';
 import InstagramIcon from '../../images/icons/Instagram_Icon.png';
 import FacebookIcon from '../../images/icons/Facebook_Icon.png';
-import '../css/Contact.css';
+import './contact.css';
 
 function Contact() {
   return (

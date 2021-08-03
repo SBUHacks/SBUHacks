@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import '../css/Landing.css';
+import './landing.css';
 
 function Landing() {
   return (
