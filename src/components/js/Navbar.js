@@ -42,16 +42,29 @@ function Navbar() {
                 FAQ
               </Link>
             </li>
+            {/*
             <li className="nav-item">
-              <Link to="schedule" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
+              <Link to="schedule"
+              smooth
+              duration={300}
+              spy exact="true"
+              offset={-10}
+              className="nav-link"
+              onClick={closeMenu}>
                 Schedule
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="sponsors" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
+              <Link to="sponsors"
+              smooth duration={300}
+              spy exact="true"
+              offset={-10}
+              className="nav-link"
+              onClick={closeMenu}>
                 Sponsors
               </Link>
             </li>
+            */}
             <li className="nav-item">
               <Link to="contact" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
                 Contact

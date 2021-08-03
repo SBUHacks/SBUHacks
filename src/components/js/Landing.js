@@ -7,8 +7,20 @@ function Landing() {
     <section className="landing-container" id="landing">
       <Link className="planet" to="about" smooth duration={300} spy exact="true" offset={-10}><button className="planet-title" type="button" tabIndex="0">About</button></Link>
       <Link className="planet" to="faq" smooth duration={300} spy exact="true" offset={-10}><button className="planet-title" type="button">FAQ</button></Link>
-      <Link className="planet" to="schedule" smooth duration={300} spy exact="true" offset={-10}><button className="planet-title" type="button">Schedule</button></Link>
-      <Link className="planet" to="sponsors" smooth duration={300} spy exact="true" offset={-10}><button className="planet-title" type="button">Sponsors</button></Link>
+      <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-10}>
+        <button className="planet-title" type="button">
+          {/*
+            Schedule
+          */}
+        </button>
+      </Link>
+      <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-10}>
+        <button className="planet-title" type="button">
+          {/*
+            Sponsors
+          */}
+        </button>
+      </Link>
       <Link className="planet" to="contact" smooth duration={300} spy exact="true" offset={-10}><button className="planet-title" type="button">Contact</button></Link>
       <div className="planet" />
       <Link className="register-button" to="register" smooth duration={300} spy exact="true" offset={-10}><button className="planet-title" type="button">Register</button></Link>
