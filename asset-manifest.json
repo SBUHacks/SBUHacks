@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.97af271c.chunk.css",
+    "main.js": "/static/js/main.1dfa114b.chunk.js",
+    "main.js.map": "/static/js/main.1dfa114b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a62f43d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a62f43d.js.map",
+    "static/js/2.51f1e0f1.chunk.js": "/static/js/2.51f1e0f1.chunk.js",
+    "static/js/2.51f1e0f1.chunk.js.map": "/static/js/2.51f1e0f1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.97af271c.chunk.css.map": "/static/css/main.97af271c.chunk.css.map",
+    "static/js/2.51f1e0f1.chunk.js.LICENSE.txt": "/static/js/2.51f1e0f1.chunk.js.LICENSE.txt",
+    "static/media/about.css": "/static/media/About_Bg.fc5fe8f2.png",
+    "static/media/landing.css": "/static/media/Splash_Bg.d00cbbd7.png",
+    "static/media/why.css": "/static/media/Blank_Bg.e70f24fb.png",
+    "static/media/Contact_Bg_Lg.7887151d.png": "/static/media/Contact_Bg_Lg.7887151d.png",
+    "static/media/Contact_Bg_Md.812fc0b9.png": "/static/media/Contact_Bg_Md.812fc0b9.png",
+    "static/media/Contact_Bg_Sm.2e1266aa.png": "/static/media/Contact_Bg_Sm.2e1266aa.png",
+    "static/media/faq.css": "/static/media/FAQ_Bg.43fda428.png",
+    "static/media/Facebook_Icon.daaf2837.png": "/static/media/Facebook_Icon.daaf2837.png",
+    "static/media/Hack_Icon.9692693f.png": "/static/media/Hack_Icon.9692693f.png",
+    "static/media/Instagram_Icon.62138c70.png": "/static/media/Instagram_Icon.62138c70.png",
+    "static/media/Mentor_Icon.682e15b5.png": "/static/media/Mentor_Icon.682e15b5.png",
+    "static/media/Reddit_Icon.3bba6fdd.png": "/static/media/Reddit_Icon.3bba6fdd.png",
+    "static/media/register.css": "/static/media/Register_Bg.0f71a181.png",
+    "static/media/Twitter_Icon.179e322d.png": "/static/media/Twitter_Icon.179e322d.png",
+    "static/media/Volunteer_Icon.cda0515c.png": "/static/media/Volunteer_Icon.cda0515c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a62f43d.js",
+    "static/js/2.51f1e0f1.chunk.js",
+    "static/css/main.97af271c.chunk.css",
+    "static/js/main.1dfa114b.chunk.js"
+  ]
+}
