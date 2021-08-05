@@ -33,30 +33,31 @@
     position: absolute;
     display: block;
     transition: all 0.3s ease-in-out;
+    color: #ffffff;
 }
 
 .reddit-icon {
-    width: 3.5%;
-    top: 46%;
-    left: 37.75%;
+    top: 45%;
+    left: 37.65%;
+    font-size: 3.5vw;
 }
 
 .twitter-icon {
-    width: 3.5%;
-    top: 31.5%;
+    top: 31%;
     left: 52.75%;
+    font-size: 3.25vw;
 }
 
 .instagram-icon {
-    width: 3.5%;
-    top: 73.75%;
-    left: 57.6%;
+    top: 73.5%;
+    left: 58%;
+    font-size: 3vw;
 }
 
 .facebook-icon {
-    width: 4%;
-    top: 67.5%;
-    left: 71.25%;
+    top: 67%;
+    left: 72%;
+    font-size: 4vw;
 }
 
 #contact-title {
@@ -90,7 +91,7 @@
 .instagram-icon:hover,
 .facebook-icon:hover {
     transition: all 0.4s ease-in-out;
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 
 @media screen and (max-width: 976px) {
@@ -101,24 +102,24 @@
         display: block;
     }
     .reddit-icon {
-        width: 4.5%;
-        top: 46.5%;
-        left: 33.25%;
+        top: 46%;
+        left: 33%;
+        font-size: 4.75vw;
     }
     .twitter-icon {
-        width: 4.5%;
-        top: 31.75%;
+        top: 31%;
         left: 54%;
+        font-size: 4.5vw;
     }
     .instagram-icon {
-        width: 4.5%;
-        top: 74.25%;
-        left: 60.85%;
+        top: 73.5%;
+        left: 61%;
+        font-size: 4.5vw;
     }
     .facebook-icon {
-        width: 5%;
-        top: 68.25%;
-        left: 79.75%;
+        top: 67%;
+        left: 80.5%;
+        font-size: 5.5vw;
     }
     #contact-title {
         position: absolute;
@@ -153,24 +154,24 @@
         display: block;
     } 
     .reddit-icon {
-        width: 8%;
-        top: 46%;
-        left: 13.5%;
+        top: 45.5%;
+        left: 14%;
+        font-size: 7vw;
     }
     .twitter-icon {
-        width: 7.5%;
-        top: 31.5%;
+        top: 31%;
         left: 45%;
+        font-size: 6.5vw;
     }
     .instagram-icon {
-        width: 7%;
         top: 74%;
-        left: 55.25%;
+        left: 56.25%;
+        font-size: 6vw;
     }
     .facebook-icon {
-        width: 8.5%;
-        top: 67.5%;
-        left: 83.5%;
+        top: 67.25%;
+        left: 85.5%;
+        font-size: 8vw;
     }
     #contact-title {
         position: absolute;

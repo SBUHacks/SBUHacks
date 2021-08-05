@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './why.css';
 
-function WhyCard({ card, title }) {
+// Takes in an array (card) to display and/or use its values,
+function WhyCard({ card }) {
   return (
-    <div className="card" key={title}>
+    <div className="card" key={card.title}>
       <div className="card-icon">
         <div className="card-circle" style={{ background: card.color }}>
           {card.icon}
@@ -18,6 +19,7 @@ function WhyCard({ card, title }) {
   );
 }
 
+// The Why page
 function Why() {
   const cards = [
     {
@@ -63,13 +65,14 @@ function Why() {
       <h1 className="section-title general-style">Why SBUHacks?</h1>
       <div className="cards-container">
         {cards.map(card => (
-          <WhyCard card={card} title={card.title} key={card.title} />
+          <WhyCard card={card} key={card.title} />
         ))}
       </div>
     </div>
   );
 }
 
+// WhyCard prop definition
 WhyCard.propTypes = {
   card: PropTypes.shape({
     color: PropTypes.string,
@@ -77,7 +80,6 @@ WhyCard.propTypes = {
     title: PropTypes.string,
     text: PropTypes.string,
   }).isRequired,
-  title: PropTypes.string.isRequired,
 };
 
 export default Why;

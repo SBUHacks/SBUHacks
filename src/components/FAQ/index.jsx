@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import Accordian from './Accordian';
+import Accordion from './Accordion';
 import './faq.css';
 
 // Creates a factory function to generate the FAQs
@@ -24,6 +24,7 @@ const faqFactory = (question, answer1, link, answer2) => {
   return { ...properties, ...methods };
 };
 
+// Array of FAQs using faqFactory
 const faqs = [
   faqFactory(
     'What is SBUHacks?',
@@ -99,6 +100,7 @@ const faqs = [
   ),
 ];
 
+// The FAQ page
 function FAQ() {
   const [currentIndex, setCurrentIndex] = useState(null);
 
@@ -114,12 +116,14 @@ function FAQ() {
   }
 
   return (
-    <div className="section-container faq-container general-style" id="faq">
+    <div className="faq-container general-style" id="faq">
       <h1 className="section-title general-style">FAQ</h1>
+      {/* The FAQs are split into 2 independent columns so that opening one on the left side
+          does not also create additional space on the right side */}
       <div className="faq-wrapper general-style">
         <div className="faq-column general-style">
           {faqs.slice(0, faqs.length / 2).map((faq, index) => (
-            <Accordian
+            <Accordion
               faq={faq}
               index={index}
               key={faq.question}
@@ -129,7 +133,7 @@ function FAQ() {
         </div>
         <div className="faq-column general-style">
           {faqs.slice(faqs.length / 2).map((faq, index) => (
-            <Accordian
+            <Accordion
               faq={faq}
               index={index + faqs.length / 2}
               key={faq.question}

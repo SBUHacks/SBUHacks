@@ -28,18 +28,22 @@ function Navbar() {
           <Link to="landing" smooth duration={300} spy exact="true" offset={0} className="navbar-logo" onClick={closeMenu}>
             SBUHacks
           </Link>
-          <button className="menu-icon" type="button" onClick={handleClick} onKeyDown={handleClick} role="switch" aria-checked="false">
+          <button className="menu-icon" id="burger" type="button" onClick={handleClick} onKeyDown={handleClick} role="switch" aria-checked="false">
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </button>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
               <Link to="about" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
-                About
+                <button className="nav-button general-style" type="button">
+                  About
+                </button>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="faq" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
-                FAQ
+                <button className="nav-button general-style" type="button">
+                  FAQ
+                </button>
               </Link>
             </li>
             {/*
@@ -51,7 +55,9 @@ function Navbar() {
               offset={-10}
               className="nav-link"
               onClick={closeMenu}>
-                Schedule
+                <button className="nav-button general-style" type="button">
+                  Schedule
+                </button>
               </Link>
             </li>
             <li className="nav-item">
@@ -61,13 +67,17 @@ function Navbar() {
               offset={-10}
               className="nav-link"
               onClick={closeMenu}>
-                Sponsors
+                <button className="nav-button general-style" type="button">
+                  Sponsors
+                </button>
               </Link>
             </li>
             */}
             <li className="nav-item">
               <Link to="contact" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
-                Contact
+                <button className="nav-button general-style" type="button">
+                  Contact
+                </button>
               </Link>
             </li>
           </ul>

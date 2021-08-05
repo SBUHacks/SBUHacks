@@ -2,7 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './faq.css';
 
-function Accordian(props) {
+// Takes in an array (faq) to display and/or use its values,
+// a function (toggleFAQ) that opens/closes faqs,
+// and a number (index) that's used as the parameter for toggleFAQ
+function Accordion(props) {
   const { faq, index, toggleFAQ } = props;
 
   return (
@@ -20,7 +23,8 @@ function Accordian(props) {
   );
 }
 
-Accordian.propTypes = {
+// Accordion prop definiton
+Accordion.propTypes = {
   faq: PropTypes.shape({
     open: PropTypes.bool,
     question: PropTypes.string,
@@ -32,4 +36,4 @@ Accordian.propTypes = {
   toggleFAQ: PropTypes.func.isRequired,
 };
 
-export default Accordian;
+export default Accordion;

@@ -2,6 +2,7 @@ import React from 'react';
 import './sponsors.css';
 import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.svg';
 
+// The Sponsors page
 function Sponsors() {
   return (
     <div className="section-container sponsors-container general-style" id="sponsors">

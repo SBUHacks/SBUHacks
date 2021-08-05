@@ -4,6 +4,9 @@ import VolunteerIcon from '../../assets/icons/Volunteer_Icon.png';
 import MentorIcon from '../../assets/icons/Mentor_Icon.png';
 import './register.css';
 
+// The Register page
+// The cards are in reverse order, but displayed in the correct order so that the tablet view
+// looks the way its planned ("Hack" on top row, other 2 on bottom row)
 function Register() {
   return (
     <div className="section-container register-container general-style" id="register">

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './about.css';
 
+// Takes in a boolean (showModal) that determines whether video will pop up,
+// and a function (setShowModal) to set showModal to false if close button is pressed
 function AboutModal({ showModal, setShowModal }) {
   return (
     <>
@@ -23,11 +25,12 @@ function AboutModal({ showModal, setShowModal }) {
   );
 }
 
+// The About page that includes the "About Us" video as a modal (AboutModal)
 function About() {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
-    setShowModal(!showModal);
+    setShowModal(true);
   };
 
   return (
@@ -46,6 +49,7 @@ function About() {
   );
 }
 
+// AboutModal prop definiton
 AboutModal.propTypes = {
   showModal: PropTypes.bool.isRequired,
   setShowModal: PropTypes.func.isRequired,

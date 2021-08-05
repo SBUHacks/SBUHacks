@@ -12,7 +12,6 @@
     color: #ffffff;
     text-align: center;
     padding: 0 10%;
-    vertical-align: top;
 }
 
 .section-title {
@@ -33,6 +32,11 @@
     font-size: 20px;
     cursor: pointer;
     margin-bottom: 25px;
+}
+
+.general-button:hover {
+    background: rgba(96, 54, 214, 0.8);
+    box-shadow: 0 0 20px 20px rgba(59, 94, 219, 0.5);
 }
 
 @media screen and (max-width: 976px) {
