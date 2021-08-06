@@ -29,7 +29,8 @@
 .reddit-icon,
 .twitter-icon,
 .instagram-icon,
-.facebook-icon {
+.facebook-icon,
+.linkedin-icon {
     position: absolute;
     display: block;
     transition: all 0.3s ease-in-out;
@@ -37,27 +38,33 @@
 }
 
 .reddit-icon {
-    top: 45%;
-    left: 37.65%;
+    top: 46%;
+    left: 40.75%;
     font-size: 3.5vw;
 }
 
 .twitter-icon {
-    top: 31%;
-    left: 52.75%;
+    top: 32%;
+    left: 55.8%;
     font-size: 3.25vw;
 }
 
 .instagram-icon {
-    top: 73.5%;
-    left: 58%;
+    top: 74%;
+    left: 61%;
     font-size: 3vw;
 }
 
 .facebook-icon {
     top: 67%;
-    left: 72%;
+    left: 75%;
     font-size: 4vw;
+}
+
+.linkedin-icon {
+    top: 85.5%;
+    left: 36.85%;
+    font-size: 3.25vw;
 }
 
 #contact-title {
@@ -69,7 +76,7 @@
 }
 
 .contact-hashtag {
-    top: 70%;
+    top: 60%;
     left: 10%;
     width: 30%;
 }
@@ -93,7 +100,8 @@
 .reddit-icon:hover,
 .twitter-icon:hover,
 .instagram-icon:hover,
-.facebook-icon:hover {
+.facebook-icon:hover,
+.linkedin-icon:hover {
     transition: all 0.4s ease-in-out;
     transform: scale(1.25);
 }
@@ -106,24 +114,29 @@
         display: block;
     }
     .reddit-icon {
-        top: 46%;
-        left: 33%;
+        top: 52%;
+        left: 34%;
         font-size: 4.75vw;
     }
     .twitter-icon {
-        top: 31%;
-        left: 54%;
+        top: 39.5%;
+        left: 54.5%;
         font-size: 4.5vw;
     }
     .instagram-icon {
-        top: 73.5%;
-        left: 61%;
+        top: 76.5%;
+        left: 61.5%;
         font-size: 4.5vw;
     }
     .facebook-icon {
-        top: 67%;
+        top: 71%;
         left: 80.5%;
         font-size: 5.5vw;
+    }
+    .linkedin-icon {
+      top: 86.75%;
+      left: 28.5%;
+      font-size: 4.5vw;
     }
     #contact-title {
         position: absolute;
@@ -156,46 +169,57 @@
         display: block;
     } 
     .reddit-icon {
-        top: 45.5%;
-        left: 14%;
+        top: 51.5%;
+        left: 22%;
         font-size: 7vw;
     }
     .twitter-icon {
-        top: 31%;
-        left: 45%;
+        top: 39.5%;
+        left: 49.75%;
         font-size: 6.5vw;
     }
     .instagram-icon {
-        top: 74%;
-        left: 56.25%;
+        top: 76.5%;
+        left: 59.25%;
         font-size: 6vw;
     }
     .facebook-icon {
-        top: 67.25%;
-        left: 85.5%;
+        top: 70.5%;
+        left: 84.5%;
         font-size: 8vw;
+    }
+    .linkedin-icon {
+      top: 87%;
+      left: 15.25%;
+      font-size: 6vw;
     }
     #contact-title {
         position: absolute;
         top: -5%;
-        left: 27.5%;
+        left: 20%;
         color: #ffffff;
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .contact-hashtag {
         position: absolute;
-        top: 70%;
+        top: 68%;
         left: 10%;
-        width: 34%;
+        width: 38%;
         color: #ffffff;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .contact-email {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 55%;
-        width: 34%;
+        width: 38%;
         color: #ffffff;
-        font-size: 3vw;
+        font-size: 2.5vw;
+        overflow-wrap: break-word;
+    }
+    .contact-hashtag,
+    .contact-email {
+        box-shadow: 5px 5px #ffffff;
+        padding: 1%;
     }
 }

@@ -26,6 +26,9 @@ function Contact() {
       <a className="facebook-icon" href="https://www.facebook.com/SBUHacks/" rel="noreferrer" target="_blank">
         <i className="fab fa-facebook-f social-icon" />
       </a>
+      <a className="linkedin-icon" href="https://www.linkedin.com/company/sbuhacks/" rel="noreferrer" target="_blank">
+        <i className="fab fa-linkedin-in social-icon" />
+      </a>
       <h1 className="section-title general-style" id="contact-title">Stay Connected!</h1>
       <p className="contact-hashtag general-style">Use #SBUHacks when you post photos to take part with us on social media!</p>
       <p className="contact-email general-style">Email us at sbuhacks@stonybrook.edu</p>
