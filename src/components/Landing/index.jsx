@@ -42,8 +42,12 @@ function Landing() {
       <div className="slogan-wrapper general-style">
         <h1 id="sbuhacks-title" className="general-style">SBUHacks</h1>
         <h1 id="sbuhacks-year" className="sbuhacks-title">2021</h1>
+        <p id="landing-sponsor">Powered by Softheon</p>
       </div>
-      <p id="sbuhacks-slogan">Endless Space for Innovation</p>
+      <div className="landing-sub">
+        <p id="sbuhacks-date">September 24-25</p>
+        <p id="sbuhacks-slogan">Endless Space for Innovation</p>
+      </div>
     </div>
   );
 }
