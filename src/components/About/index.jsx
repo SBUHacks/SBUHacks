@@ -36,14 +36,18 @@ function About() {
   return (
     <div className="section-container about-container general-style" id="about">
       <h1 className="section-title general-style">About Us</h1>
-      <p className="about-text general-style">
-        SBUHacks is a 24 hour hackathon with endless creativity. Students are challenged to
-        further what they know by creating projects following their passions. Spending time on
-        projects outside the classroom is the best way to not only learn what you love, but also
-        find new interests. In a universe of infinite possibilities, you have 24 hours to innovate
-        and show us what you got!
-      </p>
-      <button className="general-button general-style" type="button" onClick={openModal}>Watch Video</button>
+      <div className="about-wrapper">
+        <div className="text-wrapper">
+          <p className="about-text general-style">
+            SBUHacks is a 24 hour hackathon with endless creativity. Students are challenged to
+            further what they know by creating projects following their passions. Spending time on
+            projects outside the classroom is the best way to not only learn what you love, but also
+            find new interests. In a universe of infinite possibilities, you have 24 hours to
+            innovate and show us what you got!
+          </p>
+          <button className="general-button general-style" type="button" onClick={openModal}>Watch Video</button>
+        </div>
+      </div>
       <AboutModal showModal={showModal} setShowModal={setShowModal} />
     </div>
   );

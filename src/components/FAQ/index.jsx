@@ -142,9 +142,11 @@ function FAQ() {
           ))}
         </div>
       </div>
-      <h2 className="faq-more general-style">More Questions?</h2>
       <Link to="contact" smooth duration={300} spy exact="true" offset={-10}>
-        <button className="general-button general-style" type="button">Contact Us</button>
+        <button id="more-q-button" className="general-button general-style" type="button">
+          <p>More Questions?</p>
+          <p>Contact Us</p>
+        </button>
       </Link>
     </div>
   );

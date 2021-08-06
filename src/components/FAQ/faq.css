@@ -75,8 +75,8 @@
     color: #FE4CEC;
 }
 
-.faq-more {
-    margin-bottom: 15px;
+#more-q-button {
+    padding: 0 40px;
 }
 
 @media screen and (max-width: 1086px) {

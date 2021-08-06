@@ -69,21 +69,25 @@
 }
 
 .contact-hashtag {
-    position: absolute;
     top: 70%;
-    left: 18%;
+    left: 10%;
     width: 30%;
-    color: #ffffff;
-    font-size: 1.75vw;
 }
 
 .contact-email {
-    position: absolute;
     top: 40%;
     left: 60%;
     width: 25%;
+}
+
+.contact-hashtag,
+.contact-email {
+    position: absolute;
+    background-color: #514e66;
+    box-shadow: 10px 10px #ffffff;
+    padding: 10px;
     color: #ffffff;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
 }
 
 .reddit-icon:hover,
@@ -129,20 +133,18 @@
         font-size: 4.5vw;
     }
     .contact-hashtag {
-        position: absolute;
         top: 65%;
         left: 10%;
         width: 35%;
-        color: #ffffff;
-        font-size: 2.5vw;
     }
     .contact-email {
-        position: absolute;
         top: 40%;
         left: 65%;
         width: 30%;
-        color: #ffffff;
-        font-size: 2.25vw;
+    }
+    .contact-hashtag,
+    .contact-email {
+        font-size: 2vw;
     }
 }
 
