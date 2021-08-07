@@ -14,19 +14,19 @@ function Contact() {
       <img src={ContactBgLg} alt="contact-bg" className="bg-lg" />
       <img src={ContactBgMd} alt="contact-bg" className="bg-md" />
       <img src={ContactBgSm} alt="contact-bg" className="bg-sm" />
-      <a className="reddit-icon" href="https://www.reddit.com/user/SBUHacks/" rel="noreferrer" target="_blank">
+      <a className="reddit-icon social-link" href="https://www.reddit.com/user/SBUHacks/" rel="noreferrer" target="_blank">
         <i className="fab fa-reddit-alien social-icon" />
       </a>
-      <a className="twitter-icon" href="https://twitter.com/sbuhacks" rel="noreferrer" target="_blank">
+      <a className="twitter-icon social-link" href="https://twitter.com/sbuhacks" rel="noreferrer" target="_blank">
         <i className="fab fa-twitter social-icon" />
       </a>
-      <a className="instagram-icon" href="https://www.instagram.com/sbuhacks/" rel="noreferrer" target="_blank">
+      <a className="instagram-icon social-link" href="https://www.instagram.com/sbuhacks/" rel="noreferrer" target="_blank">
         <i className="fab fa-instagram social-icon" />
       </a>
-      <a className="facebook-icon" href="https://www.facebook.com/SBUHacks/" rel="noreferrer" target="_blank">
+      <a className="facebook-icon social-link" href="https://www.facebook.com/SBUHacks/" rel="noreferrer" target="_blank">
         <i className="fab fa-facebook-f social-icon" />
       </a>
-      <a className="linkedin-icon" href="https://www.linkedin.com/company/sbuhacks/" rel="noreferrer" target="_blank">
+      <a className="linkedin-icon social-link" href="https://www.linkedin.com/company/sbuhacks/" rel="noreferrer" target="_blank">
         <i className="fab fa-linkedin-in social-icon" />
       </a>
       <h1 className="section-title general-style" id="contact-title">Stay Connected!</h1>

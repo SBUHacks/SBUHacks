@@ -28,7 +28,7 @@ function Navbar() {
           <Link to="landing" smooth duration={300} spy exact="true" offset={0} className="navbar-logo" onClick={closeMenu}>
             SBUHacks
           </Link>
-          <button className="menu-icon" id="burger" type="button" onClick={handleClick} onKeyDown={handleClick} role="switch" aria-checked="false">
+          <button className="menu-icon" type="button" onClick={handleClick} onKeyDown={handleClick} role="switch" aria-checked="false">
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </button>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
