@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <>
       <nav className={showNav ? 'navbar nav-active' : 'navbar'}>
-        <div className="navbar-container">
+        <div className="navbar-container general-style">
           <Link to="landing" smooth duration={300} spy exact="true" offset={0} className="navbar-logo" onClick={closeMenu}>
             SBUHacks
           </Link>
@@ -33,13 +33,24 @@ function Navbar() {
           </button>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
-              <Link to="about" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
-                About
+              <Link to="about" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+                <button className="nav-button general-style" type="button">
+                  About
+                </button>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="faq" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
-                FAQ
+              <Link to="register" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+                <button className="nav-button general-style" type="button">
+                  Register
+                </button>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="faq" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+                <button className="nav-button general-style" type="button">
+                  FAQ
+                </button>
               </Link>
             </li>
             {/*
@@ -48,26 +59,32 @@ function Navbar() {
               smooth
               duration={300}
               spy exact="true"
-              offset={-10}
+              offset={-80}
               className="nav-link"
               onClick={closeMenu}>
-                Schedule
+                <button className="nav-button general-style" type="button">
+                  Schedule
+                </button>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="sponsors"
               smooth duration={300}
               spy exact="true"
-              offset={-10}
+              offset={-80}
               className="nav-link"
               onClick={closeMenu}>
-                Sponsors
+                <button className="nav-button general-style" type="button">
+                  Sponsors
+                </button>
               </Link>
             </li>
             */}
             <li className="nav-item">
-              <Link to="contact" smooth duration={300} spy exact="true" offset={-10} className="nav-link" onClick={closeMenu}>
-                Contact
+              <Link to="contact" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+                <button className="nav-button general-style" type="button">
+                  Contact
+                </button>
               </Link>
             </li>
           </ul>

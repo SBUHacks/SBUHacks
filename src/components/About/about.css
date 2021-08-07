@@ -2,10 +2,24 @@
     background-image: url('../../assets/backgrounds/About_Bg.png');
 }
 
+.about-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-wrapper {
+    width: 50%;
+}
+
 .about-text {
     color: #ffffff;
     font-size: 20px;
+    width: 100%;
     margin: 40px 0;
+    padding: 20px;
+    text-align: left;
+    background-color: #514e66;
+    box-shadow: 15px 15px #ffffff;
 }
 
 .modal-wrapper {
@@ -63,6 +77,8 @@
     cursor: pointer;
     font-weight: 500;
     color: #000000;
+    background-color: #ffffff;
+    border: none;
 }
 
 .modal-content {
@@ -76,6 +92,14 @@
 }
 
 @media screen and (max-width: 764px) {
+    .about-wrapper {
+      justify-content: center;
+    }
+
+    .text-wrapper {
+      width: 80%;
+    }
+
     .about-modal {
         height: 80%;
     }
@@ -86,6 +110,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .text-wrapper {
+      width: 90%;
+    }
+
     .about-modal {
         height: 60%;
     }

@@ -1,41 +1,51 @@
-* {
+.general-style {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-section {
+.section-container {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     color: #ffffff;
     text-align: center;
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .section-title {
-    font-size: 48px;
+    font-size: 4vw;
     color: #ffffff;
-    font-weight: 500;
-    padding-top: 80px;
+    padding-top: 40px;
     font-family: 'Audiowide', cursive;
 }
 
 .general-button {
     border: none;
-    width: 220px;
-    height: 55px;
-    border-radius: 50px;
+    padding: 20px 25px;
+    border-radius: 15px;
     background: linear-gradient(45deg, rgba(96, 54, 214, 0.8), rgba(59, 94, 219, 0.5));
     color: #ffffff;
     font-size: 20px;
+    font-family: 'Audiowide', cursive;
     cursor: pointer;
     margin-bottom: 25px;
 }
 
-@media screen and (max-width: 976px) {
-    section {
-        padding: 0 5%;
+.general-button:hover {
+    background: rgba(96, 54, 214, 0.8);
+    box-shadow: 0 0 20px 20px rgba(59, 94, 219, 0.5);
+}
+
+@media screen and (max-width: 916px) {
+    .section-title {
+        font-size: 3rem;
     }
+}
+
+@media screen and (max-width: 500px) {
+  .section-title {
+      font-size: 2rem;
+  }
 }

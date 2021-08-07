@@ -2,27 +2,28 @@ import React from 'react';
 import './sponsors.css';
 import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.svg';
 
+// The Sponsors page
 function Sponsors() {
   return (
-    <section className="sponsors-container" id="sponsors">
-      <h1 className="section-title">Sponsors</h1>
+    <div className="section-container sponsors-container general-style" id="sponsors">
+      <h1 className="section-title general-style">Sponsors</h1>
       <div className="sponsors-wrapper">
-        <span>Powered By:</span>
+        <span className="sponsors-sub">Powered By:</span>
         <div className="golden-sponsor">
-          <img src={SoftheonIcon} alt="softeon-logo" />
+          <img src={SoftheonIcon} className="golden-logo" alt="softeon-logo" />
         </div>
-        <span>Partnered With:</span>
+        <span className="sponsors-sub">Partnered With:</span>
         <div className="sponsors">
-          <img src={SoftheonIcon} alt="softeon-logo" />
-          <img src={SoftheonIcon} alt="softeon-logo" />
-          <img src={SoftheonIcon} alt="softeon-logo" />
-          <img src={SoftheonIcon} alt="softeon-logo" />
-          <img src={SoftheonIcon} alt="softeon-logo" />
-          <img src={SoftheonIcon} alt="softeon-logo" />
-          <img src={SoftheonIcon} alt="softeon-logo" />
+          <img src={SoftheonIcon} className="sponsor-logo" alt="softeon-logo" />
+          <img src={SoftheonIcon} className="sponsor-logo" alt="softeon-logo" />
+          <img src={SoftheonIcon} className="sponsor-logo" alt="softeon-logo" />
+          <img src={SoftheonIcon} className="sponsor-logo" alt="softeon-logo" />
+          <img src={SoftheonIcon} className="sponsor-logo" alt="softeon-logo" />
+          <img src={SoftheonIcon} className="sponsor-logo" alt="softeon-logo" />
+          <img src={SoftheonIcon} className="sponsor-logo" alt="softeon-logo" />
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

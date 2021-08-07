@@ -1,5 +1,13 @@
 .faq-container {
     background-image: url('../../assets/backgrounds/FAQ_Bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position: 0% 100%;
+    padding: 0 10% 10%;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
 }
 
 .faq-wrapper {
@@ -67,8 +75,8 @@
     color: #FE4CEC;
 }
 
-.faq-more {
-    margin-bottom: 15px;
+#more-q-button {
+    padding: 0 40px;
 }
 
 @media screen and (max-width: 1086px) {

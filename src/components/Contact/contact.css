@@ -26,37 +26,44 @@
     display: none;
 }
 
-.contact-container a {
+.social-link {
     position: absolute;
     display: block;
     transition: all 0.3s ease-in-out;
+    color: #ffffff;
 }
 
 .reddit-icon {
-    width: 3.5%;
     top: 46%;
-    left: 37.75%;
+    left: 40.75%;
+    font-size: 3.5vw;
 }
 
 .twitter-icon {
-    width: 3.5%;
-    top: 31.5%;
-    left: 52.75%;
+    top: 32%;
+    left: 55.8%;
+    font-size: 3.25vw;
 }
 
 .instagram-icon {
-    width: 3.5%;
-    top: 73.75%;
-    left: 57.6%;
+    top: 74%;
+    left: 61%;
+    font-size: 3vw;
 }
 
 .facebook-icon {
-    width: 4%;
-    top: 67.5%;
-    left: 71.25%;
+    top: 67%;
+    left: 75%;
+    font-size: 4vw;
 }
 
-.contact-container h1 {
+.linkedin-icon {
+    top: 85.5%;
+    left: 36.85%;
+    font-size: 3.25vw;
+}
+
+#contact-title {
     position: absolute;
     top: 0%;
     left: 33%;
@@ -65,26 +72,30 @@
 }
 
 .contact-hashtag {
-    position: absolute;
-    top: 70%;
-    left: 18%;
+    top: 60%;
+    left: 10%;
     width: 30%;
-    color: #ffffff;
-    font-size: 1.75vw;
 }
 
 .contact-email {
-    position: absolute;
     top: 40%;
     left: 60%;
     width: 25%;
-    color: #ffffff;
-    font-size: 1.75vw;
 }
 
-.contact-container a:hover {
+.contact-hashtag,
+.contact-email {
+    position: absolute;
+    background-color: #514e66;
+    box-shadow: 10px 10px #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.social-link:hover {
     transition: all 0.4s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
 
 @media screen and (max-width: 976px) {
@@ -95,26 +106,31 @@
         display: block;
     }
     .reddit-icon {
-        width: 4.5%;
-        top: 46.5%;
-        left: 33.25%;
+        top: 52%;
+        left: 34%;
+        font-size: 4.75vw;
     }
     .twitter-icon {
-        width: 4.5%;
-        top: 31.75%;
-        left: 54%;
+        top: 39.5%;
+        left: 54.5%;
+        font-size: 4.5vw;
     }
     .instagram-icon {
-        width: 4.5%;
-        top: 74.25%;
-        left: 60.85%;
+        top: 76.5%;
+        left: 61.5%;
+        font-size: 4.5vw;
     }
     .facebook-icon {
-        width: 5%;
-        top: 68.25%;
-        left: 79.75%;
+        top: 71%;
+        left: 80.5%;
+        font-size: 5.5vw;
     }
-    .contact-container h1 {
+    .linkedin-icon {
+      top: 86.75%;
+      left: 28.5%;
+      font-size: 4.5vw;
+    }
+    #contact-title {
         position: absolute;
         top: -5%;
         left: 29%;
@@ -122,20 +138,18 @@
         font-size: 4.5vw;
     }
     .contact-hashtag {
-        position: absolute;
         top: 65%;
         left: 10%;
         width: 35%;
-        color: #ffffff;
-        font-size: 2.5vw;
     }
     .contact-email {
-        position: absolute;
         top: 40%;
         left: 65%;
         width: 30%;
-        color: #ffffff;
-        font-size: 2.25vw;
+    }
+    .contact-hashtag,
+    .contact-email {
+        font-size: 2vw;
     }
 }
 
@@ -147,46 +161,57 @@
         display: block;
     } 
     .reddit-icon {
-        width: 8%;
-        top: 46%;
-        left: 13.5%;
+        top: 51.5%;
+        left: 22%;
+        font-size: 7vw;
     }
     .twitter-icon {
-        width: 7.5%;
-        top: 31.5%;
-        left: 45%;
+        top: 39.5%;
+        left: 49.75%;
+        font-size: 6.5vw;
     }
     .instagram-icon {
-        width: 7%;
-        top: 74%;
-        left: 55.25%;
+        top: 76.5%;
+        left: 59.25%;
+        font-size: 6vw;
     }
     .facebook-icon {
-        width: 8.5%;
-        top: 67.5%;
-        left: 83.5%;
+        top: 70.5%;
+        left: 84.5%;
+        font-size: 8vw;
     }
-    .contact-container h1 {
+    .linkedin-icon {
+      top: 87%;
+      left: 15.25%;
+      font-size: 6vw;
+    }
+    #contact-title {
         position: absolute;
         top: -5%;
-        left: 27.5%;
+        left: 20%;
         color: #ffffff;
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .contact-hashtag {
         position: absolute;
-        top: 70%;
+        top: 68%;
         left: 10%;
-        width: 34%;
+        width: 38%;
         color: #ffffff;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .contact-email {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 55%;
-        width: 34%;
+        width: 38%;
         color: #ffffff;
-        font-size: 3vw;
+        font-size: 2.5vw;
+        overflow-wrap: break-word;
+    }
+    .contact-hashtag,
+    .contact-email {
+        box-shadow: 5px 5px #ffffff;
+        padding: 1%;
     }
 }

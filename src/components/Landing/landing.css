@@ -19,24 +19,39 @@
     flex-direction: column;
 }
   
-.slogan-wrapper h1 {
-    font-size: 5rem;
+#sbuhacks-title {
+    font-size: 6rem;
+    text-shadow: 10px 10px #02111b;
     color: #ffffff;
     margin: 0;
     font-family: 'Audiowide', cursive;
 }
-  
-.slogan-wrapper p {
-    margin: 2.5px 0;
-    font-size: 1.6rem;
-    color: #000000;
+
+#sbuhacks-year {
+    font-size: 4.5rem;
+    text-shadow: 8px 8px #02111b;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Audiowide', cursive;
 }
-  
-.date {
-    font-size: 1.6rem;
-    margin-top: 20px;
+
+#landing-sponsor {
+    font-size: 2rem;
 }
-  
+
+#sbuhacks-date,
+#sbuhacks-slogan,
+#landing-sponsor {
+    margin: 0;
+}
+
+.landing-sub {
+  position: absolute;
+  font-size: 2rem;
+  color: #ffffff;
+  top: 75%;
+}
+
 .planet {
     position: absolute;
     display: flex;
@@ -56,8 +71,8 @@
 
 .planet:nth-child(1) {
     background-image: url('../../assets/icons/About_Icon.png');
-    width: 190px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     padding-right: 50px;
     padding-bottom: 30px;
     top: 0;
@@ -68,7 +83,7 @@
     background-image: url('../../assets/icons/FAQ_Icon.png');
     width: 90px;
     height: 90px;
-    top: 20%;
+    top: 25%;
     left: 1%;
 }
   
@@ -82,18 +97,17 @@
   
 .planet:nth-child(4) {
     background-image: url('../../assets/icons/Sponsors_Icon.png');
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     top: 55%;
     left: 0%;
 }
   
 .planet:nth-child(5) {
     background-image: url('../../assets/icons/Contact_Icon.png');
-    width: 140px;
-    height: 140px;
-    color: #3e3e3e;
-    top: 70%;
+    width: 170px;
+    height: 170px;
+    top: 80%;
     left: 5%;
 }
   
@@ -106,24 +120,45 @@
     transform: rotate(160deg);
 }
 
+.planet:nth-child(7) {
+  background-image: url('../../assets/icons/Asteroid_Icon.png');
+  width: 30px;
+  height: 30px;
+  top: 79%;
+  left: 10%;
+  transform: rotate(30deg);
+}
+
+.planet:nth-child(8) {
+  background-image: url('../../assets/icons/Asteroid2_Icon.png');
+  width: 70px;
+  height: 70px;
+  top: 95%;
+  left: 2.5%;
+}
+
+.planet:nth-child(9) {
+  background-image: url('../../assets/icons/Asteroid2_Icon.png');
+  width: 90px;
+  height: 90px;
+  top: 90%;
+  left: 14%;
+  transform: rotate(45deg);
+}
+
 .planet-title {
-    background-color: rgba(0, 0, 0, 0.001);
+    background-color: transparent;
     color: #ffffff;
     border: none;
-    font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 3.5px 3.5px #02111b;
 }
   
 .register-button {
-    background-image: url('../../assets/icons/Asteroid_Icon.png');
     position: absolute;
-    width: 140px;
-    height: 100px;
-    top: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 87%;;
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
@@ -144,15 +179,26 @@
         left: -100%;
     }
 }
+
+@media screen and (max-width: 764px) {
+    #sbuhacks-title {
+      font-size: 4.5rem;
+    }
+    #sbuhacks-year {
+      font-size: 3.5rem;
+    }
+}
   
 @media screen and (max-width: 500px) {
-    .slogan-wrapper h1 {
-      font-size: 12vw;
+    #sbuhacks-title {
+      font-size: 3rem;
     }
-    .slogan-wrapper p {
-      font-size: 4vw;
+    #sbuhacks-year {
+      font-size: 2rem;
     }
-    .date {
+    #sbuhacks-date,
+    #sbuhacks-slogan,
+    #landing-sponsor {
       font-size: 4vw;
     }
 }
@@ -161,13 +207,9 @@
     .slogan-wrapper {
       padding: 0 0 70px 10px;
     }
-    .slogan-wrapper h1 {
-      font-size: 15vw;
-    }
-    .slogan-wrapper p {
-      font-size: 5vw;
-    }
-    .date {
+    #sbuhacks-date,
+    #sbuhacks-slogan,
+    #landing-sponsor {
       font-size: 5vw;
     }
 }

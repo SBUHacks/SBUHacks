@@ -1,5 +1,6 @@
 .register-container {
     background-image: url('../../assets/backgrounds/Register_Bg.png');
+    position: relative;
 }
 
 .register-sub {
@@ -18,19 +19,32 @@
 
 .register-card {
     display: flex;
-    width: 25%;
+    width: 30%;
+    padding-top: 10%;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
 }
 
-.register-card img {
+.register-img {
     width: 100%;
+    margin: 30px;
+}
+
+.register-smoke {
+    position: absolute;
+    width: 100%;
+    top: 55%;
 }
 
 .form-link {
   text-decoration: none;
   cursor: pointer;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
 }
 
 @media screen and (max-width: 976px) {
@@ -39,17 +53,18 @@
     }
     .register-card {
         width: 35%;
+        padding-top: 0;
+    }
+    .register-smoke {
+        display: none;
     }
 }
 
 @media screen and (max-width: 567px) {
-    .register-container {
-        background-position: 20%;
-    }
     .register-card {
         width: 100%;
     }
-    .register-card img {
+    .register-img {
         display: none;
     }
 }
