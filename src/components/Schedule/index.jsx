@@ -41,7 +41,7 @@ function ScheduleEvent({ expiration, name }) {
 function Schedule() {
   return (
     <div className="section-container schedule-container general-style" id="schedule">
-      <h1 className="section-title general-style">Schedule</h1>
+      <h1 className="section-title general-style" id="schedule-title">Schedule</h1>
       <p className="schedule-temp">Coming Soon...</p>
       {/*
         <div className="schedule-disclaimer general-style">

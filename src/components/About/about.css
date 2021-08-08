@@ -34,13 +34,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 30px;
     z-index: 99;
 }
 
 .about-modal {
     width: 80%;
-    height: 90%;
+    height: 80%;
     background-color: #ffffff;
     border-radius: 15px;
     display: flex;
@@ -101,7 +101,7 @@
     }
 
     .about-modal {
-        height: 80%;
+        height: 70%;
     }
 
     .modal-close {
@@ -115,7 +115,7 @@
     }
 
     .about-modal {
-        height: 60%;
+        height: 50%;
     }
 
     .modal-content {

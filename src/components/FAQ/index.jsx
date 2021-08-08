@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import Accordion from './Accordion';
 import './faq.css';
 
-// Array of FAQs using faqFactory
+// Array of FAQs
 const faqs = [
   {
     question: 'What is SBUHacks?',
