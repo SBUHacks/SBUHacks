@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-// import { firstEvents, secondEvents } from './Data';
+import { firstEvents, secondEvents } from './Data';
 import './schedule.css';
 
 // Takes in a string (expiration), which is a Date string, to make a Date object
@@ -13,7 +13,7 @@ function ScheduleEvent({ expiration, name }) {
     const timeNow = Date.now();
     const endTime = new Date(expiration);
     const timeoutId = setTimeout(() => {
-      // Onces times up, expired state is set to true
+      // Once times up, expired state is set to true
       setExpired(true);
     }, endTime - timeNow);
 
@@ -42,27 +42,25 @@ function Schedule() {
   return (
     <div className="section-container schedule-container general-style" id="schedule">
       <h1 className="section-title general-style" id="schedule-title">Schedule</h1>
-      <p className="schedule-temp">Coming Soon...</p>
-      {/*
-        <div className="schedule-disclaimer general-style">
-          <i className="fas fa-exclamation-triangle disclaimer-icon" />
-          All times listed below are in EDT (Eastern Daylight Time)
+      {/* <p className="schedule-temp">Coming Soon...</p> */}
+      <div className="schedule-disclaimer general-style">
+        <i className="fas fa-exclamation-triangle disclaimer-icon" />
+        All times listed below are in EDT (Eastern Daylight Time)
+      </div>
+      <div className="schedule-wrapper">
+        <div className="events-wrapper">
+          <span className="schedule-sub general-style">FRIDAY</span>
+          {firstEvents.map(event => (
+            <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
+          ))}
         </div>
-        <div className="schedule-wrapper">
-          <div className="events-wrapper">
-            <span className="schedule-sub general-style">FRIDAY</span>
-            {firstEvents.map(event => (
-              <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
-            ))}
-          </div>
-          <div className="events-wrapper">
-            <span className="schedule-sub general-style">SATURDAY</span>
-            {secondEvents.map(event => (
-              <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
-            ))}
-          </div>
+        <div className="events-wrapper">
+          <span className="schedule-sub general-style">SATURDAY</span>
+          {secondEvents.map(event => (
+            <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
+          ))}
         </div>
-      */}
+      </div>
     </div>
   );
 }

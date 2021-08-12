@@ -33,21 +33,21 @@ function Navbar() {
           </button>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
-              <Link to="about" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+              <Link to="about" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   About
                 </button>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="register" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+              <Link to="register" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   Register
                 </button>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="faq" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+              <Link to="faq" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   FAQ
                 </button>
@@ -59,7 +59,7 @@ function Navbar() {
               smooth
               duration={300}
               spy exact="true"
-              offset={-80}
+              offset={-50}
               className="nav-link"
               onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
@@ -71,7 +71,7 @@ function Navbar() {
               <Link to="sponsors"
               smooth duration={300}
               spy exact="true"
-              offset={-80}
+              offset={-50}
               className="nav-link"
               onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
@@ -81,7 +81,7 @@ function Navbar() {
             </li>
             */}
             <li className="nav-item">
-              <Link to="contact" smooth duration={300} spy exact="true" offset={-80} className="nav-link" onClick={closeMenu}>
+              <Link to="contact" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   Contact
                 </button>

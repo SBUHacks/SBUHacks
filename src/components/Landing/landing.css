@@ -71,8 +71,8 @@
 
 .planet:nth-child(1) {
     background-image: url('../../assets/icons/About_Icon.png');
-    width: 120px;
-    height: 120px;
+    width: 9vw;
+    height: 9vw;
     padding-right: 50px;
     padding-bottom: 30px;
     top: 0;
@@ -81,79 +81,72 @@
   
 .planet:nth-child(2) {
     background-image: url('../../assets/icons/FAQ_Icon.png');
-    width: 90px;
-    height: 90px;
+    width: 5.5vw;
+    height: 5.5vw;
     top: 25%;
     left: 1%;
 }
   
 .planet:nth-child(3) {
     background-image: url('../../assets/icons/Schedule_Icon.png');
-    width: 140px;
-    height: 140px;
+    width: 10vw;
+    height: 10vw;
     top: 34%;
     left: 8%;
 }
   
 .planet:nth-child(4) {
     background-image: url('../../assets/icons/Sponsors_Icon.png');
-    width: 140px;
-    height: 140px;
+    width: 9vw;
+    height: 9vw;
     top: 55%;
     left: 0%;
 }
   
 .planet:nth-child(5) {
     background-image: url('../../assets/icons/Contact_Icon.png');
-    width: 170px;
-    height: 170px;
+    width: 11vw;
+    height: 11vw;
     top: 80%;
     left: 5%;
 }
   
 .planet:nth-child(6) {
     background-image: url('../../assets/icons/Asteroid_Icon.png');
-    width: 80px;
-    height: 80px;
-    top: 46%;
+    width: 5.5vw;
+    height: 5.5vw;
+    top: 48%;
     left: 10%;
     transform: rotate(160deg);
 }
 
 .planet:nth-child(7) {
-  background-image: url('../../assets/icons/Asteroid_Icon.png');
-  width: 30px;
-  height: 30px;
-  top: 79%;
-  left: 10%;
-  transform: rotate(30deg);
+    background-image: url('../../assets/icons/Asteroid_Icon.png');
+    width: 3vw;
+    height: 3vw;
+    top: 78%;
+    left: 9%;
+    transform: rotate(30deg);
 }
 
 .planet:nth-child(8) {
-  background-image: url('../../assets/icons/Asteroid2_Icon.png');
-  width: 70px;
-  height: 70px;
-  top: 95%;
-  left: 2.5%;
-}
-
-.planet:nth-child(9) {
-  background-image: url('../../assets/icons/Asteroid2_Icon.png');
-  width: 90px;
-  height: 90px;
-  top: 90%;
-  left: 14%;
-  transform: rotate(45deg);
+    background-image: url('../../assets/icons/Asteroid2_Icon.png');
+    width: 4.5vw;
+    height: 4.5vw;
+    top: 95%;
+    left: 2.5%;
 }
 
 .planet-title {
     background-color: transparent;
     color: #ffffff;
     border: none;
-    font-size: 24px;
+    font-size: 2vw;
     cursor: pointer;
     font-family: 'Audiowide', cursive;
     text-shadow: 3.5px 3.5px #02111b;
+    width: 100%;
+    height: 100%;
 }
   
 .register-button {
@@ -173,6 +166,32 @@
     transform: scale(1.2);
     transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1440px) {
+    .planet:nth-child(1) {
+        width: 120px;
+        height: 120px;
+    }
+    .planet:nth-child(2) {
+        width: 90px;
+        height: 90px;
+    }
+    .planet:nth-child(3) {
+        width: 140px;
+        height: 140px;
+    }
+    .planet:nth-child(4) {
+        width: 140px;
+        height: 140px;
+    }
+    .planet:nth-child(5) {
+        width: 170px;
+        height: 170px;
+    }
+    .planet-title {
+        font-size: 24px;
+    }
+}
   
 @media screen and (max-width: 916px) {
     .landing-container .planet {
@@ -182,34 +201,36 @@
 
 @media screen and (max-width: 764px) {
     #sbuhacks-title {
-      font-size: 4.5rem;
+        font-size: 4.5rem;
     }
     #sbuhacks-year {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
     }
 }
   
 @media screen and (max-width: 500px) {
     #sbuhacks-title {
-      font-size: 3rem;
+        font-size: 3rem;
+        text-shadow: none;
     }
     #sbuhacks-year {
-      font-size: 2rem;
+        font-size: 2rem;
+        text-shadow: none;
     }
     #sbuhacks-date,
     #sbuhacks-slogan,
     #landing-sponsor {
-      font-size: 4vw;
+        font-size: 4vw;
     }
 }
   
 @media screen and (max-width: 320px) {
     .slogan-wrapper {
-      padding: 0 0 70px 10px;
+        padding: 0 0 70px 10px;
     }
     #sbuhacks-date,
     #sbuhacks-slogan,
     #landing-sponsor {
-      font-size: 5vw;
+        font-size: 5vw;
     }
 }

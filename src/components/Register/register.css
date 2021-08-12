@@ -50,8 +50,8 @@
 }
 
 @media screen and (max-width: 976px) {
-    .register-container {
-        background-position: 20%;
+    .register-wrapper {
+        transform: none;
     }
     .register-card {
         width: 35%;
