@@ -4,23 +4,31 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-.slogan-wrapper {
-    font-weight: bold;
-    padding: 0 0 70px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
+}
+ 
+.slogan-wrapper {
+    background-image: url('../../assets/icons/Landing_Planet.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    width: 1300px;
+    height: 90vh;
+    transform: translate(0, -10%);
 }
   
 #sbuhacks-title {
-    font-size: 6rem;
+    font-size: 9rem;
     text-shadow: 10px 10px #02111b;
     color: #ffffff;
     margin: 0;
@@ -28,7 +36,7 @@
 }
 
 #sbuhacks-year {
-    font-size: 4.5rem;
+    font-size: 6rem;
     text-shadow: 8px 8px #02111b;
     color: #ffffff;
     margin: 0;
@@ -36,7 +44,7 @@
 }
 
 #landing-sponsor {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #sbuhacks-date,
@@ -60,6 +68,7 @@
     align-items: center;
     transition: all 0.8s ease-in-out;
     cursor: pointer;
+    z-index: 2;
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -167,7 +176,19 @@
     transition: all 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
+    .slogan-wrapper {
+        width: 850px;
+    }
+    #sbuhacks-title {
+        font-size: 6rem;
+    }
+    #sbuhacks-year {
+        font-size: 4.5rem;
+    }
+    #landing-sponsor {
+        font-size: 2rem;
+    }
     .planet:nth-child(1) {
         width: 120px;
         height: 120px;
@@ -197,9 +218,9 @@
     .landing-container .planet {
         left: -100%;
     }
-}
-
-@media screen and (max-width: 764px) {
+    .slogan-wrapper {
+        width: 800px;
+    }
     #sbuhacks-title {
         font-size: 4.5rem;
     }
@@ -209,6 +230,9 @@
 }
   
 @media screen and (max-width: 500px) {
+    .slogan-wrapper {
+        width: 600px;
+    }
     #sbuhacks-title {
         font-size: 3rem;
         text-shadow: none;
