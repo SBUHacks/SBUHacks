@@ -83,9 +83,20 @@
 }
   
 .menu-icon {
-    display: none;
+    visibility: hidden;
     background-color: #ffffff;
     border: none;
+}
+
+#mlh-trust-badge{
+    display: block;
+    max-width: 100px;
+    min-width: 60px;
+    position: fixed;
+    right: 50px;
+    top: 0;
+    width: 10%;
+    z-index: 10000;
 }
   
 @media screen and (max-width: 976px) {
@@ -125,10 +136,10 @@
         transform: translate(25%, 0%);
     }
     .menu-icon {
-        display: block;
+        visibility: visible;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 100px;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
@@ -151,5 +162,17 @@
     .fa-bars,
     .fa-times {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar-logo {
+        visibility: hidden;
+    }
+    .menu-icon {
+        right: 0;
+    }
+    #mlh-trust-badge {
+        left: 50px;
     }
 }

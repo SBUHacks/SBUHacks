@@ -10,7 +10,7 @@
     flex-direction: column;
     overflow-x: hidden;
 }
- 
+
 .slogan-wrapper {
     background-image: url('../../assets/icons/Landing_Planet.png');
     background-repeat: no-repeat;
