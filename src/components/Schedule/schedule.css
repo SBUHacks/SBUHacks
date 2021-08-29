@@ -1,5 +1,10 @@
 .schedule-container {
     background-image: url('../../assets/backgrounds/Schedule_Bg.png');
+    z-index: 1;
+}
+
+#schedule-title {
+    z-index: 5;
 }
 
 .schedule-temp {

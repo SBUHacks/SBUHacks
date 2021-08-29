@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import Accordion from './Accordion';
 import './faq.css';
 
-// Array of FAQs using faqFactory
+// Array of FAQs
 const faqs = [
   {
     question: 'What is SBUHacks?',
@@ -104,7 +104,7 @@ function FAQ() {
           ))}
         </div>
       </div>
-      <Link to="contact" smooth duration={300} spy exact="true" offset={-10}>
+      <Link to="contact" smooth duration={300} spy exact="true" offset={-50}>
         <button id="more-q-button" className="general-button general-style" type="button">
           <p>More Questions?</p>
           <p>Contact Us</p>

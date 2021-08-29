@@ -18,10 +18,7 @@
     display: block;
 }
 
-.bg-md {
-    display: none;
-}
-
+.bg-md,
 .bg-sm {
     display: none;
 }
@@ -91,6 +88,7 @@
     padding: 10px;
     color: #ffffff;
     font-size: 1.5vw;
+    font-weight: 900;
 }
 
 .social-link:hover {
@@ -188,7 +186,7 @@
     #contact-title {
         position: absolute;
         top: -5%;
-        left: 20%;
+        left: 16%;
         color: #ffffff;
         font-size: 7vw;
     }
