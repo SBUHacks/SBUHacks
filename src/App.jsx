@@ -18,7 +18,9 @@ function App() {
       <About />
       <Why />
       <Register />
+      {/*
       <Schedule />
+      */}
       <FAQ />
       {/*
         <Sponsors />
