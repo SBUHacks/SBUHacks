@@ -8,6 +8,13 @@
     margin: 10px 0;
 }
 
+.code-of-conduct {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FE4CEC;
+    font-weight: 900;
+}
+
 .register-wrapper {
     width: 100%;
     display: flex;
@@ -15,13 +22,11 @@
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     margin-top: 60px;
-    transform: translate(0, -20%);
 }
 
 .register-card {
     display: flex;
     width: 30%;
-    padding-top: 10%;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;

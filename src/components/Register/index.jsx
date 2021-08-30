@@ -13,6 +13,10 @@ function Register() {
     <div className="section-container register-container general-style" id="register">
       <h1 className="section-title general-style">Register</h1>
       <p className="register-sub general-style">Sign up to participate, volunteer, or become a mentor</p>
+      <p className="register-sub general-style">
+        By registering, you are agreeing to the
+        <a href="http://mlh.io/code-of-conduct" className="code-of-conduct" rel="noreferrer" target="_blank"> MLH code of conduct</a>
+      </p>
       <div className="register-wrapper">
         <div className="register-card">
           <img src={MentorIcon} className="register-img" alt="mentor-register-icon" />
