@@ -17,16 +17,12 @@ function Landing() {
       </Link>
       <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-50}>
         <button className="planet-title general-style" type="button">
-          {/*
-            Schedule
-          */}
+          Schedule
         </button>
       </Link>
       <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-50}>
         <button className="planet-title general-style" type="button">
-          {/*
-            Sponsors
-          */}
+          Sponsors
         </button>
       </Link>
       <Link className="planet" to="contact" smooth duration={300} spy exact="true" offset={-50}>
