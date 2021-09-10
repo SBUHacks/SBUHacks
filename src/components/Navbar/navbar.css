@@ -99,7 +99,7 @@
     z-index: 10000;
 }
   
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 1280px) {
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -141,7 +141,7 @@
         position: absolute;
         top: 0;
         right: 100px;
-        transform: translate(-100%, 60%);
+        transform: translate(-150%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
     }
@@ -158,6 +158,9 @@
 @media screen and (max-width: 567px) {
     .nav-menu {
         width: 100%;
+    }
+    .menu-icon {
+      transform: translate(-70%, 60%);
     }
     .navbar-logo,
     .fa-bars,
