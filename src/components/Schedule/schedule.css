@@ -15,7 +15,7 @@
     padding: 5%;
 }
 
-.schedule-disclaimer {
+.timezone-disclaimer {
     background-color: #ffffff;
     padding: 7px;
     display: inline-block;
@@ -59,7 +59,7 @@
 }
 
 .events-wrapper:nth-child(2) {
-  box-shadow: 20px 20px #e3cdff;
+    box-shadow: 20px 20px #e3cdff;
 }
 
 .active-event,
@@ -83,6 +83,11 @@
     border-radius: 5px;
 }
 
+.schedule-disclaimer {
+    font-size: 20px;
+    font-weight: 900;
+}
+
 @media screen and (max-width: 798px) {
     .schedule-temp {
         font-size: 2.5rem;
@@ -93,7 +98,6 @@
     }
     .events-wrapper {
         width: 100%;
-        margin-bottom: 25px;
         box-shadow: none !important;
     }
 }

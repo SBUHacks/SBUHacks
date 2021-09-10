@@ -6,8 +6,8 @@ import About from './components/About';
 import Why from './components/Why';
 import Register from './components/Register';
 import FAQ from './components/FAQ';
-// import Schedule from './components/Schedule';
-// import Sponsors from './components/Sponsors';
+import Schedule from './components/Schedule';
+import Sponsors from './components/Sponsors';
 import Contact from './components/Contact';
 
 function App() {
@@ -18,13 +18,9 @@ function App() {
       <About />
       <Why />
       <Register />
-      {/*
       <Schedule />
-      */}
+      <Sponsors />
       <FAQ />
-      {/*
-        <Sponsors />
-      */}
       <Contact />
     </>
   );

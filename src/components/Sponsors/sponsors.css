@@ -4,7 +4,7 @@
 }
 
 .sponsors-wrapper {
-    background-color: rgba(63, 63, 63, 0.8);
+    background-color: rgba(100, 100, 100, 0.8);
     padding: 25px;
     border-radius: 25px;
     margin-top: 30px;
@@ -19,22 +19,33 @@
     margin: 10px 0;;
 }
 
-.sponsors {
+.sponsors-partners {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.sponsor-logo {
-    width: 30%;
+.partner-logo {
+    width: 34%;
     margin-top: 20px;
+    height: auto;
+}
+
+.partner-logo-stacked {
+  width: 30%;
+  margin-top: 20px;
+  height: auto;
+}
+
+#sticker-mule-logo {
+    width: 100%;
 }
 
 @media screen and (max-width: 796px) {
     .golden-logo {
         width: 70%;
     }
-    .sponsor-logo {
+    .partner-logo, .partner-logo-stacked {
         width: 40%;
     }
 }
@@ -45,8 +56,5 @@
     }
     .golden-logo{
         width: 100%;
-    }
-    .sponsor-logo {
-        width: 45%;
     }
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './navbar.css';
 
+// The fixed Navbar which is hidden until user scrolls down enough or makes window small enough
 function Navbar() {
   const [click, setClick] = useState(false);
   const [showNav, setShowNav] = useState(false);

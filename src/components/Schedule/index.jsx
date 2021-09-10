@@ -43,7 +43,7 @@ function Schedule() {
     <div className="section-container schedule-container general-style" id="schedule">
       <h1 className="section-title general-style" id="schedule-title">Schedule</h1>
       {/* <p className="schedule-temp">Coming Soon...</p> */}
-      <div className="schedule-disclaimer general-style">
+      <div className="timezone-disclaimer general-style">
         <i className="fas fa-exclamation-triangle disclaimer-icon" />
         All times listed below are in EDT (Eastern Daylight Time)
       </div>
@@ -60,6 +60,9 @@ function Schedule() {
             <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
           ))}
         </div>
+      </div>
+      <div className="schedule-disclaimer">
+        This schedule is subject to change
       </div>
     </div>
   );
