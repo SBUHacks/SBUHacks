@@ -15,14 +15,14 @@ function Landing() {
           FAQ
         </button>
       </Link>
-      <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-50}>
+      <Link className="planet" to="schedule" smooth duration={300} spy exact="true" offset={-50}>
         <button className="planet-title general-style" type="button">
           Schedule
         </button>
       </Link>
-      <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-50}>
+      <Link className="planet" to="sponsors" smooth duration={300} spy exact="true" offset={-50}>
         <button className="planet-title general-style" type="button">
-          Sponsors
+          Partners
         </button>
       </Link>
       <Link className="planet" to="contact" smooth duration={300} spy exact="true" offset={-50}>

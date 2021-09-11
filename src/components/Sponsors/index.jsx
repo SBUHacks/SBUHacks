@@ -12,7 +12,7 @@ import GoogleLogo from '../../assets/sponsors/GoogleCloud_Icon.png';
 function Sponsors() {
   return (
     <div className="section-container sponsors-container general-style" id="sponsors">
-      <h1 className="section-title general-style">Sponsors</h1>
+      <h1 className="section-title general-style">Partners</h1>
       <div className="sponsors-wrapper">
         <span className="sponsors-sub">Powered By:</span>
         <div className="golden-sponsor">

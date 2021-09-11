@@ -32,13 +32,13 @@ const faqs = [
   {
     question: 'What is Discord?',
     answer1: 'Throughout the event, we will be using Discord as the main form of communication. Never used Discord before? ',
-    link: <a href="https://www.youtube.com/watch?v=LDVqruRsYtA">Here&apos;s</a>,
+    link: <a href="https://www.youtube.com/watch?v=LDVqruRsYtA" target="_blank" rel="noreferrer">Here&apos;s</a>,
     answer2: ' a quick introduction!',
   },
   {
     question: 'What is DevPost?',
     answer1: 'After the 24 hours, you’ll be submitting your project to DevPost for judging! New to Devpost? ',
-    link: <a href="https://www.youtube.com/watch?v=vCa7QFFthfU">Here&apos;s</a>,
+    link: <a href="https://www.youtube.com/watch?v=vCa7QFFthfU" target="_blank" rel="noreferrer">Here&apos;s</a>,
     answer2: ' a quick introduction!',
   },
   {
@@ -68,7 +68,7 @@ const faqs = [
   {
     question: 'Guidelines',
     answer1: 'Don\'t bring any firearms, knives, weapons, drugs, or alcohol. Please read the ',
-    link: <a href="http://mlh.io/code-of-conduct">MLH Code of Conduct</a>,
+    link: <a href="http://mlh.io/code-of-conduct" target="_blank" rel="noreferrer">MLH Code of Conduct</a>,
     answer2: '. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.',
   },
   {

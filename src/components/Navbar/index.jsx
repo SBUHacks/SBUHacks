@@ -64,7 +64,7 @@ function Navbar() {
             <li className="nav-item">
               <Link to="sponsors" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
-                  Sponsors
+                  Partners
                 </button>
               </Link>
             </li>
