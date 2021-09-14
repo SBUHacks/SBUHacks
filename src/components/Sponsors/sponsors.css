@@ -1,5 +1,5 @@
 .sponsors-container {
-    background-image: url('../../assets/backgrounds/Blank_Bg.png');
+    background-image: url('../../assets/backgrounds/Sponsors_Bg.png');
     padding-bottom: 80px;
 }
 
@@ -16,25 +16,26 @@
 
 .golden-logo {
     width: 60%;
-    margin: 10px 0;;
+    margin: 10px 0;
 }
 
 .sponsors-partners {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .partner-logo {
     width: 40%;
     margin-top: 20px;
-    height: auto;
+    height: 40%;
 }
 
 .partner-logo-stacked {
-  width: 30%;
-  margin-top: 20px;
-  height: auto;
+    width: 30%;
+    margin-top: 20px;
+    height: 30%;
 }
 
 #sticker-mule-logo {
@@ -42,11 +43,15 @@
 }
 
 @media screen and (max-width: 796px) {
+    .sponsors-wrapper {
+        padding: 25px 0;
+    }
     .golden-logo {
         width: 70%;
     }
     .partner-logo, .partner-logo-stacked {
-        width: 40%;
+        width: 45%;
+        height: 45%;
     }
 }
 

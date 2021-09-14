@@ -55,9 +55,9 @@
 
 .landing-sub {
   position: absolute;
-  font-size: 2rem;
+  font-size: 1.5vw;
   color: #ffffff;
-  top: 75%;
+  top: 77.5vh;
 }
 
 .planet {
@@ -160,7 +160,7 @@
   
 .register-button {
     position: absolute;
-    top: 87%;;
+    top: 87.5vh;
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
@@ -169,11 +169,6 @@
 
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.register-button:hover {
-    transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 1600px) {
@@ -188,6 +183,9 @@
     }
     #landing-sponsor {
         font-size: 2rem;
+    }
+    .landing-sub {
+        font-size: 1.5vw;
     }
     .planet:nth-child(1) {
         width: 120px;
@@ -227,6 +225,9 @@
     #sbuhacks-year {
         font-size: 3.5rem;
     }
+    .landing-sub {
+        font-size: 3vw;
+    }
 }
   
 @media screen and (max-width: 500px) {
@@ -245,6 +246,13 @@
     #sbuhacks-slogan,
     #landing-sponsor {
         font-size: 4vw;
+    }
+    .landing-sub {
+        font-size: 4vw;
+        bottom: 20%;
+    }
+    .register-button {
+        bottom: 2%;
     }
 }
   

@@ -3,7 +3,7 @@ import './sponsors.css';
 import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.svg';
 import SchifferIcon from '../../assets/sponsors/Schiffer_Icon.svg';
 import echoIcon from '../../assets/sponsors/echoAR_Icon.png';
-import AVILogo from '../../assets/sponsors/AVI_Icon.png';
+import AVILogo from '../../assets/sponsors/AVI_Icon.jpg';
 import AlumniLogo from '../../assets/sponsors/Alumni_Icon.png';
 import StickerLogo from '../../assets/sponsors/StickerMule_Icon.svg';
 import GoogleLogo from '../../assets/sponsors/GoogleCloud_Icon.png';

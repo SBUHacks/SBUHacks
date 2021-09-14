@@ -1,7 +1,7 @@
 export const startTime = 'August 10, 2021 18:00:00';
 
 // Date strings are formatted as "YYYY-MM-DDTHH:mm:ss.sss+-hh:mm"
-export const firstEvents = [
+export const FIRST_EVENTS = [
   {
     name: '05:00PM - Kickoff via Discord',
     endTime: '2021-09-24T18:00:00.000-04:00',
@@ -38,7 +38,7 @@ export const firstEvents = [
   },
 ];
 
-export const secondEvents = [
+export const SECOND_EVENTS = [
   /*
   {
     name: '12:00AM - ',
