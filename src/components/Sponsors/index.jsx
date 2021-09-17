@@ -1,6 +1,6 @@
 import React from 'react';
 import './sponsors.css';
-import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.svg';
+import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.png';
 import SchifferIcon from '../../assets/sponsors/Schiffer_Icon.svg';
 import echoIcon from '../../assets/sponsors/echoAR_Icon.png';
 import AVILogo from '../../assets/sponsors/AVI_Icon.jpg';
