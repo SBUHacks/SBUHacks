@@ -1,29 +1,30 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Landing from './components/Landing';
-import About from './components/About';
-import Why from './components/Why';
-import Register from './components/Register';
-import FAQ from './components/FAQ';
-import Schedule from './components/Schedule';
-// import Sponsors from './components/Sponsors';
-import Contact from './components/Contact';
+
+const Navbar = lazy(() => import('./components/Navbar'));
+const Landing = lazy(() => import('./components/Landing'));
+const About = lazy(() => import('./components/About'));
+const Why = lazy(() => import('./components/Why'));
+const Register = lazy(() => import('./components/Register'));
+const FAQ = lazy(() => import('./components/FAQ'));
+const Schedule = lazy(() => import('./components/Schedule'));
+const Sponsors = lazy(() => import('./components/Sponsors'));
+const Contact = lazy(() => import('./components/Contact'));
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Landing />
-      <About />
-      <Why />
-      <Register />
-      <Schedule />
-      <FAQ />
-      {/*
+      <Suspense fallback={<div>Loading...</div>}>
+        <Navbar />
+        <Landing />
+        <About />
+        <Why />
+        <Register />
+        <Schedule />
         <Sponsors />
-      */}
-      <Contact />
+        <FAQ />
+        <Contact />
+      </Suspense>
     </>
   );
 }

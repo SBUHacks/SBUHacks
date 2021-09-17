@@ -40,7 +40,7 @@
   
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -99,10 +99,11 @@
     z-index: 10000;
 }
   
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 1280px) {
     .nav-menu {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         width: 50%;
         height: 90vh;
         position: fixed;
@@ -140,7 +141,7 @@
         position: absolute;
         top: 0;
         right: 100px;
-        transform: translate(-100%, 60%);
+        transform: translate(-150%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
     }
@@ -157,6 +158,9 @@
 @media screen and (max-width: 567px) {
     .nav-menu {
         width: 100%;
+    }
+    .menu-icon {
+      transform: translate(-70%, 60%);
     }
     .navbar-logo,
     .fa-bars,

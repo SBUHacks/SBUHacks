@@ -1,11 +1,9 @@
 .faq-container {
-    background-image: url('../../assets/backgrounds/FAQ_Bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../../assets/backgrounds/Blank_Bg.png');
+    background-repeat: repeat;
     background-attachment: local;
-    background-position: 0% 100%;
-    padding: 0 10% 10%;
-    height: 100vh;
+    background-position: 0% 0%;
+    padding: 0 5% 5%;
     color: #ffffff;
     text-align: center;
 }
@@ -77,6 +75,7 @@
 
 #more-q-button {
     padding: 0 40px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 1086px) {

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './navbar.css';
 
+// The fixed Navbar which is hidden until user scrolls down enough or makes window small enough
 function Navbar() {
   const [click, setClick] = useState(false);
   const [showNav, setShowNav] = useState(false);
@@ -53,33 +54,20 @@ function Navbar() {
                 </button>
               </Link>
             </li>
-            {/*
             <li className="nav-item">
-              <Link to="schedule"
-              smooth
-              duration={300}
-              spy exact="true"
-              offset={-50}
-              className="nav-link"
-              onClick={closeMenu}>
+              <Link to="schedule" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   Schedule
                 </button>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="sponsors"
-              smooth duration={300}
-              spy exact="true"
-              offset={-50}
-              className="nav-link"
-              onClick={closeMenu}>
+              <Link to="sponsors" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
-                  Sponsors
+                  Partners
                 </button>
               </Link>
             </li>
-            */}
             <li className="nav-item">
               <Link to="contact" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
