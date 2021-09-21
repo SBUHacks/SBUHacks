@@ -54,6 +54,11 @@
   z-index: 2;
 }
 
+#volunteer-button, #mentor-button {
+    pointer-events: none;
+    text-decoration: line-through;
+}
+
 @media screen and (max-width: 976px) {
     .register-wrapper {
         transform: none;

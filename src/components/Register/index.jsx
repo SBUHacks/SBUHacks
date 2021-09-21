@@ -20,12 +20,12 @@ function Register() {
       <div className="register-wrapper">
         <div className="register-card">
           <img src={MentorIcon} className="register-img" alt="mentor-register-icon" />
-          <a href="https://forms.gle/5mX9rQ6VyLRr5xrVA" className="form-link general-button" rel="noreferrer" target="_blank">Mentor</a>
+          <a href="https://forms.gle/5mX9rQ6VyLRr5xrVA" id="mentor-button" className="form-link general-button" rel="noreferrer" target="_blank">Mentor</a>
         </div>
         <div className="register-card">
           <img src={VolunteerIcon} className="register-img" alt="volunteer-register-icon" />
           <img src={SmokeIcon} className="register-smoke" alt="rocket-smoke" />
-          <a href="https://forms.gle/mRikt1kchHeVUZPA9" className="form-link general-button" rel="noreferrer" target="_blank">Volunteer</a>
+          <a href="https://forms.gle/mRikt1kchHeVUZPA9" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank" aria-disabled="true">Volunteer</a>
         </div>
         <div className="register-card">
           <img src={HackIcon} className="register-img" alt="hack-register-icon" />

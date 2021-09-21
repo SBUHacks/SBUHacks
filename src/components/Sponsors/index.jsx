@@ -1,12 +1,13 @@
 import React from 'react';
 import './sponsors.css';
-import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.svg';
+import SoftheonIcon from '../../assets/sponsors/Softheon_Icon.png';
 import SchifferIcon from '../../assets/sponsors/Schiffer_Icon.svg';
 import echoIcon from '../../assets/sponsors/echoAR_Icon.png';
 import AVILogo from '../../assets/sponsors/AVI_Icon.jpg';
 import AlumniLogo from '../../assets/sponsors/Alumni_Icon.png';
 import StickerLogo from '../../assets/sponsors/StickerMule_Icon.svg';
 import GoogleLogo from '../../assets/sponsors/GoogleCloud_Icon.png';
+import LibrariesLogo from '../../assets/sponsors/Libraries_Icon.png';
 
 // The Sponsors page
 function Sponsors() {
@@ -28,6 +29,7 @@ function Sponsors() {
           <img src={AlumniLogo} className="partner-logo" alt="sbu-alumni-logo" />
           <img src={echoIcon} className="partner-logo" alt="echoAR-logo" />
           <img src={GoogleLogo} className="partner-logo" alt="google-cloud-logo" />
+          <img src={LibrariesLogo} className="partner-logo" alt="sbut-libraries-logo" />
         </div>
       </div>
     </div>
