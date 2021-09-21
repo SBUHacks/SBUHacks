@@ -1,4 +1,4 @@
-export const startTime = 'August 10, 2021 18:00:00';
+export const startTime = 'August 24, 2021 17:00:00';
 
 // Date strings are formatted as "YYYY-MM-DDTHH:mm:ss.sss+-hh:mm"
 export const FIRST_EVENTS = [
