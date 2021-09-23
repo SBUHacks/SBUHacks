@@ -53,13 +53,13 @@ function Schedule() {
       <div className="schedule-wrapper">
         <div className="events-wrapper">
           <ScheduleEvent name="Fueling the rocket ship..." expiration="2021-09-24T17:00:00.000-04:00" className="rocket-ship-event" />
-          <span className="schedule-sub general-style">FRIDAY</span>
+          <span className="schedule-sub general-style">FRIDAY - September 24th</span>
           {FIRST_EVENTS.map(event => (
             <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
           ))}
         </div>
         <div className="events-wrapper">
-          <span className="schedule-sub general-style">SATURDAY</span>
+          <span className="schedule-sub general-style">SATURDAY - September 25th</span>
           {SECOND_EVENTS.map(event => (
             <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
           ))}
