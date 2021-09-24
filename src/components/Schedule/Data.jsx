@@ -22,12 +22,10 @@ export const FIRST_EVENTS = [
     name: '08:00PM - !Light with MLH',
     endTime: '2021-09-24T21:00:00.000-04:00',
   },
-  /*
   {
-    name: '09:00PM - ',
+    name: '09:00PM - iOS Development Event with SBCS',
     endTime: '2021-09-24T22:00:00.000-04:00',
   },
-  */
   {
     name: '10:00PM - Among Us',
     endTime: '2021-09-24T23:00:00.000-04:00',
@@ -88,21 +86,23 @@ export const SECOND_EVENTS = [
     name: '12:00PM - ',
     endTime: '2021-09-25T13:00:00.000-04:00',
   },
+  */
   {
-    name: '01:00PM - ',
+    name: '01:00PM - Android Development Event with WiCS',
     endTime: '2021-09-25T14:00:00.000-04:00',
   },
+  /*
   {
     name: '02:00PM - ',
     endTime: '2021-09-25T15:00:00.000-04:00',
   },
-  */
   {
-    name: '03:00PM - iOS Development Event with SBCS',
+    name: '03:00PM - ',
     endTime: '2021-09-25T16:00:00.000-04:00',
   },
+  */
   {
-    name: '04:00PM - Android Development Event with WiCS\n04:00PM - Submissions Due',
+    name: '04:00PM - 04:00PM - Submissions Due',
     endTime: '2021-09-25T17:00:00.000-04:00',
   },
   {
