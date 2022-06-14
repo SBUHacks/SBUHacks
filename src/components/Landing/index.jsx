@@ -15,15 +15,19 @@ function Landing() {
           FAQ
         </button>
       </Link>
-      <Link className="planet" to="schedule" smooth duration={300} spy exact="true" offset={-50}>
+      <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-50}>
+        {/*
         <button className="planet-title general-style" type="button">
           Schedule
         </button>
+        */}
       </Link>
-      <Link className="planet" to="sponsors" smooth duration={300} spy exact="true" offset={-50}>
+      <Link className="planet" to="/" smooth duration={300} spy exact="true" offset={-50}>
+        {/*
         <button className="planet-title general-style" type="button">
           Partners
         </button>
+        */}
       </Link>
       <Link className="planet" to="contact" smooth duration={300} spy exact="true" offset={-50}>
         <button className="planet-title general-style" type="button">
@@ -33,16 +37,23 @@ function Landing() {
       <div className="planet" />
       <div className="planet" />
       <div className="planet" />
-      <Link className="register-button" to="register" smooth duration={300} spy exact="true" offset={-50}><button className="general-button general-style" type="button">Register</button></Link>
+      {/*
+      <Link className="register-button" to="register" smooth duration={300}
+      spy exact="true" offset={-50}>
+        <button className="general-button general-style" type="button">Register</button>
+      </Link>
+      */}
       <div className="slogan-wrapper general-style">
         <h1 id="sbuhacks-title" className="general-style">SBUHacks</h1>
-        <h1 id="sbuhacks-year" className="sbuhacks-title">2021</h1>
-        <p id="landing-sponsor">Powered by Softheon</p>
+        <h1 id="sbuhacks-year" className="sbuhacks-title">2022</h1>
+        <p id="landing-sponsor">Coming Soon...</p>
       </div>
+      {/*
       <div className="landing-sub">
         <p id="sbuhacks-date">September 24-25</p>
         <p id="sbuhacks-slogan">Endless Space for Innovation</p>
       </div>
+      */}
     </div>
   );
 }

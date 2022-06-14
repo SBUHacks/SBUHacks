@@ -25,11 +25,11 @@ function Register() {
         <div className="register-card">
           <img src={VolunteerIcon} className="register-img" alt="volunteer-register-icon" />
           <img src={SmokeIcon} className="register-smoke" alt="rocket-smoke" />
-          <a href="https://forms.gle/mRikt1kchHeVUZPA9" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank" aria-disabled="true">Volunteer</a>
+          <a href="https://forms.gle/mRikt1kchHeVUZPA9" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank">Volunteer</a>
         </div>
         <div className="register-card">
           <img src={HackIcon} className="register-img" alt="hack-register-icon" />
-          <a href="https://form.typeform.com/to/lVVb3k9h" className="form-link general-button" rel="noreferrer" target="_blank">Hack</a>
+          <a href="https://form.typeform.com/to/lVVb3k9h" id="hack-button" className="form-link general-button" rel="noreferrer" target="_blank">Hack</a>
         </div>
       </div>
     </div>

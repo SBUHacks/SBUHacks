@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import { FIRST_EVENTS, SECOND_EVENTS } from './Data';
+// import { FIRST_EVENTS, SECOND_EVENTS } from './Data';
 import './schedule.css';
 
 // Takes in a string (expiration), which is a Date string, to make a Date object
@@ -42,7 +42,8 @@ function Schedule() {
   return (
     <div className="section-container schedule-container general-style" id="schedule">
       <h1 className="section-title general-style" id="schedule-title">Schedule</h1>
-      {/* <p className="schedule-temp">Coming Soon...</p> */}
+      <p className="schedule-temp">Coming Soon...</p>
+      {/*
       <div className="schedule-disclaimer">
         This schedule is subject to change
       </div>
@@ -52,7 +53,8 @@ function Schedule() {
       </div>
       <div className="schedule-wrapper">
         <div className="events-wrapper">
-          <ScheduleEvent name="Fueling the rocket ship..." expiration="2021-09-24T17:00:00.000-04:00" className="rocket-ship-event" />
+          <ScheduleEvent name="Fueling the rocket ship..."
+          expiration="2021-09-24T17:00:00.000-04:00"className="rocket-ship-event" />
           <span className="schedule-sub general-style">FRIDAY - September 24th</span>
           {FIRST_EVENTS.map(event => (
             <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
@@ -63,9 +65,11 @@ function Schedule() {
           {SECOND_EVENTS.map(event => (
             <ScheduleEvent name={event.name} expiration={event.endTime} key={event.name} />
           ))}
-          <ScheduleEvent name="Rocket ship has landed!" expiration="2021-09-25T20:00:00.000-04:00" className="rocket-ship-event" />
+          <ScheduleEvent name="Rocket ship has landed!"
+          expiration="2021-09-25T20:00:00.000-04:00" className="rocket-ship-event" />
         </div>
       </div>
+      */}
     </div>
   );
 }

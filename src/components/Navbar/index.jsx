@@ -40,13 +40,16 @@ function Navbar() {
                 </button>
               </Link>
             </li>
+            {/*
             <li className="nav-item">
-              <Link to="register" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
+              <Link to="register" smooth duration={300} spy exact="true" offset={-50}
+              className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   Register
                 </button>
               </Link>
             </li>
+            */}
             <li className="nav-item">
               <Link to="faq" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
@@ -61,13 +64,16 @@ function Navbar() {
                 </button>
               </Link>
             </li>
+            {/*
             <li className="nav-item">
-              <Link to="sponsors" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
+              <Link to="sponsors" smooth duration={300} spy exact="true" offset={-50}
+              className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   Partners
                 </button>
               </Link>
             </li>
+            */}
             <li className="nav-item">
               <Link to="contact" smooth duration={300} spy exact="true" offset={-50} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
