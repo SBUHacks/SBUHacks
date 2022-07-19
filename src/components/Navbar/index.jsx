@@ -5,26 +5,13 @@ import './navbar.css';
 // The fixed Navbar which is hidden until user scrolls down enough or makes window small enough
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [showNav, setShowNav] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
 
-  function handleNav() {
-    if (window.scrollY > 500 || window.innerWidth < 916) {
-      setShowNav(true);
-    } else {
-      setShowNav(false);
-    }
-  }
-
-  window.addEventListener('reload', handleNav);
-  window.addEventListener('scroll', handleNav);
-  window.addEventListener('resize', handleNav);
-
   return (
     <>
-      <nav className={showNav ? 'navbar nav-active' : 'navbar'}>
+      <nav className="navbar nav-active">
         <div className="navbar-container general-style">
           <Link to="landing" smooth duration={300} spy exact="true" offset={0} className="navbar-logo" onClick={closeMenu}>
             SBUHacks

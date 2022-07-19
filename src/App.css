@@ -1,3 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
 .general-style {
     margin: 0;
     padding: 0;
@@ -24,8 +28,8 @@
 .general-button {
     border: none;
     padding: 1.25vw 2vw;
-    border-radius: 0.75vw;
-    background: linear-gradient(45deg, rgba(96, 54, 214, 0.8), rgba(59, 94, 219, 0.5));
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
     color: #ffffff;
     font-size: 1.5vw;
     font-family: 'Audiowide', cursive;
@@ -34,8 +38,7 @@
 }
 
 .general-button:hover {
-    background: rgba(96, 54, 214, 0.8);
-    box-shadow: 0 0 20px 20px rgba(59, 94, 219, 0.5);
+    box-shadow: 0 0 20px 20px;
 }
 
 @media screen and (max-width: 1440px) {

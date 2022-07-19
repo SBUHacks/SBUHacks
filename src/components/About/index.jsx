@@ -49,6 +49,7 @@ function About() {
         </div>
       </div>
       <AboutModal showModal={showModal} setShowModal={setShowModal} />
+      <div className="pink-planet" />
     </div>
   );
 }

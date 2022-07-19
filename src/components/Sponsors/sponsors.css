@@ -4,7 +4,6 @@
 }
 
 .sponsors-wrapper {
-    background-color: rgba(100, 100, 100, 0.8);
     padding: 25px;
     border-radius: 25px;
     margin-top: 30px;
@@ -17,49 +16,118 @@
 .golden-logo {
     width: 60%;
     margin: 10px 0;
+    border: 2px solid #61e2ff;
 }
 
-.sponsors-partners {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+@keyframes scroll {
+	0% { transform: translateX(0); }
+  100% { transform: translateX(-900px)}
 }
 
-.partner-logo {
-    width: 40%;
-    margin-top: 20px;
-    height: 40%;
+.slider {
+	background: rgba(100, 100, 100, 0.8);
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 200px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+  padding: 10px 0;
 }
 
-.partner-logo-stacked {
-    width: 30%;
-    margin-top: 20px;
-    height: 30%;
+.slider::after,
+.slider::before {
+    background: linear-gradient(to right,  rgba(100,100,100,1) 0%,rgba(100,100,100,0) 100%);
+		content: "";
+		height: 220px;
+		position: absolute;
+		z-index: 2;
+    width: 200px;
 }
 
-#sticker-mule-logo {
-    width: 100%;
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
-@media screen and (max-width: 796px) {
-    .sponsors-wrapper {
-        padding: 25px 0;
-    }
-    .golden-logo {
-        width: 70%;
-    }
-    .partner-logo, .partner-logo-stacked {
-        width: 45%;
-        height: 45%;
-    }
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: 100%;
+}
+
+.slide {
+  height: 200px;
+  width: 100%;
+  margin: 0 10px;
+  overflow-x: visible !important;
+}
+
+.slide-logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+
+.rectangular-logo {
+  width: 400px;
+}
+
+.slide:nth-child(1) .slide-logo {
+  background-image: url('../../assets/sponsors/Alumni_Icon.png');
+  width: 400px;
+  border: 2px solid black;
+}
+
+.slide:nth-child(2) .slide-logo {
+  background-image: url('../../assets/sponsors/AVI_Icon.jpg');
+  width: 200px;
+  border: 2px solid #ffdf00;
+}
+
+.slide:nth-child(3) .slide-logo {
+  background-image: url('../../assets/sponsors/echoAR_Icon.png');
+  width: 200px;
+  border: 2px solid #ffdf00;
+}
+
+.slide:nth-child(4) .slide-logo {
+  background-image: url('../../assets/sponsors/GoogleCloud_Icon.png');
+  width: 200px;
+  border: 2px solid #d3d3d3;
+}
+
+.slide:nth-child(5) .slide-logo {
+  background-image: url('../../assets/sponsors/Libraries_Icon.png');
+  width: 400px;
+  border: 2px solid #cd7f32;
+}
+
+.slide:nth-child(6) .slide-logo {
+  background-image: url('../../assets/sponsors/Schiffer_Icon.svg');
+  width: 200px;
+  border: 2px solid #cd7f32;
+}
+
+.slide:nth-child(7) .slide-logo {
+  background-image: url('../../assets/sponsors/StickerMule_Icon.svg');
+  width: 200px;
+  border: 2px solid #cd7f32;
 }
 
 @media screen and (max-width: 500px) {
-    .sponsors-sub {
-        font-size: 20px;
-    }
-    .golden-logo{
-        width: 100%;
-    }
+  .sponsors-sub {
+      font-size: 20px;
+  }
+  .golden-logo{
+      width: 100%;
+  }
 }

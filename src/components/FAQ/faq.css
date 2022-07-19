@@ -1,8 +1,8 @@
 .faq-container {
-    background-image: url('../../assets/backgrounds/Blank_Bg.png');
-    background-repeat: repeat;
-    background-attachment: local;
+    /*background-image: url('../../assets/backgrounds/Faq_Bg.png');
     background-position: 0% 0%;
+    background-size: cover; */
+    background-color: #202020;
     padding: 0 5% 5%;
     color: #ffffff;
     text-align: center;
@@ -40,13 +40,17 @@
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%) border-box;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 10px;
 
     transition: all 0.2s ease; 
 }
 
 .faq.open .faq-question{
     margin-bottom: 10px;
-    border-bottom: solid #FE4CEC 1px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%) border-box;
+    border-bottom: 3px solid transparent;
 }
 
 .faq-answer {
@@ -61,7 +65,7 @@
 
 .faq-answer a {
     text-decoration: none;
-    color: #FE4CEC;
+    color: black;
 }
 
 .faq.open .faq-answer {
@@ -70,7 +74,7 @@
 }
 
 .faq-icon {
-    color: #FE4CEC;
+    color: black;
 }
 
 #more-q-button {

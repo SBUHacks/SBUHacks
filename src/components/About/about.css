@@ -1,25 +1,40 @@
 .about-container {
     background-image: url('../../assets/backgrounds/About_Bg.png');
+    position: relative;
 }
 
 .about-wrapper {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-left: -6%;
 }
 
 .text-wrapper {
-    width: 50%;
+    width: 60%;
+    z-index: 3;
 }
 
 .about-text {
     color: #ffffff;
     font-size: 20px;
     width: 100%;
-    margin: 90px 0;
-    padding: 20px;
+    margin: 90px 0 40px 0;
+    padding: 10% 50px;
     text-align: left;
-    background-color: #514e66;
-    box-shadow: 15px 15px #ffffff;
+    background: linear-gradient(135deg, rgba(149, 156, 177, 0.5) 0%, rgba(32,32,32,0.5) 80%);
+}
+
+.pink-planet {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../../assets/icons/Pink_Planet.png');
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 250px);
+  transform: translateX(45%);
 }
 
 .modal-wrapper {
@@ -91,7 +106,7 @@
     height: 100%;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 887px) {
     .about-wrapper {
       justify-content: center;
     }
