@@ -1,6 +1,8 @@
 .schedule-container {
     background-image: url('../../assets/backgrounds/Schedule_Bg.png');
     z-index: 1;
+    position: relative;
+    overflow: hidden;
 }
 
 #schedule-title {
@@ -89,6 +91,7 @@
   padding: 15px 30px;
   border-radius: 15px;
   width: 70%;
+  z-index: 3;
 }
 
 .active-event,
@@ -147,6 +150,45 @@
   justify-content: center;
 }
 
+.green-planet {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../../assets/icons/Green_Planet.png');
+  width: 100%;
+  height: 20vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateX(-40%);
+}
+
+.mint-star {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../../assets/icons/Schedule_Asset_1.png');
+  width: 100%;
+  height: 20vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateX(40%);
+}
+
+.blue-star {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../../assets/icons/Schedule_Asset_2.png');
+  width: 100%;
+  height: 12vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(45%);
+}
+
 @media screen and (max-width: 1086px) {
   .active-event, .expired-event, .coming-soon {
     font-size: 36px;
@@ -166,5 +208,14 @@
     }
     .tab-wrapper {
       width: 90%;
+    }
+    .green-planet {
+      height: 40vh;
+    }
+    .mint-star {
+      height: 40vh
+    }
+    .blue-star {
+      height: 25vh;
     }
 }

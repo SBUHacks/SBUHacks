@@ -1,6 +1,7 @@
 .sponsors-container {
     background-image: url('../../assets/backgrounds/Sponsors_Bg.png');
     padding-bottom: 80px;
+    position: relative;
 }
 
 .sponsors-wrapper {

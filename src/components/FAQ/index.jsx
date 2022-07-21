@@ -85,7 +85,7 @@ function FAQ() {
       <div className="faq-stars" />
       <div className="faq-lines" />
       <div className="apricot-star" />
-      <h1 className="section-title general-style">FAQ</h1>
+      <span className="section-title general-style">FAQ</span>
       {/* The FAQs are split into 2 independent columns so that opening one on the left side
           does not also create additional space on the right side */}
       <div className="faq-wrapper general-style">

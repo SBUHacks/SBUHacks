@@ -25,8 +25,10 @@ function Schedule() {
 
   return (
     <div className="section-container schedule-container general-style" id="schedule">
-      <div />
-      <h1 className="section-title general-style" id="schedule-title">Schedule</h1>
+      <div className="green-planet" />
+      <div className="mint-star" />
+      <div className="blue-star" />
+      <span className="section-title general-style" id="schedule-title">Schedule</span>
       <div className="schedule-wrapper">
         <div className="coming-soon event-list">Coming Soon...</div>
         {/*

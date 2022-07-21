@@ -65,7 +65,7 @@ function Why() {
       <div className="blue-planet" />
       <div className="green-star" />
       <div className="purple-star" />
-      <h1 className="section-title general-style">Why SBUHacks?</h1>
+      <span className="section-title general-style">Why SBUHacks?</span>
       <div className="cards-container">
         {cards.map(card => (
           <WhyCard card={card} key={card.title} />

@@ -35,7 +35,7 @@ function About() {
 
   return (
     <div className="section-container about-container general-style" id="about">
-      <h1 className="section-title general-style">About Us</h1>
+      <span className="section-title general-style">About Us</span>
       <div className="about-wrapper">
         <div className="text-wrapper">
           <p className="about-text general-style">

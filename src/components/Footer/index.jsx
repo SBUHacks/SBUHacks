@@ -4,6 +4,9 @@ import './footer.css';
 function Footer() {
   return (
     <div className="contact-footer">
+      <div className="footer-lines-1" />
+      <div className="footer-lines-2" />
+      <div className="footer-stars" />
       <div className="footer-wrapper">
         <div className="social-wrapper">
           <a className="social-contact" href="https://www.reddit.com/user/SBUHacks/" rel="noreferrer" target="_blank">

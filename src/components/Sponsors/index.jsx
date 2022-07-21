@@ -6,7 +6,7 @@ import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
 function Sponsors() {
   return (
     <div className="section-container sponsors-container general-style" id="sponsors">
-      <h1 className="section-title general-style">Partners</h1>
+      <span className="section-title general-style">Partners</span>
       <div className="sponsors-wrapper">
         <div className="golden-sponsor">
           <img src={SchifferLogo} className="golden-logo" alt="schiffer-logo" />

@@ -24,21 +24,17 @@
     color: #ffffff;
     padding-top: 40px;
     font-family: 'Goldman', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Source Code Pro', monospace;
     z-index: 3;
 }
 
 .general-button {
     border: none;
     padding: 1.25vw 2vw;
-    border-radius: 50px;
+    border-radius: 100px;
     background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
     color: #ffffff;
     font-size: 1.5vw;
     font-family: 'Goldman', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Source Code Pro', monospace;
     cursor: pointer;
     margin-bottom: 25px;
 }

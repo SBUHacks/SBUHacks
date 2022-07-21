@@ -7,7 +7,7 @@ import './register.css';
 function Register() {
   return (
     <div className="section-container register-container general-style" id="register">
-      <h1 className="section-title general-style">Register</h1>
+      <span className="section-title general-style">Register</span>
       <p className="register-sub general-style">Sign up to participate, volunteer, or become a mentor</p>
       <p className="register-sub general-style">
         By registering, you are agreeing to the
