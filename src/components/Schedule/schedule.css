@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 .schedule-sub {
@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
+    width: 100%;
     padding: 15px;
     background-color: #211f32;
     margin: 0 25px;
@@ -79,7 +79,7 @@
   cursor: pointer;
 }
 
-.tab-button:hover {
+.button-active, .tab-button:hover {
   background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
   color: white;
 }
@@ -88,17 +88,18 @@
   background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
   padding: 15px 30px;
   border-radius: 15px;
-  width: 60%;
+  width: 70%;
 }
 
 .active-event,
 .expired-event {
-    font-size: 20px;
+    font-size: 1.25vw;
     text-align: start;
     white-space: pre-line;
     display: flex;
     color: black;
     padding: 5px 0;
+    min-height: 8vh;
 
     transition: all 0.4s ease-in-out;
 }
@@ -124,6 +125,7 @@
 
 .event-time {
   margin-right: 10px;
+  width: 10vw;
 }
 
 .event-name {
@@ -133,6 +135,25 @@
 .schedule-disclaimer {
     font-size: 20px;
     font-weight: 900;
+}
+
+.coming-soon {
+  background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
+  font-size: 4vw;
+  width: 50%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1086px) {
+  .active-event, .expired-event, .coming-soon {
+    font-size: 36px;
+  }
+  .event-time {
+    width: 130px;
+  }
 }
 
 @media screen and (max-width: 798px) {

@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   background-color: #0c2d49;
-  height: 250px
+  height: 250px;
+  position: relative;
 }
 
 .footer-wrapper {
@@ -24,7 +25,7 @@
 
 .social-contact {
   color: white;
-  font-size: 24px;
+  font-size: 1.25vw;
   margin: 0 10px;
 }
 
@@ -32,6 +33,21 @@
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 20px;
+  font-size: 1vw;
   padding: 0 30px;
+}
+
+@media screen and (max-width: 1600px) {
+  .social-contact {
+    font-size: 24px;
+  }
+  .email-contact {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 563px) {
+  .social-wrapper {
+    border: none;
+  }
 }

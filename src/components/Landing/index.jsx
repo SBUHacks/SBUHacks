@@ -1,13 +1,12 @@
 import React from 'react';
-import Waves from '../../assets/icons/Waves.png';
 import Logo from '../../assets/icons/Astronaut_Icon.png';
 import './landing.css';
 
 function Landing() {
   return (
     <div className="section-container landing-container general-style" id="landing">
-      <img className="ombre-stripes-1" alt="ombre-waves" src={Waves} />
-      <img className="ombre-stripes-2" alt="ombre-waves" src={Waves} />
+      <div className="ombre-stripes-1" />
+      <div className="ombre-stripes-2" />
       {/*
       <Link className="register-button" to="register" smooth duration={300}
       spy exact="true" offset={-50}>

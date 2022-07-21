@@ -45,11 +45,14 @@ function About() {
             find new interests. In a universe of infinite possibilities, you have 24 hours to
             innovate and show us what you got!
           </p>
+          <div className="about-twin-stars" />
           <button className="general-button general-style" type="button" onClick={openModal}>Watch Video</button>
         </div>
       </div>
       <AboutModal showModal={showModal} setShowModal={setShowModal} />
       <div className="pink-planet" />
+      <div className="about-stars" />
+      <div />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import Accordion from './Accordion';
 import './faq.css';
 
@@ -83,6 +82,9 @@ const faqs = [
 function FAQ() {
   return (
     <div className="faq-container general-style" id="faq">
+      <div className="faq-stars" />
+      <div className="faq-lines" />
+      <div className="apricot-star" />
       <h1 className="section-title general-style">FAQ</h1>
       {/* The FAQs are split into 2 independent columns so that opening one on the left side
           does not also create additional space on the right side */}
@@ -104,12 +106,6 @@ function FAQ() {
           ))}
         </div>
       </div>
-      <Link to="contact" smooth duration={300} spy exact="true" offset={-50}>
-        <button id="more-q-button" className="general-button general-style" type="button">
-          <p>More Questions?</p>
-          <p>Contact Us</p>
-        </button>
-      </Link>
     </div>
   );
 }

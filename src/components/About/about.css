@@ -1,6 +1,7 @@
 .about-container {
     background-image: url('../../assets/backgrounds/About_Bg.png');
     position: relative;
+    overflow: hidden;
 }
 
 .about-wrapper {
@@ -12,11 +13,12 @@
 .text-wrapper {
     width: 60%;
     z-index: 3;
+    position: relative;
 }
 
 .about-text {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.5vw;
     width: 100%;
     margin: 90px 0 40px 0;
     padding: 10% 50px;
@@ -29,12 +31,38 @@
   background-size: contain;
   background-position: center;
   background-image: url('../../assets/icons/Pink_Planet.png');
-  height: 500px;
+  height: 40vw;
   width: 100%;
   position: absolute;
   right: 0;
-  top: calc(50% - 250px);
+  top: calc(50% - 20vw);
   transform: translateX(45%);
+}
+
+.about-stars {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../../assets/icons/About_Asset_1.png');
+  width: 100%;
+  height: 20vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateX(20%);
+}
+
+.about-twin-stars {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../../assets/icons/Twin_Stars.png');
+  width: 100%;
+  height: 20vh;
+  position: absolute;
+  left: 0;
+  bottom: 5vh;
+  transform: translateX(-30%);
 }
 
 .modal-wrapper {
@@ -117,6 +145,23 @@
 
     .about-text {
       margin-top: 30px;
+      font-size: 20px;
+    }
+
+    .pink-planet {
+      height: 500px;
+      width: 100%;
+      top: calc(50% - 250px);
+    }
+
+    .about-stars {
+      height: 250px;
+      width: 100%;
+    }
+
+    .about-twin-stars {
+      height: 120px;
+      width: 100%;
     }
 
     .about-modal {
@@ -145,6 +190,10 @@
         padding-bottom: 2%;
         font-size: 16px;
     }
+
+    .about-twin-stars {
+      display: none;
+    }
 }
 
 @media screen and (max-width: 325px) {
@@ -155,5 +204,15 @@
     .modal-close {
         font-size: 14px;
         padding-right: 1%;
+    }
+
+    .pink-planet {
+      height: 100vh;
+      width: 150vw;
+    }
+
+    .about-stars {
+      height: 50vh;
+      width: 75vw
     }
 }

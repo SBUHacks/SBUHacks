@@ -1,6 +1,8 @@
 .register-container {
     background-image: url('../../assets/backgrounds/Register_Bg.png');
+    background-position: 50%;
     position: relative;
+    overflow: hidden;
 }
 
 .register-sub {
@@ -17,11 +19,13 @@
 
 .register-wrapper {
     width: 100%;
+    min-height: calc(100vh - 300px);
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     margin-top: 60px;
+    padding-bottom: 10vh;
 }
 
 .register-card {
@@ -55,8 +59,13 @@
 }
 
 #hack-button, #volunteer-button, #mentor-button {
-    pointer-events: none;
-    text-decoration: line-through;
+    width: 50%;
+    border-radius: 90px;
+    margin-top: 10px;
+}
+
+#hack-button {
+  filter: brightness(30%)
 }
 
 @media screen and (max-width: 976px) {
@@ -64,19 +73,11 @@
         transform: none;
     }
     .register-card {
-        width: 35%;
+        width: 100%;
         padding-top: 0;
     }
-    .register-smoke {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 567px) {
-    .register-card {
-        width: 100%;
-    }
-    .register-img {
-        display: none;
-    }
+    #hack-button, #volunteer-button, #mentor-button {
+      max-width: 250px;
+      border-radius: 90px;
+  }
 }

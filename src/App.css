@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .section-container {
@@ -22,7 +23,10 @@
     font-size: 4vw;
     color: #ffffff;
     padding-top: 40px;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Goldman', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    z-index: 3;
 }
 
 .general-button {
@@ -32,13 +36,15 @@
     background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
     color: #ffffff;
     font-size: 1.5vw;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Goldman', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     cursor: pointer;
     margin-bottom: 25px;
 }
 
 .general-button:hover {
-    box-shadow: 0 0 20px 20px;
+    box-shadow: 0 0 5px 5px;
 }
 
 @media screen and (max-width: 1440px) {

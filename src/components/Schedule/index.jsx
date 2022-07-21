@@ -1,56 +1,58 @@
-import React, { useEffect, useState } from 'react';
-import EventList from './EventList';
-import { FIRST_EVENTS, SECOND_EVENTS, THIRD_EVENTS } from './Data';
+import React from 'react';
+// import EventList from './EventList';
+// import { FIRST_EVENTS, SECOND_EVENTS, THIRD_EVENTS } from './Data';
 import './schedule.css';
 
 // The Schedule page
 function Schedule() {
-  const [currDay, setCurrDay] = useState(0);
-  const [currEvents, setCurrEvents] = useState(FIRST_EVENTS);
-  const [smallScreen, setSmallScreen] = useState(false);
+  // const [currDay, setCurrDay] = useState(0);
+  // const [currEvents, setCurrEvents] = useState(FIRST_EVENTS);
+  // const [smallScreen, setSmallScreen] = useState(false);
 
-  useEffect(() => {
-    setCurrDay(0);
-    if (currDay === 0) {
-      setCurrEvents(FIRST_EVENTS);
-    } else if (currDay === 1) {
-      setCurrEvents(SECOND_EVENTS);
-    } else {
-      setCurrEvents(THIRD_EVENTS);
-    }
-  }, [currDay]);
+  // useEffect(() => {
+  //   if (currDay === 0) {
+  //     setCurrEvents(FIRST_EVENTS);
+  //   } else if (currDay === 1) {
+  //     setCurrEvents(SECOND_EVENTS);
+  //   } else {
+  //     setCurrEvents(THIRD_EVENTS);
+  //   }
+  // }, [currDay]);
 
-  window.addEventListener('reload', () => setSmallScreen(window.innerWidth < 500));
-  window.addEventListener('scroll', () => setSmallScreen(window.innerWidth < 500));
-  window.addEventListener('resize', () => setSmallScreen(window.innerWidth < 500));
+  // window.addEventListener('reload', () => setSmallScreen(window.innerWidth < 600));
+  // window.addEventListener('scroll', () => setSmallScreen(window.innerWidth < 600));
+  // window.addEventListener('resize', () => setSmallScreen(window.innerWidth < 600));
 
   return (
     <div className="section-container schedule-container general-style" id="schedule">
+      <div />
       <h1 className="section-title general-style" id="schedule-title">Schedule</h1>
       <div className="schedule-wrapper">
+        <div className="coming-soon event-list">Coming Soon...</div>
+        {/*
         <div className="tab-wrapper">
           <button
-            className="tab-button"
+            className={`tab-button${(currDay === 0) ? ' button-active' : ''}`}
             onClick={() => {
-              setCurrEvents(FIRST_EVENTS);
+              setCurrDay(0);
             }}
             type="button"
           >
             {smallScreen ? ('Fri.') : ('Friday')}
           </button>
           <button
-            className="tab-button"
+            className={`tab-button${(currDay === 1) ? ' button-active' : ''}`}
             onClick={() => {
-              setCurrEvents(SECOND_EVENTS);
+              setCurrDay(1);
             }}
             type="button"
           >
             {smallScreen ? ('Sat.') : ('Saturday')}
           </button>
           <button
-            className="tab-button"
+            className={`tab-button${(currDay === 2) ? ' button-active' : ''}`}
             onClick={() => {
-              setCurrEvents(THIRD_EVENTS);
+              setCurrDay(2);
             }}
             type="button"
           >
@@ -58,6 +60,7 @@ function Schedule() {
           </button>
         </div>
         <EventList events={currEvents} />
+        */}
       </div>
     </div>
   );
