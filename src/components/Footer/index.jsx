@@ -9,9 +9,6 @@ function Footer() {
       <div className="footer-stars" />
       <div className="footer-wrapper">
         <div className="social-wrapper">
-          <a className="social-contact" href="https://www.reddit.com/user/SBUHacks/" rel="noreferrer" target="_blank">
-            <i className="fab fa-reddit-alien social-icon" />
-          </a>
           <a className="social-contact" href="https://twitter.com/sbuhacks" rel="noreferrer" target="_blank">
             <i className="fab fa-twitter social-icon" />
           </a>
