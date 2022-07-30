@@ -194,6 +194,7 @@
     font-size: 20px;
     color: #ffffff;
     cursor: pointer;
+    z-index: 2;
 }
 
 @media screen and (max-width: 2000px) {
@@ -260,6 +261,7 @@
   }
   .ombre-stripes-2 {
     top: 35vw;
+    transform: translateX(-10vw);
   }
 }
 
@@ -288,7 +290,7 @@
   }
 }
   
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .slogan-wrapper {
         width: 600px;
     }
@@ -321,6 +323,7 @@
     }
     .ombre-stripes-2 {
       top: 60vh;
+      transform: translate(0, 10vw);
     }
 }
   

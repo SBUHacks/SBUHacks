@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event will be virtual.',
+    answer1: 'The event will be in person.',
     link: null,
     answer2: '',
   },
