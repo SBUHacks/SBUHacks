@@ -191,6 +191,10 @@
       color: white;
       background-color: transparent;
     }
+
+    .blue-planet {
+      display: none;
+    }
 }
 
 @media screen and (max-width: 500px) {
