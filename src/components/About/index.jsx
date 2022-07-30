@@ -35,7 +35,7 @@ function About() {
 
   return (
     <div className="section-container about-container general-style" id="about">
-      <h1 className="section-title general-style">About Us</h1>
+      <span className="section-title general-style">About Us</span>
       <div className="about-wrapper">
         <div className="text-wrapper">
           <p className="about-text general-style">
@@ -45,10 +45,14 @@ function About() {
             find new interests. In a universe of infinite possibilities, you have 24 hours to
             innovate and show us what you got!
           </p>
+          <div className="about-twin-stars" />
           <button className="general-button general-style" type="button" onClick={openModal}>Watch Video</button>
         </div>
       </div>
       <AboutModal showModal={showModal} setShowModal={setShowModal} />
+      <div className="pink-planet" />
+      <div className="about-stars" />
+      <div />
     </div>
   );
 }

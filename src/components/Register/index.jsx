@@ -1,8 +1,4 @@
 import React from 'react';
-import HackIcon from '../../assets/icons/Hack_Icon.png';
-import VolunteerIcon from '../../assets/icons/Volunteer_Icon.png';
-import MentorIcon from '../../assets/icons/Mentor_Icon.png';
-import SmokeIcon from '../../assets/icons/Smoke_Icon.png';
 import './register.css';
 
 // The Register page
@@ -11,7 +7,7 @@ import './register.css';
 function Register() {
   return (
     <div className="section-container register-container general-style" id="register">
-      <h1 className="section-title general-style">Register</h1>
+      <span className="section-title general-style">Register</span>
       <p className="register-sub general-style">Sign up to participate, volunteer, or become a mentor</p>
       <p className="register-sub general-style">
         By registering, you are agreeing to the
@@ -19,17 +15,13 @@ function Register() {
       </p>
       <div className="register-wrapper">
         <div className="register-card">
-          <img src={MentorIcon} className="register-img" alt="mentor-register-icon" />
-          <a href="https://forms.gle/5mX9rQ6VyLRr5xrVA" id="mentor-button" className="form-link general-button" rel="noreferrer" target="_blank">Mentor</a>
+          <a href="https://docs.google.com/forms/d/1tSk4DInO5ZpsfGbCs6eABHJj8-Y3lVSsYFZbZj6eXRc/viewform" id="mentor-button" className="form-link general-button" rel="noreferrer" target="_blank">Mentor</a>
         </div>
         <div className="register-card">
-          <img src={VolunteerIcon} className="register-img" alt="volunteer-register-icon" />
-          <img src={SmokeIcon} className="register-smoke" alt="rocket-smoke" />
-          <a href="https://forms.gle/mRikt1kchHeVUZPA9" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank">Volunteer</a>
+          <a href="https://docs.google.com/forms/d/1eaDBWu0XZeQDYwZ-psX0TDBHst2Yfx8pD8A62nGnBpY/viewform" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank">Volunteer</a>
         </div>
         <div className="register-card">
-          <img src={HackIcon} className="register-img" alt="hack-register-icon" />
-          <a href="https://form.typeform.com/to/lVVb3k9h" id="hack-button" className="form-link general-button" rel="noreferrer" target="_blank">Hack</a>
+          <div id="hack-button" className="form-link general-button">Hack</div>
         </div>
       </div>
     </div>
