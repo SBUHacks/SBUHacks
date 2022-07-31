@@ -67,7 +67,7 @@
 
 .faq-answer a {
     text-decoration: none;
-    color: black;
+    color: rgba(67,187,170,255);
 }
 
 .faq.open .faq-answer {

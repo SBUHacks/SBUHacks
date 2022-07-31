@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event will be in person.',
+    answer1: 'The event will be in the Centrel Reading Room at Melville Library.',
     link: null,
     answer2: '',
   },
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     question: 'How will swag work?',
-    answer1: 'Swag and prizes will be given only to those that submit a project during the hackathon. Those that live near or on campus are encouraged to pick up swag after the event. Otherwise, we will ship to your address indicated on the registration form. Domestic shipping only.',
+    answer1: 'Swag will be distributed either at check-in or during the event. You must submit a project to be judged to receive the larger prizes at the end of the event at the award ceremonies. We will not be shipping out prizes this year as we are holding the event in-person.',
     link: null,
     answer2: '',
   },
