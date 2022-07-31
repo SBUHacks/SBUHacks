@@ -28,6 +28,7 @@
   color: white;
   font-size: 1.25vw;
   margin: 0 10px;
+  z-index: 2;
 }
 
 .email-contact {
