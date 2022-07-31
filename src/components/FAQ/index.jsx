@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event will be in person.',
+    answer1: 'The event will be in the Central Reading Room at Melville Library.',
     link: null,
     answer2: '',
   },
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: 'What is DevPost?',
-    answer1: 'After the 24 hours, you’ll be submitting your project to DevPost for judging! New to Devpost? ',
+    answer1: 'Before judging begins, you’ll be submitting your project to Devpost! New to Devpost? ',
     link: <a href="https://www.youtube.com/watch?v=vCa7QFFthfU" target="_blank" rel="noreferrer">Here&apos;s</a>,
     answer2: ' a quick introduction!',
   },
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     question: 'How will swag work?',
-    answer1: 'Swag and prizes will be given only to those that submit a project during the hackathon. Those that live near or on campus are encouraged to pick up swag after the event. Otherwise, we will ship to your address indicated on the registration form. Domestic shipping only.',
+    answer1: 'Swag will be distributed either at check-in or during the event. You must submit a project to be judged to receive the larger prizes at the end of the event at the award ceremonies. We will not be shipping out prizes this year as we are holding the event in-person.',
     link: null,
     answer2: '',
   },
