@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event will be in the Centrel Reading Room at Melville Library.',
+    answer1: 'The event will be in the Central Reading Room at Melville Library.',
     link: null,
     answer2: '',
   },
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: 'What is DevPost?',
-    answer1: 'After the 24 hours, you’ll be submitting your project to DevPost for judging! New to Devpost? ',
+    answer1: 'Before judging begins, you’ll be submitting your project to Devpost! New to Devpost? ',
     link: <a href="https://www.youtube.com/watch?v=vCa7QFFthfU" target="_blank" rel="noreferrer">Here&apos;s</a>,
     answer2: ' a quick introduction!',
   },
