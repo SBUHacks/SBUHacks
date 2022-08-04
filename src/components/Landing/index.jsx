@@ -12,6 +12,10 @@ function Landing() {
       <div className="slogan-wrapper general-style">
         <h1 id="sbuhacks-title" className="general-style">SBUHacks</h1>
         <h1 id="sbuhacks-year" className="sbuhacks-title">2022</h1>
+        <div className="landing-sub">
+          <p id="sbuhacks-date">September 23-25</p>
+          <p id="sbuhacks-slogan">Melville Library</p>
+        </div>
       </div>
       <Link
         className="register-button"
@@ -24,12 +28,6 @@ function Landing() {
       >
         <button className="general-button general-style" type="button">Register</button>
       </Link>
-      {/*
-      <div className="landing-sub">
-        <p id="sbuhacks-date">September 24-25</p>
-        <p id="sbuhacks-slogan">Endless Space for Innovation</p>
-      </div>
-      */}
     </div>
   );
 }

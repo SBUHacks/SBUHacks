@@ -52,11 +52,9 @@
     margin: 0;
 }
 
-.landing-sub {
-  position: absolute;
-  font-size: 1.5vw;
+.landing-sub p {
+  font-size: 3vw;
   color: #ffffff;
-  top: 77.5vh;
 }
 
 .planet {
@@ -275,12 +273,12 @@
     #sbuhacks-year {
         font-size: 3.5rem;
     }
-    .landing-sub {
-        font-size: 3vw;
-    }
 }
 
 @media screen and (max-width: 798px) {
+  .landing-sub p {
+    font-size: 4vw;
+  }
   .ombre-stripes-1 {
     transform: translate(400px, -100px);
   }
@@ -302,14 +300,11 @@
         font-size: 2rem;
         text-shadow: none;
     }
-    #sbuhacks-date,
-    #sbuhacks-slogan,
     #landing-sponsor {
         font-size: 4vw;
     }
-    .landing-sub {
-        font-size: 4vw;
-        bottom: 20%;
+    .landing-sub p {
+      font-size: 1.75rem;
     }
     .register-button {
         bottom: 2%;
@@ -331,8 +326,6 @@
     .slogan-wrapper {
         padding: 0 0 70px 10px;
     }
-    #sbuhacks-date,
-    #sbuhacks-slogan,
     #landing-sponsor {
         font-size: 5vw;
     }
