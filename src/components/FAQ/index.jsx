@@ -76,6 +76,12 @@ const faqs = [
     link: null,
     answer2: '',
   },
+  {
+    question: 'Do I need to be vaccinated for COVID to attend?',
+    answer1: 'You will need to be vaccinated to attend the event. When checking in for the event, a physical card or digital scan of your vaccination status will be checked at check-in before you gain entry into the venue.',
+    link: null,
+    answer2: '',
+  },
 ];
 
 // The FAQ page
@@ -90,7 +96,7 @@ function FAQ() {
           does not also create additional space on the right side */}
       <div className="faq-wrapper general-style">
         <div className="faq-column general-style">
-          {faqs.slice(0, faqs.length / 2).map(faq => (
+          {faqs.slice(0, Math.ceil(faqs.length / 2)).map(faq => (
             <Accordion
               faq={faq}
               key={faq.question}
@@ -98,7 +104,7 @@ function FAQ() {
           ))}
         </div>
         <div className="faq-column general-style">
-          {faqs.slice(faqs.length / 2).map(faq => (
+          {faqs.slice(Math.ceil(faqs.length / 2)).map(faq => (
             <Accordion
               faq={faq}
               key={faq.question}
