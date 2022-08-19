@@ -21,6 +21,25 @@
     max-height: 50vh;
 }
 
+.sponsors-partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.partner-logo {
+  width: 40%;
+  margin-top: 20px;
+  height: 40%;
+}
+
+.partner-logo-stacked {
+  width: 30%;
+  margin-top: 20px;
+  height: 30%;
+}
+
 .carousel-container {
   width: 100%;
   display: flex;

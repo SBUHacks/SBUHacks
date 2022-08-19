@@ -9,9 +9,10 @@ function Sponsors() {
     <div className="section-container sponsors-container general-style" id="sponsors">
       <span className="section-title general-style">Partners</span>
       <div className="sponsors-wrapper">
-        <div className="golden-sponsor">
-          <img src={SchifferLogo} className="golden-logo" alt="schiffer-logo" />
-          <img src={LibraryLogo} className="golden-logo" alt="library-logo" />
+        <div className="sponsors-partners">
+          <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
+          <img src={LibraryLogo} className="partner-logo" alt="library-logo" />
+          <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" className="partner-logo-stacked" alt="mlh-logo" />
         </div>
       </div>
     </div>

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import './sponsors.css';
 
-const Carousel = props => {
-  const { children, show, infiniteLoop } = props;
-
+const Carousel = ({ children, show, infiniteLoop }) => {
   const [currentIndex, setCurrentIndex] = useState(infiniteLoop ? show : 0);
   const [length, setLength] = useState(children.length);
 
@@ -137,6 +136,13 @@ const Carousel = props => {
       </div>
     </div>
   );
+};
+
+// SponsorCarousel prop definiton
+Carousel.propTypes = {
+  children: PropTypes.node.isRequired,
+  show: PropTypes.number.isRequired,
+  infiniteLoop: PropTypes.bool.isRequired,
 };
 
 export default Carousel;
