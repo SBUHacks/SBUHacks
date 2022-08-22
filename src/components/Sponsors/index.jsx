@@ -13,8 +13,12 @@ function Sponsors() {
         <div className="sponsors-partners">
           <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
           <img src={LibraryLogo} className="partner-logo" alt="library-logo" />
-          <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" className="partner-logo-stacked" alt="mlh-logo" />
-          <img src={StandoutLogo} className="partner-logo-stacked" alt="library-logo" />
+          <a className="partner-logo-stacked" href="https://mlh.io/">
+            <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" alt="mlh-logo" />
+          </a>
+          <a className="partner-logo-stacked" href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intros">
+            <img src={StandoutLogo} alt="library-logo" />
+          </a>
         </div>
       </div>
     </div>
