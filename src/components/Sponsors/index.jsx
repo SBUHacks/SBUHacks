@@ -2,7 +2,7 @@ import React from 'react';
 import './sponsors.css';
 import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
 import LibraryLogo from '../../assets/sponsors/Libraries_Icon.png';
-import StandoutLogo from '../../assets/sponsors/Standout_Icon.png';
+import StandoutLogo from '../../assets/sponsors/Standout_Icon.svg';
 
 // The Sponsors page
 function Sponsors() {
