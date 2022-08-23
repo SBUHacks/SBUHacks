@@ -16,8 +16,8 @@ function Sponsors() {
           <a className="partner-logo-stacked" href="https://mlh.io/">
             <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" alt="mlh-logo" />
           </a>
-          <a className="partner-logo-stacked" href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intros">
-            <img src={StandoutLogo} alt="library-logo" />
+          <a href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intros">
+            <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
           </a>
         </div>
       </div>

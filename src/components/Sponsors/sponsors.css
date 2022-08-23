@@ -40,6 +40,12 @@
   height: 30%;
 }
 
+#standout-logo {
+  width: 40%;
+  margin-top: 20px;
+  height: 40%;
+}
+
 .carousel-container {
   width: 100%;
   display: flex;
