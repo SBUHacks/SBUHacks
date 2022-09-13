@@ -1,16 +1,35 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import './navbar.css';
 
 // The fixed Navbar which is hidden until user scrolls down enough or makes window small enough
 function Navbar() {
   const [click, setClick] = useState(false);
+  const [showWarning, setShowWarning] = useState(true);
+
+  const agent = window.navigator.userAgent.toLowerCase();
+  useEffect(() => {
+    if (agent.match(/chrome|chromium|crios/i)) {
+      setShowWarning(false);
+    } else {
+      setShowWarning(true);
+    }
+  }, [agent]);
+
+  setTimeout(() => {
+    setShowWarning(false);
+  }, 10000);
 
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
 
   return (
     <>
+      {showWarning && (
+        <div className="browser-warning">
+          We recommend using Chrome for the best viewing experience
+        </div>
+      )}
       <nav className="navbar nav-active">
         <div className="navbar-container general-style">
           <Link to="landing" smooth duration={300} spy exact="true" offset={0} className="navbar-logo" onClick={closeMenu}>
