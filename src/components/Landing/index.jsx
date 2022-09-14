@@ -14,7 +14,8 @@ function Landing() {
         <h1 id="sbuhacks-year" className="sbuhacks-title">2022</h1>
         <div className="landing-sub">
           <p id="sbuhacks-date">September 23-25</p>
-          <p id="sbuhacks-slogan">Melville Library</p>
+          <p className="sbuhacks-slogan">Melville Library</p>
+          <p className="sbuhacks-slogan">Stony Brook, New York</p>
         </div>
       </div>
       <Link
