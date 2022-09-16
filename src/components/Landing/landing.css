@@ -1,13 +1,13 @@
 .landing-container {
-    background-image: url('../../assets/backgrounds/Splash_Bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-image: url('../../assets/backgrounds/Splash_Bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .astronaut-logo {
@@ -17,39 +17,39 @@
 }
 
 .slogan-wrapper {
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-weight: bold;
-    z-index: 2;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  z-index: 2;
 }
-  
+
 #sbuhacks-title {
-    font-size: 9rem;
-    text-shadow: 10px 10px #02111b;
-    color: #ffffff;
-    margin: 0;
-    font-family: 'Goldman', cursive;
+  font-size: 9rem;
+  text-shadow: 10px 10px #02111b;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Goldman', cursive;
 }
 
 #sbuhacks-year {
-    font-size: 6rem;
-    text-shadow: 8px 8px #02111b;
-    color: #ffffff;
-    margin: 0;
-    font-family: 'Goldman', cursive;
+  font-size: 6rem;
+  text-shadow: 8px 8px #02111b;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Goldman', cursive;
 }
 
 #landing-sponsor {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #sbuhacks-date,
 .sbuhacks-slogan,
 #landing-sponsor {
-    margin: 0;
+  margin: 0;
 }
 
 .landing-sub p {
@@ -57,102 +57,106 @@
   color: #ffffff;
 }
 
-.planet {
-    position: absolute;
-    display: flex;
-    color: #ffffff;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.8s ease-in-out;
-    cursor: pointer;
-    z-index: 2;
-
-    background-size: contain;
-    background-repeat: no-repeat;
+.landing-sub a {
+  color: #ffffff;
 }
-  
+
+.planet {
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+  z-index: 2;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .planet .link {
   width: 100%;
 }
 
 .planet:nth-child(1) {
-    background-image: url('../../assets/icons/About_Icon.png');
-    width: 9vw;
-    height: 9vw;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    top: 0;
-    left: 0;
+  background-image: url('../../assets/icons/About_Icon.png');
+  width: 9vw;
+  height: 9vw;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  top: 0;
+  left: 0;
 }
-  
+
 .planet:nth-child(2) {
-    background-image: url('../../assets/icons/FAQ_Icon.png');
-    width: 5.5vw;
-    height: 5.5vw;
-    top: 25%;
-    left: 1%;
+  background-image: url('../../assets/icons/FAQ_Icon.png');
+  width: 5.5vw;
+  height: 5.5vw;
+  top: 25%;
+  left: 1%;
 }
-  
+
 .planet:nth-child(3) {
-    background-image: url('../../assets/icons/Schedule_Icon.png');
-    width: 10vw;
-    height: 10vw;
-    top: 34%;
-    left: 8%;
+  background-image: url('../../assets/icons/Schedule_Icon.png');
+  width: 10vw;
+  height: 10vw;
+  top: 34%;
+  left: 8%;
 }
-  
+
 .planet:nth-child(4) {
-    background-image: url('../../assets/icons/Sponsors_Icon.png');
-    width: 9vw;
-    height: 9vw;
-    top: 55%;
-    left: 0%;
+  background-image: url('../../assets/icons/Sponsors_Icon.png');
+  width: 9vw;
+  height: 9vw;
+  top: 55%;
+  left: 0%;
 }
-  
+
 .planet:nth-child(5) {
-    background-image: url('../../assets/icons/Contact_Icon.png');
-    width: 11vw;
-    height: 11vw;
-    top: 80%;
-    left: 5%;
+  background-image: url('../../assets/icons/Contact_Icon.png');
+  width: 11vw;
+  height: 11vw;
+  top: 80%;
+  left: 5%;
 }
-  
+
 .planet:nth-child(6) {
-    background-image: url('../../assets/icons/Asteroid_Icon.png');
-    width: 5.5vw;
-    height: 5.5vw;
-    top: 48%;
-    left: 10%;
-    transform: rotate(160deg);
+  background-image: url('../../assets/icons/Asteroid_Icon.png');
+  width: 5.5vw;
+  height: 5.5vw;
+  top: 48%;
+  left: 10%;
+  transform: rotate(160deg);
 }
 
 .planet:nth-child(7) {
-    background-image: url('../../assets/icons/Asteroid_Icon.png');
-    width: 3vw;
-    height: 3vw;
-    top: 78%;
-    left: 9%;
-    transform: rotate(30deg);
+  background-image: url('../../assets/icons/Asteroid_Icon.png');
+  width: 3vw;
+  height: 3vw;
+  top: 78%;
+  left: 9%;
+  transform: rotate(30deg);
 }
 
 .planet:nth-child(8) {
-    background-image: url('../../assets/icons/Asteroid2_Icon.png');
-    width: 4.5vw;
-    height: 4.5vw;
-    top: 95%;
-    left: 2.5%;
+  background-image: url('../../assets/icons/Asteroid2_Icon.png');
+  width: 4.5vw;
+  height: 4.5vw;
+  top: 95%;
+  left: 2.5%;
 }
 
 .planet-title {
-    background-color: transparent;
-    color: #ffffff;
-    border: none;
-    font-size: 1.5vw;
-    cursor: pointer;
-    font-family: 'Goldman', cursive;
-    text-shadow: 3.5px 3.5px #02111b;
-    width: 100%;
-    height: 100%;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-size: 1.5vw;
+  cursor: pointer;
+  font-family: 'Goldman', cursive;
+  text-shadow: 3.5px 3.5px #02111b;
+  width: 100%;
+  height: 100%;
 }
 
 .ombre-stripes-1 {
@@ -181,18 +185,18 @@
   top: 40vw;
   left: -15vw;
 }
-  
+
 .register-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 120px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #ffffff;
-    cursor: pointer;
-    z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 2;
 }
 
 @media screen and (max-width: 2000px) {
@@ -202,61 +206,78 @@
 }
 
 @media screen and (max-width: 1600px) {
-    .slogan-wrapper {
-        width: 850px;
-    }
-    #sbuhacks-title {
-        font-size: 6rem;
-    }
-    #sbuhacks-year {
-        font-size: 4.5rem;
-    }
-    #landing-sponsor {
-        font-size: 2rem;
-    }
-    .ombre-stripes-1, .ombre-stripes-2 {
-      width: 40vw;
-      height: 48vw;
-    }
-    .ombre-stripes-2 {
-      top: 50vh
-    }
-    .landing-sub {
-        font-size: 1.5vw;
-    }
-    .planet:nth-child(1) {
-        width: 120px;
-        height: 120px;
-    }
-    .planet:nth-child(2) {
-        width: 90px;
-        height: 90px;
-    }
-    .planet:nth-child(3) {
-        width: 140px;
-        height: 140px;
-    }
-    .planet:nth-child(4) {
-        width: 140px;
-        height: 140px;
-    }
-    .planet:nth-child(5) {
-        width: 170px;
-        height: 170px;
-    }
-    .planet-title {
-        font-size: 24px;
-    }
+  .slogan-wrapper {
+    width: 850px;
+  }
+
+  #sbuhacks-title {
+    font-size: 6rem;
+  }
+
+  #sbuhacks-year {
+    font-size: 4.5rem;
+  }
+
+  #landing-sponsor {
+    font-size: 2rem;
+  }
+
+  .ombre-stripes-1,
+  .ombre-stripes-2 {
+    width: 40vw;
+    height: 48vw;
+  }
+
+  .ombre-stripes-2 {
+    top: 50vh
+  }
+
+  .landing-sub {
+    font-size: 1.5vw;
+  }
+
+  .planet:nth-child(1) {
+    width: 120px;
+    height: 120px;
+  }
+
+  .planet:nth-child(2) {
+    width: 90px;
+    height: 90px;
+  }
+
+  .planet:nth-child(3) {
+    width: 140px;
+    height: 140px;
+  }
+
+  .planet:nth-child(4) {
+    width: 140px;
+    height: 140px;
+  }
+
+  .planet:nth-child(5) {
+    width: 170px;
+    height: 170px;
+  }
+
+  .planet-title {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  .ombre-stripes-1, .ombre-stripes-2 {
+
+  .ombre-stripes-1,
+  .ombre-stripes-2 {
     width: 600px;
     height: 720px;
   }
+
   .ombre-stripes-1 {
     transform: translateX(360px);
   }
+
   .ombre-stripes-2 {
     top: 35vw;
     transform: translateX(-10vw);
@@ -264,72 +285,87 @@
 }
 
 @media screen and (max-width: 916px) {
-    .slogan-wrapper {
-        width: 800px;
-    }
-    #sbuhacks-title {
-        font-size: 4.5rem;
-    }
-    #sbuhacks-year {
-        font-size: 3.5rem;
-    }
+  .slogan-wrapper {
+    width: 800px;
+  }
+
+  #sbuhacks-title {
+    font-size: 4.5rem;
+  }
+
+  #sbuhacks-year {
+    font-size: 3.5rem;
+  }
 }
 
 @media screen and (max-width: 798px) {
   .landing-sub p {
     font-size: 4vw;
   }
+
   .ombre-stripes-1 {
     transform: translate(400px, -100px);
   }
+
   .ombre-stripes-2 {
     top: 70vh;
     left: -45vw;
   }
 }
-  
+
 @media screen and (max-width: 700px) {
-    .slogan-wrapper {
-        width: 600px;
-    }
-    #sbuhacks-title {
-        font-size: 3rem;
-        text-shadow: none;
-    }
-    #sbuhacks-year {
-        font-size: 2rem;
-        text-shadow: none;
-    }
-    #landing-sponsor {
-        font-size: 4vw;
-    }
-    .landing-sub p {
-      font-size: 1.75rem;
-    }
-    .register-button {
-        bottom: 2%;
-    }
-    .ombre-stripes-1, .ombre-stripes-2 {
-      width: 400px;
-      height: 480px;
-    }
-    .ombre-stripes-1 {
-      transform: translate(220px, -50px);
-    }
-    .ombre-stripes-2 {
-      top: 60vh;
-      transform: translate(0, 10vw);
-    }
+  .slogan-wrapper {
+    width: 600px;
+  }
+
+  #sbuhacks-title {
+    font-size: 3rem;
+    text-shadow: none;
+  }
+
+  #sbuhacks-year {
+    font-size: 2rem;
+    text-shadow: none;
+  }
+
+  #landing-sponsor {
+    font-size: 4vw;
+  }
+
+  .landing-sub p {
+    font-size: 1.75rem;
+  }
+
+  .register-button {
+    bottom: 2%;
+  }
+
+  .ombre-stripes-1,
+  .ombre-stripes-2 {
+    width: 400px;
+    height: 480px;
+  }
+
+  .ombre-stripes-1 {
+    transform: translate(220px, -50px);
+  }
+
+  .ombre-stripes-2 {
+    top: 60vh;
+    transform: translate(0, 10vw);
+  }
 }
-  
+
 @media screen and (max-width: 320px) {
-    .slogan-wrapper {
-        padding: 0 0 70px 10px;
-    }
-    #landing-sponsor {
-        font-size: 5vw;
-    }
-    .ombre-stripes-2 {
-      top: 50vh;
-    }
+  .slogan-wrapper {
+    padding: 0 0 70px 10px;
+  }
+
+  #landing-sponsor {
+    font-size: 5vw;
+  }
+
+  .ombre-stripes-2 {
+    top: 50vh;
+  }
 }
