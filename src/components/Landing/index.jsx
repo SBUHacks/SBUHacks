@@ -10,12 +10,13 @@ function Landing() {
       <div className="ombre-stripes-2" />
       <img className="astronaut-logo" alt="astronaut-logo" src={Logo} />
       <div className="slogan-wrapper general-style">
-        <h1 id="sbuhacks-title" className="general-style">SBUHacks</h1>
-        <h1 id="sbuhacks-year" className="sbuhacks-title">2022</h1>
+        <h1 id="sbuhacks-title" className="general-style">SBUHacks 2022</h1>
         <div className="landing-sub">
           <p id="sbuhacks-date">September 23-25</p>
-          <p className="sbuhacks-slogan">Frank Melville Jr. Memorial Library</p>
-          <p className="sbuhacks-slogan">Stony Brook, New York</p>
+          <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">
+            <p className="sbuhacks-slogan">Frank Melville Jr. Memorial Library</p>
+            <p className="sbuhacks-slogan">Stony Brook, New York</p>
+          </a>
         </div>
       </div>
       <Link

@@ -18,9 +18,9 @@ const faqs = [
   },
   {
     question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event will be in the Central Reading Room at Melville Library.',
-    link: null,
-    answer2: '',
+    answer1: 'The event will be in the Central Reading Room at ',
+    link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">Frank Melville Jr. Memorial Library&apos;s</a>,
+    answer2: '.',
   },
   {
     question: 'What if I have no experience or ideas?',
