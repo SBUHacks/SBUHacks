@@ -44,7 +44,7 @@ function Why() {
       icon: <i className="fas fa-calendar" />,
       title: 'Events',
       color: 'linear-gradient(-45deg, #3effd1, #43fd6c)',
-      text: 'Fun-packed festivities to make friends and destress',
+      text: 'Fun-packed festivities to make friends and distress',
     },
     {
       icon: <i className="fas fa-comments" />,
@@ -56,7 +56,7 @@ function Why() {
       icon: <i className="fas fa-trophy" />,
       title: 'Prizes',
       color: 'linear-gradient(-45deg, #d331fc, #8f3afc)',
-      text: 'Over $4000 in prizes ranging from airpods to Nintendo Switches',
+      text: 'Over $4000 in prizes ranging from AirPods to Corsair Keyboards!',
     },
   ];
 
