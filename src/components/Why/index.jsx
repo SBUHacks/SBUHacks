@@ -56,7 +56,7 @@ function Why() {
       icon: <i className="fas fa-trophy" />,
       title: 'Prizes',
       color: 'linear-gradient(-45deg, #d331fc, #8f3afc)',
-      text: 'Over $4000 in prizes ranging from airpods to Nintendo Switches',
+      text: 'Over $4000 in prizes ranging from airpods to corsair keyboards!',
     },
   ];
 
