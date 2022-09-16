@@ -17,12 +17,6 @@ const faqs = [
     answer2: '',
   },
   {
-    question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event will be in the Central Reading Room at ',
-    link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">Frank Melville Jr. Memorial Library&apos;s</a>,
-    answer2: '.',
-  },
-  {
     question: 'What if I have no experience or ideas?',
     answer1: 'SBUHacks is a place for people of all skill levels. Whether you are learning to code for the first time or been coding for years, we have events catered to your needs. Don\'t have an idea? You don\'t need one walking in. Either Inspiration will hit or maybe you can rally behind a team member\'s idea.',
     link: null,
@@ -45,6 +39,24 @@ const faqs = [
     answer1: 'We will have a number of talks by clubs, companies, as well as virtual games and competitions (with prizes)!',
     link: null,
     answer2: '',
+  },
+  {
+    question: 'Do I need to be vaccinated for COVID to attend?',
+    answer1: 'You will need to be vaccinated to attend the event. When checking in for the event, a physical card or digital scan of your vaccination status will be checked at check-in before you gain entry into the venue.',
+    link: null,
+    answer2: '',
+  },
+  {
+    question: 'Will SBUHacks be in person or virtual?',
+    answer1: 'The event is in person taking place in the Central Reading Room at ',
+    link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">Frank Melville Jr. Memorial Library</a>,
+    answer2: '.',
+  },
+  {
+    question: 'Where is SBUHacks? Where is the Library? Lost?',
+    answer1: 'SBUHacks will be taking place in the Central Reading Room at Frank Melville Jr. Memorial Library, Stony Brook, NY. The address of the Frank Melville Jr. Memorial Library is 100 Nicolls Rd, Stony Brook, NY 11794. You can also ',
+    link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">click here</a>,
+    answer2: ' for a google map with the full address of the library already done for you!',
   },
   {
     question: 'How much does it cost?',
@@ -73,12 +85,6 @@ const faqs = [
   {
     question: 'How will swag work?',
     answer1: 'Swag will be distributed either at check-in or during the event. You must submit a project to be judged to receive the larger prizes at the end of the event at the award ceremonies. We will not be shipping out prizes this year as we are holding the event in-person.',
-    link: null,
-    answer2: '',
-  },
-  {
-    question: 'Do I need to be vaccinated for COVID to attend?',
-    answer1: 'You will need to be vaccinated to attend the event. When checking in for the event, a physical card or digital scan of your vaccination status will be checked at check-in before you gain entry into the venue.',
     link: null,
     answer2: '',
   },
