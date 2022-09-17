@@ -3,141 +3,150 @@ export const startTime = 'August 24, 2021 17:00:00';
 // Date strings are formatted as "YYYY-MM-DDTHH:mm:ss.sss+-hh:mm"
 export const FIRST_EVENTS = [
   {
-    time: '05:00 PM',
-    name: 'Kickoff via Discord',
-    endTime: '2021-09-24T18:00:00.000-04:00',
-  },
-  {
-    time: '06:00 PM',
-    name: 'Team Building via Discord',
-    endTime: '2021-09-24T18:30:00.000-04:00',
-  },
-  {
     time: '07:00 PM',
-    name: 'START HACKING!!!',
-    endTime: '2021-09-24T19:01:00.000-04:00',
+    name: 'Kickoff',
+    endTime: '2022-09-23T19:30:00.000-04:00',
   },
   {
-    time: '08:00 PM',
-    name: '!Light with MLH',
-    endTime: '2021-09-24T21:00:00.000-04:00',
+    time: '07:30 PM',
+    name: 'Dinner',
+    endTime: '2022-09-23T20:00:00.000-04:00',
+  },
+  {
+    time: '8:00 PM',
+    name: 'Team Building',
+    endTime: '2022-09-23T21:00:00.000-04:00',
   },
   {
     time: '09:00 PM',
-    name: 'iOS Development Event with SBCS',
-    endTime: '2021-09-24T22:00:00.000-04:00',
+    name: 'IoT Talk with Resideo',
+    endTime: '2022-09-23T22:00:00.000-04:00',
   },
   {
-    time: '10:00 PM',
-    name: 'Among Us',
-    endTime: '2021-09-24T23:00:00.000-04:00',
+    time: '10:30 PM',
+    name: 'Tetris Tournament',
+    endTime: '2022-09-23T23:30:00.000-04:00',
   },
-  /*
-  {
-    time: '11:00 PM',
-    name: '',
-    endTime: '2021-09-25T00:00:00.000-04:00',
-  },
-  */
 ];
 
 export const SECOND_EVENTS = [
-  /*
   {
     time: '12:00 AM',
-    name: '',
-    endTime: '2021-09-25T01:00:00.000-04:00',
+    name: 'Midnight Snacks',
+    endTime: '2022-09-24T00:30:00.000-04:00',
   },
-  */
+  /*
   {
     time: '01:00 AM',
     name: 'MS Paint Challenge',
-    endTime: '2021-09-25T02:00:00.000-04:00',
+    endTime: '2022-09-24T02:00:00.000-04:00',
   },
+  */
   /*
   {
     time: '02:00 AM',
     name: '',
-    endTime: '2021-09-25T03:00:00.000-04:00',
+    endTime: '2022-09-24T03:00:00.000-04:00',
   },
   {
     time: '06:00 AM',
     name: '',
-    endTime: '2021-09-25T07:00:00.000-04:00',
-  },
-  {
-    time: '07:00 AM',
-    name: '',
-    endTime: '2021-09-25T08:00:00.000-04:00',
+    endTime: '2022-09-24T07:00:00.000-04:00',
   },
   */
   {
-    time: '08:00 AM',
-    name: 'Chess Tournament',
-    endTime: '2021-09-25T09:00:00.000-04:00',
+    time: '07:00 AM',
+    name: 'Breakfast',
+    endTime: '2022-09-24T07:30:00.000-04:00',
   },
   {
     time: '09:00 AM',
-    name: 'AutoCAD Workshop: Introduction to 3D Design',
-    endTime: '2021-09-25T10:00:00.000-04:00',
+    name: 'WiCS Workshop: Command Line Basics',
+    endTime: '2022-09-24T10:00:00.000-04:00',
   },
   /*
   {
     time: '10:00 AM',
     name: '',
-    endTime: '2021-09-25T11:00:00.000-04:00',
+    endTime: '2022-09-24T11:00:00.000-04:00',
   },
   */
   {
-    time: '11:00 AM',
-    name: 'Intro to Capture the Flag with the Cyber Security club',
-    endTime: '2021-09-25T12:00:00.000-04:00',
+    time: '10:30 AM',
+    name: 'React Workshop with SBCS',
+    endTime: '2022-09-24T11:30:00.000-04:00',
   },
-  /*
   {
     time: '12:00 PM',
-    name: '',
-    endTime: '2021-09-25T13:00:00.000-04:00',
+    name: 'Lunch',
+    endTime: '2022-09-24T12:30:00.000-04:00',
   },
-  */
-  {
-    time: '01:00 PM',
-    name: 'Android Development Event with WiCS',
-    endTime: '2021-09-25T14:00:00.000-04:00',
-  },
-  /*
   {
     time: '02:00 PM',
-    name: '',
-    endTime: '2021-09-25T15:00:00.000-04:00',
+    name: 'Mummy Wrap',
+    endTime: '2022-09-24T15:00:00.000-04:00',
   },
   {
-    time: '03:00 PM',
-    name: '',
-    endTime: '2021-09-25T16:00:00.000-04:00',
+    time: '03:30 PM',
+    name: 'Hungry Hungry Hackers',
+    endTime: '2022-09-24T16:30:00.000-04:00',
   },
-  */
+  {
+    time: '05:00 PM',
+    name: 'Stony Brook Cybersecurity Club',
+    endTime: '2022-09-24T18:00:00.000-04:00',
+  },
+  {
+    time: '06:30 PM',
+    name: 'Dinner',
+    endTime: '2022-09-24T19:00:00.000-04:00',
+  },
+  {
+    time: '08:00 PM',
+    name: 'Ayush Machine Learning for Healthcare Workshop',
+    endTime: '2022-09-24T21:00:00.000-04:00',
+  },
+  {
+    time: '10:00 PM',
+    name: 'Paper Airplane Tournament',
+    endTime: '2022-09-24T23:00:00.000-04:00',
+  },
 ];
 
 export const THIRD_EVENTS = [
   {
-    time: '04:00 PM',
+    time: '12:00 AM',
+    name: 'Midnight Snacks',
+    endTime: '2022-09-25T00:30:00.000-04:00',
+  },
+  {
+    time: '07:00 AM',
+    name: 'Breakfast',
+    endTime: '2022-09-25T07:30:00.000-04:00',
+  },
+  {
+    time: '08:00 AM',
     name: 'Submissions Due',
-    endTime: '2021-09-25T17:00:00.000-04:00',
+    endTime: '2022-09-25T08:30:00.000-04:00',
   },
   {
-    time: '05:00 PM',
-    name: 'Judging Begins',
-    endTime: '2021-09-25T18:00:00.000-04:00',
+    time: '08:30 AM',
+    name: 'Judging',
+    endTime: '2022-09-25T10:30:00.000-04:00',
   },
   {
-    time: '06:00 PM',
+    time: '10:30 AM',
     name: 'Finalize Winners',
-    endTime: '2021-09-25T18:30:00.000-04:00',
+    endTime: '2022-09-25T11:00:00.000-04:00',
   },
   {
-    time: '06:30 PM',
+    time: '11:00 AM',
     name: 'Awards and Closing Ceremony',
-    endTime: '2021-09-25T19:00:00.000-04:00',
+    endTime: '2022-09-25T12:00:00.000-04:00',
+  },
+  {
+    time: '',
+    name: 'See You Soon!',
+    endTime: '2022-09-26T00:00:00.000-04:00',
   },
 ];
