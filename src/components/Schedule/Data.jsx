@@ -125,7 +125,7 @@ export const THIRD_EVENTS = [
     endTime: '2022-09-25T07:30:00.000-04:00',
   },
   {
-    time: '08:00 AM',
+    time: '07:30 AM',
     name: 'Submissions Due',
     endTime: '2022-09-25T08:30:00.000-04:00',
   },
