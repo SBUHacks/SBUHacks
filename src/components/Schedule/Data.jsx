@@ -19,7 +19,7 @@ export const FIRST_EVENTS = [
   },
   {
     time: '09:00 PM',
-    name: 'IoT Talk with Resideo',
+    name: 'Resideo',
     endTime: '2022-09-23T22:00:00.000-04:00',
   },
   {
@@ -103,7 +103,7 @@ export const SECOND_EVENTS = [
   },
   {
     time: '08:00 PM',
-    name: 'Ayush Machine Learning for Healthcare Workshop',
+    name: 'Machine Learning for Healthcare Workshop',
     endTime: '2022-09-24T21:00:00.000-04:00',
   },
   {
