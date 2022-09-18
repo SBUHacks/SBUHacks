@@ -17,9 +17,9 @@ function Register() {
         <div className="register-card">
           <a href="https://docs.google.com/forms/d/1tSk4DInO5ZpsfGbCs6eABHJj8-Y3lVSsYFZbZj6eXRc/viewform" id="mentor-button" className="form-link general-button" rel="noreferrer" target="_blank">Mentor</a>
         </div>
-        <div className="register-card">
+        {/* <div className="register-card">
           <a href="https://docs.google.com/forms/d/1eaDBWu0XZeQDYwZ-psX0TDBHst2Yfx8pD8A62nGnBpY/viewform" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank">Volunteer</a>
-        </div>
+        </div> */}
         <div className="register-card">
           <a href="https://form.typeform.com/to/JwotNY3e" id="hack-button" className="form-link general-button" rel="noreferrer" target="_blank">Hack</a>
         </div>
