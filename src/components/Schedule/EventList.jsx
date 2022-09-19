@@ -19,15 +19,6 @@ function ScheduleEvent({ expiration, name, time }) {
     return () => clearTimeout(timeoutId);
   }, [expiration]);
 
-  // Adds the "current-event" class (highlights it) to the first active event
-  useEffect(() => {
-    const activeEvents = document.getElementsByClassName('active-event');
-    if (activeEvents.length) {
-      const currentEvent = activeEvents[0];
-      currentEvent.classList.add('current-event');
-    }
-  });
-
   return (
     <div className={expired ? 'expired-event general-style' : 'active-event general-style'}>
       <p className="event-time">
