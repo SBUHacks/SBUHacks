@@ -6,16 +6,22 @@ import './schedule.css';
 // The Schedule page
 function Schedule() {
   const [currDay, setCurrDay] = useState(0);
-  const [currEvents, setCurrEvents] = useState(FIRST_EVENTS);
   const [smallScreen, setSmallScreen] = useState(false);
 
   useEffect(() => {
-    if (currDay === 0) {
-      setCurrEvents(FIRST_EVENTS);
-    } else if (currDay === 1) {
-      setCurrEvents(SECOND_EVENTS);
+    const eventLists = document.getElementsByClassName('event-list');
+    if (currDay === 1) {
+      eventLists[1].style.display = 'block';
+      eventLists[0].style.display = 'none';
+      eventLists[2].style.display = 'none';
+    } else if (currDay === 2) {
+      eventLists[2].style.display = 'block';
+      eventLists[1].style.display = 'none';
+      eventLists[0].style.display = 'none';
     } else {
-      setCurrEvents(THIRD_EVENTS);
+      eventLists[0].style.display = 'block';
+      eventLists[1].style.display = 'none';
+      eventLists[2].style.display = 'none';
     }
   }, [currDay]);
 
@@ -75,7 +81,9 @@ function Schedule() {
             {smallScreen ? ('Sun.') : ('Sunday')}
           </button>
         </div>
-        <EventList events={currEvents} />
+        <EventList id="first-events" events={FIRST_EVENTS} />
+        <EventList id="second-events" events={SECOND_EVENTS} />
+        <EventList id="third-events" events={THIRD_EVENTS} />
       </div>
     </div>
   );
