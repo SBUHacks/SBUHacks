@@ -47,12 +47,6 @@ const faqs = [
     answer2: '',
   },
   {
-    question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event is in person taking place in the Central Reading Room at ',
-    link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">Frank Melville Jr. Memorial Library</a>,
-    answer2: '.',
-  },
-  {
     question: 'Where is SBUHacks? Where is the Library? Lost?',
     answer1: 'SBUHacks will be taking place in the Central Reading Room at Frank Melville Jr. Memorial Library, Stony Brook, NY. The address of the Frank Melville Jr. Memorial Library is 100 Nicolls Rd, Stony Brook, NY 11794. You can also ',
     link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">click here</a>,
@@ -85,6 +79,12 @@ const faqs = [
   {
     question: 'How will swag work?',
     answer1: 'Swag will be distributed either at check-in or during the event. You must submit a project to be judged to receive the larger prizes at the end of the event at the award ceremonies. We will not be shipping out prizes this year as we are holding the event in-person.',
+    link: null,
+    answer2: '',
+  },
+  {
+    question: 'Do I have to stay at the event venue the whole time?',
+    answer1: 'As long as you\'re wearing the wristband that is provided to you at check-in, you may leave and enter the venue at any time during the event.',
     link: null,
     answer2: '',
   },

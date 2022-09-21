@@ -3,6 +3,11 @@ export const startTime = 'August 24, 2021 17:00:00';
 // Date strings are formatted as "YYYY-MM-DDTHH:mm:ss.sss+-hh:mm"
 export const FIRST_EVENTS = [
   {
+    time: '05:00 PM',
+    name: 'Check-in',
+    endTime: '2022-09-23T19:00:00.000-04:00',
+  },
+  {
     time: '07:00 PM',
     name: 'Kickoff',
     endTime: '2022-09-23T19:30:00.000-04:00',
@@ -19,7 +24,7 @@ export const FIRST_EVENTS = [
   },
   {
     time: '09:00 PM',
-    name: 'Resideo',
+    name: 'Jump Start your AI Journey: Detech Objects in Videos with Resideo',
     endTime: '2022-09-23T22:00:00.000-04:00',
   },
   {
@@ -61,7 +66,7 @@ export const SECOND_EVENTS = [
   },
   {
     time: '09:00 AM',
-    name: 'WiCS Workshop: Command Line Basics',
+    name: 'Git Good: Git for Beginners',
     endTime: '2022-09-24T10:00:00.000-04:00',
   },
   /*
