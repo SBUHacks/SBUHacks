@@ -24,7 +24,7 @@ export const FIRST_EVENTS = [
   },
   {
     time: '09:00 PM',
-    name: 'Resideo',
+    name: 'Jump Start your AI Journey: Detech Objects in Videos with Resideo',
     endTime: '2022-09-23T22:00:00.000-04:00',
   },
   {
