@@ -189,6 +189,12 @@
   transform: translateX(45%);
 }
 
+#first-events,
+#second-events,
+#third-events {
+  display: none;
+}
+
 @media screen and (max-width: 1086px) {
   .active-event, .expired-event, .coming-soon {
     font-size: 36px;
