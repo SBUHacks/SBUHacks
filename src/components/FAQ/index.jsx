@@ -47,12 +47,6 @@ const faqs = [
     answer2: '',
   },
   {
-    question: 'Will SBUHacks be in person or virtual?',
-    answer1: 'The event is in person taking place in the Central Reading Room at ',
-    link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">Frank Melville Jr. Memorial Library</a>,
-    answer2: '.',
-  },
-  {
     question: 'Where is SBUHacks? Where is the Library? Lost?',
     answer1: 'SBUHacks will be taking place in the Central Reading Room at Frank Melville Jr. Memorial Library, Stony Brook, NY. The address of the Frank Melville Jr. Memorial Library is 100 Nicolls Rd, Stony Brook, NY 11794. You can also ',
     link: <a href="https://goo.gl/maps/XpFTggeudBrhq63S7" target="_blank" rel="noreferrer">click here</a>,
