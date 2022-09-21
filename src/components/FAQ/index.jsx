@@ -88,6 +88,12 @@ const faqs = [
     link: null,
     answer2: '',
   },
+  {
+    question: 'Do I have to stay at the event venue the whole time?',
+    answer1: 'As long as you\'re wearing the wristband that is provided to you at check-in, you may leave and enter the venue at any time during the event.',
+    link: null,
+    answer2: '',
+  },
 ];
 
 // The FAQ page

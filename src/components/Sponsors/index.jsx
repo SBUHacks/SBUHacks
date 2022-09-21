@@ -1,12 +1,13 @@
 import React from 'react';
 import './sponsors.css';
 import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
-import LibraryLogo from '../../assets/sponsors/Libraries_Icon.png';
 import StandoutLogo from '../../assets/sponsors/Standout_Icon.svg';
 import ZebraLogo from '../../assets/sponsors/Zebra_Icon.jpg';
 import Echo3DLogo from '../../assets/sponsors/echo3D_Icon.png';
 import ResideoLogo from '../../assets/sponsors/Resideo_Icon.svg';
-import SBUCSLogo from '../../assets/sponsors/SBU_CS_Icon.gif';
+import GoogleCloudLogo from '../../assets/sponsors/GoogleCloud_Icon.png';
+import AVILogo from '../../assets/sponsors/AVI_Icon.svg';
+import SBULogo from '../../assets/sponsors/SBU_Icon.png';
 
 // The Sponsors page
 function Sponsors() {
@@ -22,11 +23,12 @@ function Sponsors() {
             <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" alt="mlh-logo" />
           </a>
           <img src={Echo3DLogo} className="partner-logo" alt="library-logo" />
+          <img src={AVILogo} className="partner-logo" alt="cs-logo" />
+          <img src={GoogleCloudLogo} className="partner-logo" alt="library-logo" />
           <a href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intros" className="partner-logo">
             <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
           </a>
-          <img src={LibraryLogo} className="partner-logo" alt="library-logo" />
-          <img src={SBUCSLogo} className="partner-logo" alt="cs-logo" />
+          <img src={SBULogo} className="partner-logo" alt="cs-logo" />
         </div>
       </div>
     </div>
