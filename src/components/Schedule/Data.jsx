@@ -24,13 +24,13 @@ export const FIRST_EVENTS = [
   },
   {
     time: '09:00 PM',
-    name: 'Jump Start your AI Journey: Detech Objects in Videos with Resideo',
-    endTime: '2022-09-23T22:00:00.000-04:00',
+    name: 'Jump Start your AI Journey: Detect Objects in Videos with Resideo',
+    endTime: '2022-09-23T23:00:00.000-04:00',
   },
   {
-    time: '10:30 PM',
-    name: 'Tetris Tournament',
-    endTime: '2022-09-23T23:30:00.000-04:00',
+    time: '11:00 PM',
+    name: 'Hungry Hungry Hackers',
+    endTime: '2022-09-24T0:00:00.000-04:00',
   },
 ];
 
@@ -88,17 +88,17 @@ export const SECOND_EVENTS = [
   },
   {
     time: '02:00 PM',
-    name: 'Mummy Wrap',
+    name: '!Light with MLH',
     endTime: '2022-09-24T15:00:00.000-04:00',
   },
   {
     time: '03:30 PM',
-    name: 'Hungry Hungry Hackers',
+    name: 'Capture the Flag with MLH',
     endTime: '2022-09-24T16:30:00.000-04:00',
   },
   {
     time: '05:00 PM',
-    name: 'Stony Brook Cybersecurity Club',
+    name: 'Intro to Security Workshop with Cybersecurity Club',
     endTime: '2022-09-24T18:00:00.000-04:00',
   },
   {
