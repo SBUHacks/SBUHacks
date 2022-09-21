@@ -61,7 +61,7 @@ export const SECOND_EVENTS = [
   },
   {
     time: '09:00 AM',
-    name: 'WiCS Workshop: Command Line Basics',
+    name: 'Git Good: Git for Dummies',
     endTime: '2022-09-24T10:00:00.000-04:00',
   },
   /*
