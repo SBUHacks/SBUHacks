@@ -66,7 +66,7 @@ export const SECOND_EVENTS = [
   },
   {
     time: '09:00 AM',
-    name: 'Git Good: Git for Dummies',
+    name: 'Git Good: Git for Beginners',
     endTime: '2022-09-24T10:00:00.000-04:00',
   },
   /*
