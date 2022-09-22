@@ -1,4 +1,4 @@
-export const startTime = 'August 24, 2021 17:00:00';
+export const startTime = 'September 23, 2022 16:00:00';
 
 // Date strings are formatted as "YYYY-MM-DDTHH:mm:ss.sss+-hh:mm"
 export const FIRST_EVENTS = [
@@ -30,7 +30,7 @@ export const FIRST_EVENTS = [
   {
     time: '11:00 PM',
     name: 'Hungry Hungry Hackers',
-    endTime: '2022-09-24T0:00:00.000-04:00',
+    endTime: '2022-09-24T00:00:00.000-04:00',
   },
 ];
 
