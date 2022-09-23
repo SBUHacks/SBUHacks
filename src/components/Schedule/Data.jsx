@@ -87,13 +87,18 @@ export const SECOND_EVENTS = [
     endTime: '2022-09-24T12:30:00.000-04:00',
   },
   {
-    time: '02:00 PM',
+    time: '01:30 PM',
     name: '!Light with MLH',
-    endTime: '2022-09-24T15:00:00.000-04:00',
+    endTime: '2022-09-24T14:30:00.000-04:00',
+  },
+  {
+    time: '02:30 PM',
+    name: 'Capture the Flag with MLH',
+    endTime: '2022-09-24T15:30:00.000-04:00',
   },
   {
     time: '03:30 PM',
-    name: 'Capture the Flag with MLH',
+    name: 'Become a Hackathon Organizer with SBUHacks and MLH',
     endTime: '2022-09-24T16:30:00.000-04:00',
   },
   {
@@ -108,7 +113,7 @@ export const SECOND_EVENTS = [
   },
   {
     time: '08:00 PM',
-    name: 'Machine Learning for Healthcare Workshop',
+    name: 'Machine Learning for Healthcare Workshop with Ayush Sangari',
     endTime: '2022-09-24T21:00:00.000-04:00',
   },
   {
@@ -125,9 +130,9 @@ export const THIRD_EVENTS = [
     endTime: '2022-09-25T00:30:00.000-04:00',
   },
   {
-    time: '07:00 AM',
+    time: '07:30 AM',
     name: 'Breakfast',
-    endTime: '2022-09-25T07:30:00.000-04:00',
+    endTime: '2022-09-25T07:31:00.000-04:00',
   },
   {
     time: '07:30 AM',
@@ -140,12 +145,7 @@ export const THIRD_EVENTS = [
     endTime: '2022-09-25T10:30:00.000-04:00',
   },
   {
-    time: '10:30 AM',
-    name: 'Finalize Winners',
-    endTime: '2022-09-25T11:00:00.000-04:00',
-  },
-  {
-    time: '11:00 AM',
+    time: '10:00 AM',
     name: 'Awards and Closing Ceremony',
     endTime: '2022-09-25T12:00:00.000-04:00',
   },
