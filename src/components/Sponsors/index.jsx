@@ -19,16 +19,16 @@ function Sponsors() {
           <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
           <img src={ResideoLogo} className="partner-logo" alt="resideo-logo" />
           <img src={ZebraLogo} className="partner-logo" alt="zebra-logo" />
+          <img src={GoogleCloudLogo} className="partner-logo" alt="library-logo" />
+          <img src={AVILogo} className="partner-logo" alt="cs-logo" />
+          <img src={Echo3DLogo} className="partner-logo" alt="library-logo" />
           <a className="partner-logo-stacked" href="https://mlh.io/">
             <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" alt="mlh-logo" />
           </a>
-          <img src={Echo3DLogo} className="partner-logo" alt="library-logo" />
-          <img src={AVILogo} className="partner-logo" alt="cs-logo" />
-          <img src={GoogleCloudLogo} className="partner-logo" alt="library-logo" />
+          <img src={SBULogo} className="partner-logo" alt="cs-logo" />
           <a href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intros" className="partner-logo">
             <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
           </a>
-          <img src={SBULogo} className="partner-logo" alt="cs-logo" />
         </div>
       </div>
     </div>
