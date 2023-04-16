@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import EventList from './EventList';
-import { FIRST_EVENTS, SECOND_EVENTS, THIRD_EVENTS } from './Data';
+import React from 'react';
+// import { useEffect, useState } from 'react';
+// import EventList from './EventList';
+// import { FIRST_EVENTS, SECOND_EVENTS, THIRD_EVENTS } from './Data';
 import './schedule.css';
 
 // The Schedule page
 function Schedule() {
+  /*
   const [currDay, setCurrDay] = useState(0);
   const [smallScreen, setSmallScreen] = useState(false);
 
@@ -37,12 +39,14 @@ function Schedule() {
       currentEvent.classList.add('current-event');
     }
   });
+  */
 
   return (
     <div className="section-container schedule-container general-style" id="schedule">
       <div className="green-planet" />
       <div className="mint-star" />
       <span className="section-title general-style" id="schedule-title">Schedule</span>
+      {/*
       <div className="schedule-disclaimer">
         This schedule is subject to change
       </div>
@@ -50,8 +54,10 @@ function Schedule() {
         <i className="fas fa-exclamation-triangle disclaimer-icon" />
         All times listed below are in EDT (Eastern Daylight Time)
       </div>
+  */}
       <div className="schedule-wrapper">
-        {/* <div className="coming-soon event-list">Coming Soon...</div> */}
+        <div className="coming-soon event-list">Coming Soon...</div>
+        {/*
         <div className="tab-wrapper">
           <button
             className={`tab-button${(currDay === 0) ? ' button-active' : ''}`}
@@ -84,6 +90,7 @@ function Schedule() {
         <EventList id="first-events" events={FIRST_EVENTS} />
         <EventList id="second-events" events={SECOND_EVENTS} />
         <EventList id="third-events" events={THIRD_EVENTS} />
+          */}
       </div>
     </div>
   );
