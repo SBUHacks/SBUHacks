@@ -8,7 +8,7 @@ const About = lazy(() => import('./components/About'));
 const Why = lazy(() => import('./components/Why'));
 // const Register = lazy(() => import('./components/Register'));
 const FAQ = lazy(() => import('./components/FAQ'));
-const Schedule = lazy(() => import('./components/Schedule'));
+// const Schedule = lazy(() => import('./components/Schedule'));
 const Sponsors = lazy(() => import('./components/Sponsors'));
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <About />
         <Why />
         {/* <Register /> */}
-        <Schedule />
+        {/* <Schedule /> */}
         <Sponsors />
         <FAQ />
         <Footer />
