@@ -130,6 +130,15 @@
   width: 400px;
 }
 
+.coming-soon {
+  font-size: 4vw;
+  width: 50%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .slide:nth-child(1) .slide-logo {
   background-image: url('../../assets/sponsors/Alumni_Icon.png');
   width: 400px;

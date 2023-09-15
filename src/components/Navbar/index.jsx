@@ -64,13 +64,22 @@ function Navbar() {
               </Link>
             </li>
           */}
+            {/*
             <li className="nav-item">
-              <Link to="schedule" smooth duration={300} spy exact="true" offset={-100} className="nav-link" onClick={closeMenu}>
+              <Link to="schedule"
+                smooth duration={300}
+                spy
+                exact="true"
+                offset={-100}
+                className="nav-link"
+                onClick={closeMenu}
+            >
                 <button className="nav-button general-style" type="button">
                   Schedule
                 </button>
               </Link>
             </li>
+        */}
             <li className="nav-item">
               <Link to="faq" smooth duration={300} spy exact="true" offset={-100} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
@@ -86,8 +95,8 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <a id="mlh-trust-badge" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white" target="_blank" rel="noreferrer">
-            <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg" alt="Major League Hacking 2023 Hackathon Season" />
+          <a id="mlh-trust-badge" href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white" target="_blank" rel="noreferrer">
+            <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg" alt="Major League Hacking 2024 Hackathon Season" />
           </a>
         </div>
       </nav>

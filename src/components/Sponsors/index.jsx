@@ -1,13 +1,13 @@
 import React from 'react';
 import './sponsors.css';
-import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
-import StandoutLogo from '../../assets/sponsors/Standout_Icon.svg';
-import ZebraLogo from '../../assets/sponsors/Zebra_Icon.jpg';
-import Echo3DLogo from '../../assets/sponsors/echo3D_Icon.png';
-import ResideoLogo from '../../assets/sponsors/Resideo_Icon.svg';
-import GoogleCloudLogo from '../../assets/sponsors/GoogleCloud_Icon.png';
-import AVILogo from '../../assets/sponsors/AVI_Icon.svg';
-import SBULogo from '../../assets/sponsors/SBU_Icon.png';
+// import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
+// import StandoutLogo from '../../assets/sponsors/Standout_Icon.svg';
+// import ZebraLogo from '../../assets/sponsors/Zebra_Icon.jpg';
+// import Echo3DLogo from '../../assets/sponsors/echo3D_Icon.png';
+// import ResideoLogo from '../../assets/sponsors/Resideo_Icon.svg';
+// import GoogleCloudLogo from '../../assets/sponsors/GoogleCloud_Icon.png';
+// import AVILogo from '../../assets/sponsors/AVI_Icon.svg';
+// import SBULogo from '../../assets/sponsors/SBU_Icon.png';
 
 // The Sponsors page
 function Sponsors() {
@@ -16,6 +16,8 @@ function Sponsors() {
       <span className="section-title general-style">Partners</span>
       <div className="sponsors-wrapper">
         <div className="sponsors-partners">
+          <div className="coming-soon">Coming Soon...</div>
+          {/*
           <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
           <img src={ResideoLogo} className="partner-logo" alt="resideo-logo" />
           <img src={ZebraLogo} className="partner-logo" alt="zebra-logo" />
@@ -29,6 +31,7 @@ function Sponsors() {
           <a href="https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intros" className="partner-logo">
             <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
           </a>
+          */}
         </div>
       </div>
     </div>
