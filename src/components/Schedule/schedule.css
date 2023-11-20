@@ -1,5 +1,5 @@
 .schedule-container {
-    background-image: url('../../assets/backgrounds/Schedule_Bg.png');
+    /* background-image: url('../../assets/backgrounds/Schedule_Bg.png'); */
     z-index: 1;
     position: relative;
     overflow: hidden;

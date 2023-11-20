@@ -1,13 +1,13 @@
 .about-container {
-    background-image: url('../../assets/backgrounds/About_Bg.png');
+    /* background-image: url('../../assets/backgrounds/About_Bg.png'); */
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .about-wrapper {
     display: flex;
-    justify-content: flex-start;
-    margin-left: -6%;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .title-container {
@@ -17,29 +17,30 @@
 .text-wrapper {
     width: 60%;
     z-index: 3;
-    position: relative;
 }
 
 .about-text {
     color: #ffffff;
     font-size: 1.5vw;
     width: 100%;
-    margin: 90px 0 40px 0;
+    margin: 40px 0 40px 0;
     padding: 10% 50px;
     text-align: left;
+    border-radius: 32px;
     background: linear-gradient(135deg, rgba(149, 156, 177, 0.5) 0%, rgba(32,32,32,0.5) 80%);
 }
 
-.pink-planet {
+.purple-planet {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: url('../../assets/icons/Pink_Planet.png');
-  height: 40vw;
+  background-image: url('../../assets/icons/Purple_Planet.PNG');
+  height: 160vh;
   width: 100%;
   position: absolute;
   right: 0;
-  top: calc(50% - 20vw);
+  z-index: 1;
+  top: calc(50% - 90vh);
   transform: translateX(45%);
 }
 

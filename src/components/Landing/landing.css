@@ -1,19 +1,21 @@
 .landing-container {
-  background-image: url('../../assets/backgrounds/Splash_Bg.png');
+  /* background-image: url('../../assets/backgrounds/Splash_Bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .astronaut-logo {
-  height: 50vh;
-  margin-top: 90px;
-  z-index: 2;
+  background-image: url('../../assets/icons/Astronaut_Icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80vh;
+  width: 80vh;
 }
 
 .slogan-wrapper {
@@ -28,7 +30,6 @@
 
 #sbuhacks-title {
   font-size: 4rem;
-  text-shadow: 10px 10px #02111b;
   color: #ffffff;
   margin: 0;
   font-family: 'Goldman', cursive;
@@ -36,7 +37,6 @@
 
 #sbuhacks-year {
   font-size: 6rem;
-  text-shadow: 8px 8px #02111b;
   color: #ffffff;
   margin: 0;
   font-family: 'Goldman', cursive;
@@ -173,17 +173,29 @@
   transform: rotate(180deg);
   transform: translateX(40%);
 }
-
-.ombre-stripes-2 {
-  background-image: url('../../assets/icons/Waves.png');
+.radar-signal {
+  background-image: url('../../assets/icons/Radar_Signal.png');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
   z-index: 1;
-  width: 50vw;
-  height: 60vw;
-  top: 40vw;
-  left: -15vw;
+  width: 100vw;
+  height: 60vh;
+  top: 80vh;
+  left: calc(-50vw - 30%);
+  transform: scale(-1, 1);
+}
+
+.globe-outline {
+  background-image: url('../../assets/icons/Globe_Outline.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 100vw;
+  height: 30vh;
+  top: 80vh;
+  transform: scale(-1, 1);
 }
 
 .register-button {
@@ -267,7 +279,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-
   .ombre-stripes-1,
   .ombre-stripes-2 {
     width: 600px;
@@ -281,6 +292,14 @@
   .ombre-stripes-2 {
     top: 35vw;
     transform: translateX(-10vw);
+  }
+
+  .landing-container {
+    flex-direction: column;
+  }
+
+  .astronaut-logo {
+    margin-top: 50px;
   }
 }
 
@@ -310,6 +329,11 @@
   .ombre-stripes-2 {
     top: 70vh;
     left: -45vw;
+  }
+
+  .astronaut-logo {
+    height: 50vh;
+    width: 50vh;
   }
 }
 

@@ -1,14 +1,13 @@
 import React from 'react';
 // import { Link } from 'react-scroll';
-import Logo from '../../assets/icons/Astronaut_Icon.png';
 import './landing.css';
 
 function Landing() {
   return (
     <div className="section-container landing-container general-style" id="landing">
-      <div className="ombre-stripes-1" />
-      <div className="ombre-stripes-2" />
-      <img className="astronaut-logo" alt="astronaut-logo" src={Logo} />
+      <div className="radar-signal" />
+      <div className="globe-outline" />
+      <div className="astronaut-logo" />
       <div className="slogan-wrapper general-style">
         <h1 id="sbuhacks-title" className="general-style">SBUHacks VI</h1>
         <div className="landing-sub">

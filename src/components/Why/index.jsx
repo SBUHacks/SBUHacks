@@ -62,9 +62,8 @@ function Why() {
 
   return (
     <div className="section-container why-container general-style">
-      <div className="blue-planet" />
-      <div className="green-star" />
-      <div className="purple-star" />
+      <div className="blue-saturn" />
+      <div className="satellite" />
       <span className="section-title general-style">Why SBUHacks?</span>
       <div className="cards-container">
         {cards.map(card => (

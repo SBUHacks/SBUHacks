@@ -1,6 +1,6 @@
 .register-container {
-    background-image: url('../../assets/backgrounds/Register_Bg.png');
-    background-position: 50%;
+    /* background-image: url('../../assets/backgrounds/Register_Bg.png');
+    background-position: 50%; */
     position: relative;
     overflow: hidden;
 }

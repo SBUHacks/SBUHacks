@@ -35,10 +35,10 @@ function About() {
 
   return (
     <div className="section-container about-container general-style" id="about">
-      <div className="title-container">
-        <span className="section-title general-style">About Us</span>
-      </div>
       <div className="about-wrapper">
+        <div className="title-container">
+          <span className="section-title general-style">About Us</span>
+        </div>
         <div className="text-wrapper">
           <p className="about-text general-style">
             SBUHacks is a 48 hour hackathon with endless creativity. Students are challenged to
@@ -51,9 +51,7 @@ function About() {
         </div>
       </div>
       <AboutModal showModal={showModal} setShowModal={setShowModal} />
-      <div className="pink-planet" />
-      <div className="about-stars" />
-      <div className="about-twin-stars" />
+      <div className="purple-planet" />
       <div />
     </div>
   );
