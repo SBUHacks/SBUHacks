@@ -7,7 +7,7 @@ const Landing = lazy(() => import('./components/Landing'));
 const About = lazy(() => import('./components/About'));
 // const PastWinners = lazy(() => import('./components/Winners'));
 const Why = lazy(() => import('./components/Why'));
-// const Register = lazy(() => import('./components/Register'));
+const Register = lazy(() => import('./components/Register'));
 const FAQ = lazy(() => import('./components/FAQ'));
 // const Schedule = lazy(() => import('./components/Schedule'));
 const Sponsors = lazy(() => import('./components/Sponsors'));
@@ -21,7 +21,7 @@ function App() {
         <About />
         {/* <PastWinners /> */}
         <Why />
-        {/* <Register /> */}
+        <Register />
         {/* <Schedule /> */}
         <Sponsors />
         <FAQ />

@@ -217,6 +217,15 @@
     .blue-planet {
       display: none;
     }
+
+    .blue-saturn {
+      left: -70vw;
+    }
+    
+    .satellite {
+      right: -80vw;
+      top: -10vh;
+    }
 }
 
 @media screen and (max-width: 500px) {

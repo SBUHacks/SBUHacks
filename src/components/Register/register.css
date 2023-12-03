@@ -3,6 +3,9 @@
     background-position: 50%; */
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .register-sub {
@@ -18,13 +21,15 @@
 }
 
 .register-wrapper {
+    /* background-image: url('../../assets/icons/Register_Mascot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
     width: 100%;
-    min-height: calc(100vh - 300px);
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
-    margin-top: 60px;
     padding-bottom: 10vh;
 }
 
@@ -37,8 +42,12 @@
 }
 
 .register-img {
-    width: 100%;
-    margin: 30px;
+    width: 100vw;
+    height: 50vh;
+    background-image: url('../../assets/icons/Register_Mascot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .register-smoke {
@@ -67,10 +76,17 @@
 @media screen and (max-width: 976px) {
     .register-wrapper {
         transform: none;
+        /* background-image: url('../../assets/icons/Register_Mascot.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; */
     }
     .register-card {
         width: 100%;
         padding-top: 0;
+    }
+    .register-img {
+      display: none;
     }
     #hack-button, #volunteer-button, #mentor-button {
       max-width: 250px;
