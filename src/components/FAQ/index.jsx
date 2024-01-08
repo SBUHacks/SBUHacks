@@ -94,9 +94,6 @@ const faqs = [
 function FAQ() {
   return (
     <div className="faq-container general-style" id="faq">
-      <div className="faq-stars" />
-      <div className="faq-lines" />
-      <div className="apricot-star" />
       <span className="section-title general-style">FAQ</span>
       {/* The FAQs are split into 2 independent columns so that opening one on the left side
           does not also create additional space on the right side */}

@@ -1,5 +1,5 @@
 .why-container {
-    background-image: url('../../assets/backgrounds/Why_Bg.png');
+    /* background-image: url('../../assets/backgrounds/Why_Bg.png'); */
     position: relative;
     overflow: hidden;
 }
@@ -39,7 +39,6 @@
     width: 150px;
     height: 100px;
     border-radius: 70px;
-    border: 5px solid #202020;
     color: white;
     line-height: 80px;
     font-size: 50px;
@@ -110,6 +109,29 @@
     left: 0;
     bottom: 0;
     transform: translate(40%);
+}
+
+.blue-saturn {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../assets/icons/Blue_Saturn.PNG');
+  position: absolute;
+  height: 75vh;
+  width: 100vw;
+  left: -80vw;
+  transform: scale(-1, 1);
+}
+
+.satellite {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url('../../assets/icons/Satellite.png');
+  position: absolute;
+  height: 60vh;
+  width: 100vw;
+  right: -45vw;
+  top: -10vh;
 }
 
 @media screen and (max-width: 1400px) {
@@ -194,6 +216,15 @@
 
     .blue-planet {
       display: none;
+    }
+
+    .blue-saturn {
+      left: -70vw;
+    }
+    
+    .satellite {
+      right: -80vw;
+      top: -10vh;
     }
 }
 

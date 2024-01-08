@@ -13,15 +13,16 @@ function Register() {
         By registering, you are agreeing to the
         <a href="http://mlh.io/code-of-conduct" className="code-of-conduct" rel="noreferrer" target="_blank"> MLH code of conduct</a>
       </p>
+      <div className="register-img" />
       <div className="register-wrapper">
         <div className="register-card">
-          <a href="https://docs.google.com/forms/d/1tSk4DInO5ZpsfGbCs6eABHJj8-Y3lVSsYFZbZj6eXRc/viewform" id="mentor-button" className="form-link general-button" rel="noreferrer" target="_blank">Mentor</a>
+          <a href="https://forms.gle/beAGJkFAx5A77uHK8" id="mentor-button" className="form-link general-button" rel="noreferrer" target="_blank">Mentor</a>
         </div>
-        {/* <div className="register-card">
-          <a href="https://docs.google.com/forms/d/1eaDBWu0XZeQDYwZ-psX0TDBHst2Yfx8pD8A62nGnBpY/viewform" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank">Volunteer</a>
-        </div> */}
         <div className="register-card">
-          <a href="https://form.typeform.com/to/JwotNY3e" id="hack-button" className="form-link general-button" rel="noreferrer" target="_blank">Hack</a>
+          <a href="https://forms.gle/ihGkZe3pGZgjioaW9" id="volunteer-button" className="form-link general-button" rel="noreferrer" target="_blank">Volunteer</a>
+        </div>
+        <div className="register-card">
+          <a href="http://register.sbuhacks.org/" id="hack-button" className="form-link general-button" rel="noreferrer" target="_blank">Hack</a>
         </div>
       </div>
     </div>

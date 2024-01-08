@@ -46,7 +46,6 @@ function Navbar() {
                 </button>
               </Link>
             </li>
-            {/*
             <li className="nav-item">
               <Link
                 to="register"
@@ -63,7 +62,6 @@ function Navbar() {
                 </button>
               </Link>
             </li>
-          */}
             {/*
             <li className="nav-item">
               <Link to="schedule"
