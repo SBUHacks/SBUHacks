@@ -58,6 +58,7 @@
 }
 
 .landing-sub a {
+  margin: 10px 0px 10px 0px;
   color: #ffffff;
 }
 
@@ -211,12 +212,6 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 2000px) {
-  .ombre-stripes-2 {
-    top: 55vw;
-  }
-}
-
 @media screen and (max-width: 1600px) {
   .slogan-wrapper {
     width: 850px;
@@ -361,7 +356,7 @@
   }
 
   .landing-sub p {
-    font-size: 1.75rem;
+    font-size: 4vw;
   }
 
   .register-button {
@@ -387,6 +382,10 @@
 @media screen and (max-width: 320px) {
   .slogan-wrapper {
     padding: 0 0 70px 10px;
+  }
+
+  #sbuhacks-title {
+    font-size: 12vw;
   }
 
   #landing-sponsor {
