@@ -1,6 +1,6 @@
 import React from 'react';
 import './sponsors.css';
-// import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
+import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
 import StandoutLogo from '../../assets/sponsors/Standout_Icon.svg';
 // import ZebraLogo from '../../assets/sponsors/Zebra_Icon.jpg';
 // import Echo3DLogo from '../../assets/sponsors/echo3D_Icon.png';
@@ -26,10 +26,14 @@ function Sponsors() {
             <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" alt="mlh-logo" />
           </a>
           <img src={SBULogo} className="partner-logo" alt="cs-logo" /> */}
-          <a href="http://hackp.ac/mlh-StandOutStickers-hackathons" className="partner-logo">
-            <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
-          </a>
-          <div className="coming-soon">Coming Soon...</div>
+          <div className="logo-tier">
+            <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
+          </div>
+          <div className="logo-tier">
+            <a href="http://hackp.ac/mlh-StandOutStickers-hackathons" className="partner-logo">
+              <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
+            </a>
+          </div>
         </div>
       </div>
     </div>

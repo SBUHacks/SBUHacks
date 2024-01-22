@@ -29,6 +29,7 @@
 }
 
 .partner-logo {
+  display: block;
   width: 30%;
   margin-top: 20px;
   height: 40%;
@@ -42,6 +43,12 @@
 
 #standout-logo {
   width: 100%;
+}
+
+.logo-tier {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-container {
@@ -188,4 +195,8 @@
   .golden-logo{
       width: 100%;
   }
+}
+
+#schiffer-logo {
+  width: 100%;
 }
