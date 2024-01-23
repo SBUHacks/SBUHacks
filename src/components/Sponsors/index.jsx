@@ -29,12 +29,14 @@ function Sponsors() {
           </a>
           <img src={SBULogo} className="partner-logo" alt="cs-logo" /> */}
           <div className="logo-tier">
-            <img src={VJLogo} className="partner-logo" alt="vj-technologies-logo" />
+            <a href="https://vjt.com/" className="partner-logo" target="_blank" rel="noreferrer">
+              <img src={VJLogo} id="vj-logo" alt="standout-logo" />
+            </a>
             <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
           </div>
           <div className="logo-tier">
             <img src={LibrariesLogo} className="partner-logo" alt="cs-logo" />
-            <a href="http://hackp.ac/mlh-StandOutStickers-hackathons" className="partner-logo-stacked">
+            <a href="http://hackp.ac/mlh-StandOutStickers-hackathons" className="partner-logo-stacked" target="_blank" rel="noreferrer">
               <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
             </a>
           </div>
