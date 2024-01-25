@@ -5,7 +5,7 @@
 }
 
 .sponsors-wrapper {
-    background-color: rgba(100, 100, 100, 0.8);
+    background-color: rgba(136, 136, 136, 0.8);
     padding: 25px;
     border-radius: 25px;
     margin-top: 30px;
@@ -23,25 +23,32 @@
 
 .sponsors-partners {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
 }
 
 .partner-logo {
-  width: 30%;
+  display: block;
+  width: 40%;
   margin-top: 20px;
   height: 40%;
 }
 
 .partner-logo-stacked {
-  width: 25%;
+  width: 20%;
   margin-top: 20px;
   height: 30%;
 }
 
-#standout-logo {
+#standout-logo, #vj-logo {
   width: 100%;
+}
+
+.logo-tier {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .carousel-container {
@@ -181,11 +188,12 @@
   border: 2px solid #cd7f32;
 }
 
-@media screen and (max-width: 500px) {
-  .sponsors-sub {
-      font-size: 20px;
+@media screen and (max-width: 768px) {
+  .partner-logo {
+    width: 60%;
   }
-  .golden-logo{
-      width: 100%;
+  
+  .partner-logo-stacked {
+    width: 35%;
   }
 }
