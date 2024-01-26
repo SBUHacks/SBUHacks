@@ -7,7 +7,7 @@ import VJLogo from '../../assets/sponsors/VJ_Icon.png';
 // import ZebraLogo from '../../assets/sponsors/Zebra_Icon.jpg';
 // import Echo3DLogo from '../../assets/sponsors/echo3D_Icon.png';
 // import ResideoLogo from '../../assets/sponsors/Resideo_Icon.svg';
-// import GoogleCloudLogo from '../../assets/sponsors/GoogleCloud_Icon.png';
+import GoogleCloudLogo from '../../assets/sponsors/GoogleCloud_Icon.png';
 // import AVILogo from '../../assets/sponsors/AVI_Icon.svg';
 // import SBULogo from '../../assets/sponsors/SBU_Icon.png';
 
@@ -29,12 +29,13 @@ function Sponsors() {
           </a>
           <img src={SBULogo} className="partner-logo" alt="cs-logo" /> */}
           <div className="logo-tier">
+            <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
             <a href="https://vjt.com/" className="partner-logo" target="_blank" rel="noreferrer">
               <img src={VJLogo} id="vj-logo" alt="standout-logo" />
             </a>
-            <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
           </div>
           <div className="logo-tier">
+            <img src={GoogleCloudLogo} className="partner-logo" alt="google-cloud-logo" />
             <img src={LibrariesLogo} className="partner-logo" alt="cs-logo" />
             <a href="http://hackp.ac/mlh-StandOutStickers-hackathons" className="partner-logo-stacked" target="_blank" rel="noreferrer">
               <img src={StandoutLogo} id="standout-logo" alt="standout-logo" />
