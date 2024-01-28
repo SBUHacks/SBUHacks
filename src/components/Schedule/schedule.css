@@ -197,7 +197,7 @@
 
 @media screen and (max-width: 1086px) {
   .active-event, .expired-event, .coming-soon {
-    font-size: 36px;
+    font-size: 16px;
   }
   .event-time {
     width: 130px;
@@ -205,9 +205,6 @@
 }
 
 @media screen and (max-width: 798px) {
-    .schedule-temp {
-        font-size: 2.5rem;
-    }
     .event-list {
         width: 90%;
         padding: 10px 20px;
