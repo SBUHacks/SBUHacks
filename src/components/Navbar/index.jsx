@@ -62,26 +62,19 @@ function Navbar() {
                 </button>
               </Link>
             </li>
-            {/*
             <li className="nav-item">
-              <Link to="schedule"
-                smooth duration={300}
+              <Link
+                to="schedule"
+                smooth
+                duration={300}
                 spy
                 exact="true"
                 offset={-100}
                 className="nav-link"
                 onClick={closeMenu}
-            >
+              >
                 <button className="nav-button general-style" type="button">
                   Schedule
-                </button>
-              </Link>
-            </li>
-        */}
-            <li className="nav-item">
-              <Link to="faq" smooth duration={300} spy exact="true" offset={-100} className="nav-link" onClick={closeMenu}>
-                <button className="nav-button general-style" type="button">
-                  FAQ
                 </button>
               </Link>
             </li>
@@ -89,6 +82,13 @@ function Navbar() {
               <Link to="sponsors" smooth duration={300} spy exact="true" offset={-100} className="nav-link" onClick={closeMenu}>
                 <button className="nav-button general-style" type="button">
                   Partners
+                </button>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="faq" smooth duration={300} spy exact="true" offset={-100} className="nav-link" onClick={closeMenu}>
+                <button className="nav-button general-style" type="button">
+                  FAQ
                 </button>
               </Link>
             </li>
