@@ -5,8 +5,8 @@
     "main.css": "/static/css/main.cef753fc.chunk.css",
     "main.js": "/static/js/main.fe6cfe6b.chunk.js",
     "main.js.map": "/static/js/main.fe6cfe6b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.57261a39.js",
-    "runtime-main.js.map": "/static/js/runtime-main.57261a39.js.map",
+    "runtime-main.js": "/static/js/runtime-main.51078c02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.51078c02.js.map",
     "static/js/3.78421cef.chunk.js": "/static/js/3.78421cef.chunk.js",
     "static/js/3.78421cef.chunk.js.map": "/static/js/3.78421cef.chunk.js.map",
     "static/css/4.2c2aca66.chunk.css": "/static/css/4.2c2aca66.chunk.css",
@@ -28,8 +28,8 @@
     "static/js/9.50c4ae58.chunk.js": "/static/js/9.50c4ae58.chunk.js",
     "static/js/9.50c4ae58.chunk.js.map": "/static/js/9.50c4ae58.chunk.js.map",
     "static/css/10.afe550fb.chunk.css": "/static/css/10.afe550fb.chunk.css",
-    "static/js/10.573a9d33.chunk.js": "/static/js/10.573a9d33.chunk.js",
-    "static/js/10.573a9d33.chunk.js.map": "/static/js/10.573a9d33.chunk.js.map",
+    "static/js/10.221be93b.chunk.js": "/static/js/10.221be93b.chunk.js",
+    "static/js/10.221be93b.chunk.js.map": "/static/js/10.221be93b.chunk.js.map",
     "static/css/11.38e3fbc1.chunk.css": "/static/css/11.38e3fbc1.chunk.css",
     "static/js/11.47943ae0.chunk.js": "/static/js/11.47943ae0.chunk.js",
     "static/js/11.47943ae0.chunk.js.map": "/static/js/11.47943ae0.chunk.js.map",
@@ -49,6 +49,7 @@
     "static/media/about.css": "/static/media/Purple_Planet.6570dd80.PNG",
     "static/media/landing.css": "/static/media/Waves.5e5c6d65.png",
     "static/media/why.css": "/static/media/Why_Asset_3.876d2fdb.png",
+    "static/media/Codedex_Icon.f6030ba8.png": "/static/media/Codedex_Icon.f6030ba8.png",
     "static/media/faq.css": "/static/media/Faq_Asset_3.523e04de.png",
     "static/media/footer.css": "/static/media/Footer_Asset_3.17f59923.png",
     "static/media/schedule.css": "/static/media/Schedule_Asset_1.cd81b233.png",
@@ -57,7 +58,7 @@
     "static/media/VJ_Icon.a92b38b7.png": "/static/media/VJ_Icon.a92b38b7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.57261a39.js",
+    "static/js/runtime-main.51078c02.js",
     "static/js/3.78421cef.chunk.js",
     "static/css/main.cef753fc.chunk.css",
     "static/js/main.fe6cfe6b.chunk.js"
