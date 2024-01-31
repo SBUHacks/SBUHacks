@@ -4,6 +4,7 @@ import SchifferLogo from '../../assets/sponsors/Schiffer_Icon.svg';
 import StandoutLogo from '../../assets/sponsors/Standout_Icon.svg';
 import LibrariesLogo from '../../assets/sponsors/Libraries_Icon.png';
 import VJLogo from '../../assets/sponsors/VJ_Icon.png';
+import CodedexLogo from '../../assets/sponsors/Codedex_Icon.png';
 // import ZebraLogo from '../../assets/sponsors/Zebra_Icon.jpg';
 // import Echo3DLogo from '../../assets/sponsors/echo3D_Icon.png';
 // import ResideoLogo from '../../assets/sponsors/Resideo_Icon.svg';
@@ -31,7 +32,10 @@ function Sponsors() {
           <div className="logo-tier">
             <img src={SchifferLogo} className="partner-logo-stacked" alt="schiffer-logo" />
             <a href="https://vjt.com/" className="partner-logo" target="_blank" rel="noreferrer">
-              <img src={VJLogo} id="vj-logo" alt="standout-logo" />
+              <img src={VJLogo} id="vj-logo" alt="vj-logo" />
+            </a>
+            <a href="https://www.codedex.io/" className="partner-logo" target="_blank" rel="noreferrer">
+              <img src={CodedexLogo} id="vj-logo" alt="codedex-logo" />
             </a>
           </div>
           <div className="logo-tier">
