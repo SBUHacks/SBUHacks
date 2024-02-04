@@ -41,8 +41,8 @@ const faqs = [
     answer2: '',
   },
   {
-    question: 'Do I need to be vaccinated for COVID to attend?',
-    answer1: 'You will need to be vaccinated to attend the event. When checking in for the event, a physical card or digital scan of your vaccination status will be checked at check-in before you gain entry into the venue.',
+    question: 'How many people are allowed per team?',
+    answer1: 'Each team is allowed up to a maximum of 4 people.',
     link: null,
     answer2: '',
   },
