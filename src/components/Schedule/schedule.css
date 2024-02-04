@@ -57,7 +57,7 @@
 }
 
 .tab-wrapper {
-  background: linear-gradient(white, white) padding-box, linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%) border-box;
+  background: rgba(64,131,194,255);
   width: 500px;
   height: 40px;
   display: flex;
@@ -72,8 +72,10 @@
 
 .tab-button {
   background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
   border: none;
   font-size: 24px;
+  font-weight: bold;
   padding: 5px;
   margin: 10px;
   border-radius: 25px;
@@ -82,12 +84,12 @@
 }
 
 .button-active, .tab-button:hover {
-  background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
-  color: white;
+  background: white;
+  color: rgba(64,131,194,255);
 }
 
 .event-list {
-  background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
+  background: rgba(64,131,194,255);
   padding: 15px 30px;
   border-radius: 15px;
   width: 70%;
@@ -141,7 +143,7 @@
 }
 
 .coming-soon {
-  background: linear-gradient(90deg, rgba(67,187,170,255) 0%, rgba(64,131,194,255) 50%, rgba(107,82,161,255) 100%);
+  background: rgba(64,131,194,255);
   font-size: 4vw;
   width: 50%;
   min-height: 200px;
